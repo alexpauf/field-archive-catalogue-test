@@ -1,0 +1,107 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "fieldJacket",
+  "id" : "jacket-combat-winter",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie redistribuée dans ce prototype",
+    "url" : "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt"
+  },
+  "indexPeriod" : "Documentée dans un manuel de 1944",
+  "intro" : "Veste de combat d’hiver décrite pour les forces blindées. Le manuel documente une enveloppe de coton, une doublure de laine et une coupe permettant les superpositions.",
+  "name" : "Jacket, Combat, Winter",
+  "period" : "Attestée dans le TM 10-275 de 1944 ; période de service non établie.",
+  "publication" : {
+    "identifierEligible" : false,
+    "identitySources" : [
+      "ia-eba540961501a9203c74",
+      "survey_ww2"
+    ],
+    "summarySources" : [
+      "ia-eba540961501a9203c74"
+    ],
+    "unknowns" : [
+      "Date d’adoption et fin de port : inconnues.",
+      "Variantes, fermeture et disposition des poches : non établies dans cette notice.",
+      "Aucun critère de cette notice n’est admis pour Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation documentaire · 4f9fb2",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "JACKET, COMBAT, WINTER (portée : model)"
+        },
+        {
+          "label" : "Jalon documenté · cb48bf",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "JACKET, COMBAT, WINTER · documented-in-publication · 1944 (portée : document)"
+        },
+        {
+          "label" : "Coupe et réglages · 5b86d1",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "Coupe ample permettant le port sur chemise de flanelle et chandail (portée : model)"
+        },
+        {
+          "label" : "Matière · 7178b6",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "Coton (extérieur) (portée : model)"
+        },
+        {
+          "label" : "Doublure · fc799e",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "Doublure de laine (portée : model)"
+        },
+        {
+          "label" : "function · dccaf6",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "Vêtement porté par les membres des forces blindées par temps froid (portée : model)"
+        },
+        {
+          "label" : "aliases · 5b362f",
+          "sources" : [
+            "survey_ww2"
+          ],
+          "value" : "Jacket, Combat, Winter (portée : identity-corroboration)"
+        }
+      ],
+      "title" : "Informations documentées"
+    }
+  ],
+  "shortName" : "Winter Combat Jacket",
+  "sources" : [
+    {
+      "id" : "ia-eba540961501a9203c74",
+      "institution" : "United States. War Department, author",
+      "locator" : "L750–L750 · repère OCR P (pagination non vérifiée) 1; L750–L752 · repère OCR P (pagination non vérifiée) 1; L753–L754 · repère OCR P (pagination non vérifiée) 1; L756–L757 · repère OCR P (pagination non vérifiée) 1; L756–L758 · repère OCR P (pagination non vérifiée) 1",
+      "summary" : "OCR collecté automatiquement le 2026-11-11. Date de publication : 1944. La datation de publication ne vaut pas période de service.",
+      "title" : "Principles of cold weather clothing and equipment",
+      "url" : "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt"
+    },
+    {
+      "id" : "survey_ww2",
+      "institution" : "U.S. Army / David Cole",
+      "locator" : "L1913–L1913 · PDF P83",
+      "summary" : "Capture documentaire partielle du 11 novembre 2026. Preuves détaillées dans le catalogue documentaire.",
+      "title" : "Survey of U.S. Army Uniforms, Weapons and Accoutrements — David Cole, 2007",
+      "url" : "https://upload.wikimedia.org/wikipedia/commons/a/a7/Survey_of_U.S._Army_Uniforms%2C_Weapons_and_Accoutrements_%282007%29%2C_by_David_Cole.pdf"
+    }
+  ]
+}

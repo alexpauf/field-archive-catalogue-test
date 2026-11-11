@@ -1,0 +1,354 @@
+[
+  {
+    "modelID" : "jacket-combat-winter",
+    "source" : {
+      "id" : "ia-eba540961501a9203c74",
+      "institution" : "United States. War Department, author",
+      "locator" : "L750–L750 · repère OCR P (pagination non vérifiée) 1; L750–L752 · repère OCR P (pagination non vérifiée) 1; L753–L754 · repère OCR P (pagination non vérifiée) 1; L756–L757 · repère OCR P (pagination non vérifiée) 1; L756–L758 · repère OCR P (pagination non vérifiée) 1",
+      "summary" : "OCR collecté automatiquement le 2026-11-11. Date de publication : 1944. La datation de publication ne vaut pas période de service.",
+      "title" : "Principles of cold weather clothing and equipment",
+      "url" : "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt"
+    }
+  },
+  {
+    "modelID" : "jacket-combat-winter",
+    "source" : {
+      "id" : "survey_ww2",
+      "institution" : "U.S. Army / David Cole",
+      "locator" : "L1913–L1913 · PDF P83",
+      "summary" : "Capture documentaire partielle du 11 novembre 2026. Preuves détaillées dans le catalogue documentaire.",
+      "title" : "Survey of U.S. Army Uniforms, Weapons and Accoutrements — David Cole, 2007",
+      "url" : "https://upload.wikimedia.org/wikipedia/commons/a/a7/Survey_of_U.S._Army_Uniforms%2C_Weapons_and_Accoutrements_%282007%29%2C_by_David_Cole.pdf"
+    }
+  },
+  {
+    "modelID" : "m1943-field-jacket",
+    "source" : {
+      "id" : "01",
+      "institution" : "War Department",
+      "locator" : "TM 10-275 · § 11 et fig. 2–4 · 26 octobre 1944",
+      "summary" : "Manuel de port et de construction. Il décrit les quatre poches, les réglages au col, aux poignets et à la taille, ainsi que les couches isolantes.",
+      "title" : "Principles of Cold Weather Clothing and Equipment",
+      "url" : "https://www.govinfo.gov/content/pkg/GOVPUB-W-9c87e70d9be8c6094d9d50191b4ed150/html/GOVPUB-W-9c87e70d9be8c6094d9d50191b4ed150.htm"
+    }
+  },
+  {
+    "modelID" : "m1943-field-jacket",
+    "source" : {
+      "id" : "02",
+      "institution" : "U.S. Army Center of Military History",
+      "locator" : "Vol. I · pp. 90–94, p. 92 et note 33",
+      "summary" : "Standardisation du 12 août 1943, construction en coton et rôle dans le système de couches. La photographie de la p. 92 montre les réglages du col et de la taille.",
+      "title" : "The Quartermaster Corps: Organization, Supply, and Services",
+      "url" : "https://www.ibiblio.org/pha/USA-in-WWII/Set-5-of-7/Disk-3/ServV_I.pdf"
+    }
+  },
+  {
+    "modelID" : "m1943-field-jacket",
+    "source" : {
+      "id" : "03",
+      "institution" : "Paris Musées",
+      "locator" : "Objet 2002.1743 · 1943–1945",
+      "summary" : "La pièce documente le coton satiné, les quatre poches, les boutons sous patte, la doublure et la taille 36S. Photographie CC0.",
+      "title" : "Jacket, Field, M-1943",
+      "url" : "https://www.parismuseescollections.paris.fr/fr/musee-jean-moulin/oeuvres/us-jacket-field-m-1943-stock-no-55-j-190-55-j-192-98"
+    }
+  },
+  {
+    "modelID" : "m1943-field-jacket",
+    "source" : {
+      "id" : "04",
+      "institution" : "U.S. Army Center of Military History",
+      "locator" : "pp. 84–85",
+      "summary" : "L’ensemble de terrain en Olive Drab Shade 7 comporte la veste et sa capuche amovible. Une photographie Signal Corps illustre son port en Italie en 1945.",
+      "title" : "Survey of U.S. Army Uniforms, Weapons and Accoutrements",
+      "url" : "https://patcosta.com/wp-content/uploads/2015/09/Survey-of-US-Soldier-Arms-and-Accouterments-2007.pdf"
+    }
+  },
+  {
+    "modelID" : "m1943-field-jacket",
+    "source" : {
+      "id" : "05",
+      "institution" : "U.S. WWII Uniforms",
+      "locator" : "13 janvier 1945 · Key Visual ID et Notes",
+      "summary" : "Étude spécialisée de la révision et de marquages observés sur des pièces. Elle signale une évolution du marquage d’instructions.",
+      "title" : "M-1943 Field Jacket · PQD 370E",
+      "url" : "https://www.usww2uniforms.com/370E.html"
+    }
+  },
+  {
+    "modelID" : "m1943-field-jacket",
+    "source" : {
+      "id" : "06",
+      "institution" : "U.S. Government Printing Office",
+      "locator" : "Décembre 1949 · entrée 26287",
+      "summary" : "MIL-J-843 répertorie la M-1943 MQ-1 sous une désignation distincte.",
+      "title" : "Monthly Catalog",
+      "url" : "https://www.govinfo.gov/content/pkg/GOVPUB-GP3-d7b4fef548e9c79c6ab1897b02234c64/pdf/GOVPUB-GP3-d7b4fef548e9c79c6ab1897b02234c64.pdf"
+    }
+  },
+  {
+    "modelID" : "m1943-field-jacket",
+    "source" : {
+      "id" : "07",
+      "institution" : "Paris Musées",
+      "locator" : "Objet 2002.1735",
+      "summary" : "Exemplaire et référence de stock de la coupe féminine, distincte du patron de cette notice.",
+      "title" : "Jacket, Field, M-1943, Women’s",
+      "url" : "https://parismuseescollections.paris.fr/en/node/774018"
+    }
+  },
+  {
+    "modelID" : "m1951-field-jacket",
+    "source" : {
+      "id" : "01",
+      "institution" : "CIE Hub",
+      "locator" : "Historique et renvois aux catalogues fédéraux · 1951–1968",
+      "summary" : "Index spécialisé des révisions. Il répertorie le titre de 1951 et le libellé de la révision B, avec les références vers les catalogues originaux.",
+      "title" : "MIL-J-11448 et MIL-C-11448",
+      "url" : "https://ciehub.info/spec/DTL/MIL-J-11448.html"
+    }
+  },
+  {
+    "modelID" : "m1951-field-jacket",
+    "source" : {
+      "id" : "02",
+      "institution" : "CIE Hub",
+      "locator" : "Nomenclature, numéros de stock et MIL-L-11449",
+      "summary" : "Index logistique de l’enveloppe et de la doublure amovible, avec renvois au catalogue Quartermaster.",
+      "title" : "M-1951 Field Jacket Shell and Liner",
+      "url" : "https://ciehub.info/clothing/CW/M1951/JacketField.html"
+    }
+  },
+  {
+    "modelID" : "m1951-field-jacket",
+    "source" : {
+      "id" : "03",
+      "institution" : "CIE Hub",
+      "locator" : "Instructions d’attache · MIL-H-11377",
+      "summary" : "La capuche d’hiver est une pièce séparée. Les instructions décrivent notamment sa fixation aux boutons d’épaule.",
+      "title" : "M-1951 Winter Hood",
+      "url" : "https://ciehub.info/clothing/CW/M1951/HoodWinter.html"
+    }
+  },
+  {
+    "modelID" : "m1951-field-jacket",
+    "source" : {
+      "id" : "04",
+      "institution" : "U.S. Army Center of Military History",
+      "locator" : "p. 107",
+      "summary" : "Entrée de la M-65 dans l’inventaire à partir de 1966 et port d’une M-1951 à Fort Jackson en 1973.",
+      "title" : "Survey of U.S. Army Uniforms, Weapons and Accoutrements",
+      "url" : "https://patcosta.com/wp-content/uploads/2015/09/Survey-of-US-Soldier-Arms-and-Accouterments-2007.pdf"
+    }
+  },
+  {
+    "modelID" : "m1951-field-jacket",
+    "source" : {
+      "id" : "05",
+      "institution" : "Rare Gear USA",
+      "locator" : "Construction, marquages et exemple DSA-1-3571-64-C",
+      "summary" : "Source commerciale illustrée de pièces et de marquages. Elle documente la fermeture, les quatre poches, le col, les poignets et la coexistence de plusieurs fournitures.",
+      "title" : "M-51 Field Jacket Collector’s Guide",
+      "url" : "https://www.raregearusa.com/blogs/military-guides/m51-field-jacket-identification-dating-guide"
+    }
+  },
+  {
+    "modelID" : "m1951-field-jacket",
+    "source" : {
+      "id" : "06",
+      "institution" : "Smithsonian · National Museum of American History",
+      "locator" : "Objet 1979.0805.183",
+      "summary" : "Fiche institutionnelle de la veste. L’image porte une mention de réutilisation restreinte.",
+      "title" : "Model 1951; Jacket, Shell",
+      "url" : "https://www.si.edu/object/model-1951-jacket-shell%3Anmah_447096"
+    }
+  },
+  {
+    "modelID" : "m1951-field-jacket",
+    "source" : {
+      "id" : "photo-commons-43631971",
+      "institution" : "Joan Rocaguinard / Wikimedia Commons",
+      "locator" : "File:Jc-m51-EUA.JPG ; Description, Author, Licensing et historique du fichier ; SHA-1 f1f72ca23073279e04fa9513bafd682d7ca932bd",
+      "summary" : "Photographie propre de l’auteur, explicitement désignée US Army M-1951 field jacket. CC BY-SA 4.0. Date de prise de vue inconnue ; contrat et variante de l’exemplaire non vérifiés. Aucun critère d’identification déduit de cette photographie.",
+      "title" : "US Army M-1951 field jacket — photographie de face",
+      "url" : "https://commons.wikimedia.org/wiki/File:Jc-m51-EUA.JPG"
+    }
+  },
+  {
+    "modelID" : "m65-field-jacket",
+    "source" : {
+      "id" : "01",
+      "institution" : "Defense Logistics Agency",
+      "locator" : "MIL-C-43455J et MIL-DTL-43455K · §§ 1.2, 3.3, 6.8 et fig. 1",
+      "summary" : "La révision K décrit la construction et retire le désert six couleurs de la classification. ASSIST fournit les révisions et la notice de retrait de la spécification.",
+      "title" : "Coat, Cold Weather, Field",
+      "url" : "https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=23626"
+    }
+  },
+  {
+    "modelID" : "m65-field-jacket",
+    "source" : {
+      "id" : "02",
+      "institution" : "U.S. Army Center of Military History",
+      "locator" : "pp. 107–108",
+      "summary" : "Entrée dans l’inventaire à partir de 1966, port à Fort Knox en 1975 et description des quatre poches, du col et de la fermeture.",
+      "title" : "Survey of U.S. Army Uniforms, Weapons and Accoutrements",
+      "url" : "https://patcosta.com/wp-content/uploads/2015/09/Survey-of-US-Soldier-Arms-and-Accouterments-2007.pdf"
+    }
+  },
+  {
+    "modelID" : "m65-field-jacket",
+    "source" : {
+      "id" : "03",
+      "institution" : "Smithsonian · National Museum of American History",
+      "locator" : "Objet 1979.0805.190",
+      "summary" : "La période 1966–1973 est une date associée à l’exemplaire du musée.",
+      "title" : "Model 65",
+      "url" : "https://americanhistory.si.edu/collections/object/nmah_447073"
+    }
+  },
+  {
+    "modelID" : "m65-field-jacket",
+    "source" : {
+      "id" : "05",
+      "institution" : "U.S. Army",
+      "locator" : "TM 10-8400-201-23&P · WP 0061 · fig. 34",
+      "summary" : "Associe le NSN 8415-00-782-2936 à la taille Small Regular sous MIL-C-43455.",
+      "title" : "General Repair Procedures for Clothing",
+      "url" : "https://ciehub.info/ref/TM/10-8400-201-23P_2014.pdf"
+    }
+  },
+  {
+    "modelID" : "m65-field-jacket",
+    "source" : {
+      "id" : "06",
+      "institution" : "CIE Hub",
+      "locator" : "Historique des révisions J et K",
+      "summary" : "Index de révisions et de classes, dont les déserts six et trois couleurs et l’UCP.",
+      "title" : "MIL-C-43455",
+      "url" : "https://ciehub.info/spec/DTL/MIL-C-43455.html"
+    }
+  },
+  {
+    "modelID" : "m65-field-jacket",
+    "source" : {
+      "id" : "07",
+      "institution" : "U.S. Department of the Army",
+      "locator" : "DA PAM 670–1 · § 4–3h et fig. 4–2 · 2015",
+      "summary" : "Décrit le dos à soufflets, la coupe aux hanches, la capuche logée dans le col et les quatre poches.",
+      "title" : "Guide to the Wear and Appearance of Army Uniforms and Insignia",
+      "url" : "https://www.benning.army.mil/infantry/199th/ocs/content/pdf/p670_1.pdf"
+    }
+  },
+  {
+    "modelID" : "m65-field-jacket",
+    "source" : {
+      "id" : "08",
+      "institution" : "CIE Hub",
+      "locator" : "Description of Item et Materials Used",
+      "summary" : "Description technique de l’enveloppe et des attaches de la capuche fourrée et de la doublure isolante.",
+      "title" : "M-65 Cold Weather Field Coat",
+      "url" : "https://ciehub.info/clothing/CW/M65/CoatCWField.html"
+    }
+  },
+  {
+    "modelID" : "m65-field-jacket",
+    "source" : {
+      "id" : "09",
+      "institution" : "Omega Militaria",
+      "locator" : "Dating the M65 · photographies des étiquettes",
+      "summary" : "Source commerciale utilisée pour les libellés visibles sur des pièces précises.",
+      "title" : "The Ultimate Visual Buyers Guide to the M65 Field Jacket",
+      "url" : "https://omegamilitaria.com/blogs/reference-guides/the-ultimate-visual-buyers-guide-to-the-m65-field-jacket?page=1"
+    }
+  },
+  {
+    "modelID" : "og107-utility-top",
+    "source" : {
+      "id" : "01",
+      "institution" : "U.S. Government Printing Office",
+      "locator" : "Avril 1954 · entrée 5497",
+      "summary" : "Référence primaire de MIL-J-3001B, datée du 30 août 1952.",
+      "title" : "Monthly Catalog of United States Government Publications",
+      "url" : "https://www.govinfo.gov/content/pkg/GOVPUB-GP3-e95c8001f71fbd826bce93d0e75811f4/pdf/GOVPUB-GP3-e95c8001f71fbd826bce93d0e75811f4.pdf"
+    }
+  },
+  {
+    "modelID" : "og107-utility-top",
+    "source" : {
+      "id" : "02",
+      "institution" : "U.S. Army Center of Military History",
+      "locator" : "pp. 102–103",
+      "summary" : "Décrit le vêtement de 1952 et les changements de 1963 et 1964, avec photographies de port et distinction de la tenue tropicale.",
+      "title" : "Survey of U.S. Army Uniforms, Weapons and Accoutrements",
+      "url" : "https://patcosta.com/wp-content/uploads/2015/09/Survey-of-US-Soldier-Arms-and-Accouterments-2007.pdf"
+    }
+  },
+  {
+    "modelID" : "og107-utility-top",
+    "source" : {
+      "id" : "03",
+      "institution" : "CIE Hub",
+      "locator" : "Historique des révisions · 1949–1982",
+      "summary" : "Index de spécifications, du HBT au satin de coton OG-107, puis de jacket à shirt.",
+      "title" : "MIL-J-3001 et MIL-S-3001",
+      "url" : "https://ciehub.info/spec/DTL/MIL-J-3001.html"
+    }
+  },
+  {
+    "modelID" : "og107-utility-top",
+    "source" : {
+      "id" : "04",
+      "institution" : "U.S. Department of the Army",
+      "locator" : "AR 670–1 · chap. 31 · 1987",
+      "summary" : "Décrit les textiles et les coupes masculine et féminine, les similitudes OG-107 / OG-507 et la date limite de port dans l’Army.",
+      "title" : "Wear and Appearance of Army Uniforms and Insignia",
+      "url" : "https://ciehub.info/ref/AR/670-1_1987.pdf"
+    }
+  },
+  {
+    "modelID" : "og107-utility-top",
+    "source" : {
+      "id" : "05",
+      "institution" : "UNT · Texas Fashion Collection",
+      "locator" : "1967 · 2006.006.001",
+      "summary" : "Pièce institutionnelle en satin de coton, à deux poches à rabat en chevron et poignets boutonnés.",
+      "title" : "U.S. Army utility shirt",
+      "url" : "https://digital.library.unt.edu/ark:/67531/metadc2408800/"
+    }
+  },
+  {
+    "modelID" : "og107-utility-top",
+    "source" : {
+      "id" : "06",
+      "institution" : "MASH",
+      "locator" : "Configurations anciennes à manches tubulaires",
+      "summary" : "Source spécialisée avec exemplaires et marquages, dont un libellé Shirt pour une pièce datée par sa ligne contractuelle de 1960. La typologie du site lui est propre.",
+      "title" : "Collection d’OG-107 en satin de coton",
+      "url" : "https://www.mash-japan.co.jp/moc/collection/og107_shirt/history/index.html"
+    }
+  },
+  {
+    "modelID" : "og107-utility-top",
+    "source" : {
+      "id" : "07",
+      "institution" : "MASH",
+      "locator" : "DSA 100-2175 · Contract No. et Contract Date",
+      "summary" : "Transcription du contrat et date estimée par la source spécialisée.",
+      "title" : "Exemplaire de chemise à poignets boutonnés",
+      "url" : "https://www.mash-japan.co.jp/moc/collection/og107_shirt/history/detail/06/index.html"
+    }
+  },
+  {
+    "modelID" : "og107-utility-top",
+    "source" : {
+      "id" : "08",
+      "institution" : "The Mariners’ Museum",
+      "locator" : "2017.0031.000003A · Marks et Notes",
+      "summary" : "Notice de l’exemplaire P64 et de ses marquages. Le pantalon et la casquette ont leurs propres références.",
+      "title" : "Marine Corps Utility Uniform",
+      "url" : "https://catalogs.marinersmuseum.org/object/CL30778"
+    }
+  }
+]

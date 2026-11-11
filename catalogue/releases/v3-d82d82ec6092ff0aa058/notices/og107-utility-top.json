@@ -1,0 +1,408 @@
+{
+  "criteria" : [
+    {
+      "concordant" : [
+        "Chemise"
+      ],
+      "contradictory" : [
+        "Pantalon",
+        "Autre vêtement"
+      ],
+      "expected" : "Haut utilitaire à coupe de chemise",
+      "field" : "family",
+      "sources" : [
+        "02",
+        "04"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "pp. 102–103",
+            "sourceID" : "02"
+          },
+          {
+            "locator" : "AR 670–1 · chap. 31 · 1987",
+            "sourceID" : "04"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Boutons seuls"
+      ],
+      "contradictory" : [
+        "Glissière sous patte à pressions",
+        "Glissière visible",
+        "Pressions seules"
+      ],
+      "expected" : "Boutons seuls",
+      "field" : "closure",
+      "sources" : [
+        "04",
+        "05"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "AR 670–1 · chap. 31 · 1987",
+            "sourceID" : "04"
+          },
+          {
+            "locator" : "1967 · 2006.006.001",
+            "sourceID" : "05"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Deux poches avant",
+        "Deux poches de poitrine"
+      ],
+      "contradictory" : [
+        "Quatre poches avant",
+        "Autre nombre de poches avant",
+        "Aucune poche avant"
+      ],
+      "expected" : "Deux poches de poitrine",
+      "field" : "pockets",
+      "sources" : [
+        "04",
+        "05"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "AR 670–1 · chap. 31 · 1987",
+            "sourceID" : "04"
+          },
+          {
+            "locator" : "1967 · 2006.006.001",
+            "sourceID" : "05"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Absente après examen du col"
+      ],
+      "contradictory" : [
+        "Logée dans le col",
+        "Extérieure uniquement"
+      ],
+      "expected" : "Absence de capuche après examen",
+      "field" : "hood",
+      "sources" : [
+        "04",
+        "05"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "AR 670–1 · chap. 31 · 1987",
+            "sourceID" : "04"
+          },
+          {
+            "locator" : "1967 · 2006.006.001",
+            "sourceID" : "05"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "jackets utility cotton olive green 107",
+        "jacket man s cotton sateen olive green shade 107",
+        "shirt man s cotton sateen og 107",
+        "shirt men s cotton sateen og 107",
+        "shirt man s cotton sateen 8 5 oz olive green 107",
+        "shirt utility cotton sateen og 107",
+        "shirt man s cotton olive green 107",
+        "og 107 utility shirt",
+        "og107 utility shirt",
+        "og 107 utility jacket",
+        "og107 utility jacket"
+      ],
+      "contradictory" : [
+        "og 507",
+        "og507",
+        "shirt man s utility og 507",
+        "shirt man s utility og507",
+        "shirt utility og 507",
+        "og 507 utility shirt",
+        "og507 utility shirt"
+      ],
+      "expected" : "Désignation du haut utilitaire en coton OG-107",
+      "field" : "label",
+      "sources" : [
+        "01",
+        "03",
+        "04",
+        "06"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "Avril 1954 · entrée 5497",
+            "sourceID" : "01"
+          },
+          {
+            "locator" : "Historique des révisions · 1949–1982",
+            "sourceID" : "03"
+          },
+          {
+            "locator" : "AR 670–1 · chap. 31 · 1987",
+            "sourceID" : "04"
+          },
+          {
+            "locator" : "Configurations anciennes à manches tubulaires",
+            "sourceID" : "06"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Vert olive"
+      ],
+      "contradictory" : [
+
+      ],
+      "expected" : "Olive Green 107",
+      "field" : "color",
+      "sources" : [
+        "01",
+        "05"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "Avril 1954 · entrée 5497",
+            "sourceID" : "01"
+          },
+          {
+            "locator" : "1967 · 2006.006.001",
+            "sourceID" : "05"
+          }
+        ],
+        "status" : "verified"
+      }
+    }
+  ],
+  "family" : "utilityTop",
+  "id" : "og107-utility-top",
+  "illustration" : {
+    "credit" : "Texas Fashion Collection · University of North Texas · 2006.006.001",
+    "license" : "Photographie consultable sur la notice de la collection",
+    "title" : "Chemise utilitaire Army de 1967",
+    "url" : "https://digital.library.unt.edu/ark:/67531/metadc2408800/"
+  },
+  "indexPeriod" : "Documenté dès 1952",
+  "intro" : "Haut utilitaire masculin de l’U.S. Army en satin de coton vert olive 107. Les sources documentent une veste utilitaire, puis deux configurations de chemise distinguées par leurs rabats et leurs poignets. [01, 02, 04, 05]",
+  "name" : "OG-107 Utility Jacket / Shirt",
+  "period" : "Spécification du 30 août 1952 et révisions décrites en 1963 et 1964 [01, 02]. Fin d’autorisation de port de la tenue utilitaire au 30 septembre 1987 dans le règlement Army consulté [04].",
+  "publication" : {
+    "identifierEligible" : true,
+    "identitySources" : [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08"
+    ],
+    "summarySources" : [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08"
+    ],
+    "unknowns" : [
+
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignations",
+          "sources" : [
+            "01",
+            "02",
+            "03"
+          ],
+          "value" : "Jackets, Utility, Cotton, Olive Green 107 dans MIL-J-3001B, datée du 30 août 1952. La chemise apparaît dans la série MIL-S-3001. OG-107 désigne une teinte partagée par plusieurs vêtements."
+        },
+        {
+          "label" : "Port réglementaire",
+          "sources" : [
+            "04"
+          ],
+          "value" : "Le règlement Army consulté fixe au 30 septembre 1987 la fin d’autorisation de port de la tenue utilitaire OG-107 dans son champ d’application."
+        }
+      ],
+      "title" : "Désignation et période"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Coupe et matière",
+          "sources" : [
+            "04",
+            "05"
+          ],
+          "value" : "Col de chemise, manches longues et satin de coton Olive Green 107. Une chemise de 1967 atteste un boutonnage à six boutons et deux poches plaquées de poitrine à rabat."
+        },
+        {
+          "label" : "Poignets, capuche et couches",
+          "sources" : [
+            "02",
+            "04",
+            "05",
+            "06"
+          ],
+          "value" : "Manches tubulaires ou poignets boutonnés selon configuration. Les descriptions consultées de la chemise masculine ne mentionnent pas de capuche ni de doublure isolante."
+        }
+      ],
+      "title" : "Construction"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Veste utilitaire de 1952",
+          "sources" : [
+            "01",
+            "02",
+            "06"
+          ],
+          "value" : "Désignation attestée par le catalogue fédéral. Des pièces anciennes publiées ont des manches tubulaires. Le Survey montre encore un port en juin 1965."
+        },
+        {
+          "label" : "Chemise révisée en 1963",
+          "sources" : [
+            "02"
+          ],
+          "value" : "Le Survey date la spécification du 12 avril 1963. Elle décrit des poches déplacées et des rabats aux angles coupés. Le Survey illustre ce patron porté en décembre 1967."
+        },
+        {
+          "label" : "Chemise révisée en 1964",
+          "sources" : [
+            "02",
+            "05"
+          ],
+          "value" : "Le Survey date la révision du 6 novembre 1964. Elle décrit des rabats en pointe, des boutons repositionnés et des poignets boutonnés. La pièce de 1967 du Texas Fashion Collection montre rabats en chevron et poignets boutonnés."
+        }
+      ],
+      "title" : "Configurations Army"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Marquages et contrat",
+          "sources" : [
+            "06",
+            "07"
+          ],
+          "value" : "Tampons et étiquettes cousues selon les exemplaires. Une pièce à manches tubulaires est déjà marquée Shirt sur une ligne de 1960. MASH publie aussi DSA 100-2175 pour une chemise à poignets boutonnés, avec une date contractuelle estimée."
+        },
+        {
+          "label" : "P64 Marine Corps",
+          "sources" : [
+            "08"
+          ],
+          "value" : "Exemplaire à poignets boutonnés et poche intérieure pour stylo, taille 16½ × 34, FSN 8405-782-3020. Le musée présente une transcription lacunaire de la ligne contractuelle de cette pièce."
+        },
+        {
+          "label" : "Autres voisins et limites",
+          "sources" : [
+            "02",
+            "04",
+            "06"
+          ],
+          "value" : "L’OG-507 associe coton et polyester. La tenue tropicale de la même teinte peut présenter quatre poches, dont deux obliques. Le règlement décrit aussi des hauts féminins distincts. Les dates de transition de production et les typologies de collectionneurs restent à distinguer des spécifications."
+        }
+      ],
+      "title" : "Marquages et modèles voisins"
+    }
+  ],
+  "shortName" : "OG-107 utilitaire",
+  "sources" : [
+    {
+      "id" : "01",
+      "institution" : "U.S. Government Printing Office",
+      "locator" : "Avril 1954 · entrée 5497",
+      "summary" : "Référence primaire de MIL-J-3001B, datée du 30 août 1952.",
+      "title" : "Monthly Catalog of United States Government Publications",
+      "url" : "https://www.govinfo.gov/content/pkg/GOVPUB-GP3-e95c8001f71fbd826bce93d0e75811f4/pdf/GOVPUB-GP3-e95c8001f71fbd826bce93d0e75811f4.pdf"
+    },
+    {
+      "id" : "02",
+      "institution" : "U.S. Army Center of Military History",
+      "locator" : "pp. 102–103",
+      "summary" : "Décrit le vêtement de 1952 et les changements de 1963 et 1964, avec photographies de port et distinction de la tenue tropicale.",
+      "title" : "Survey of U.S. Army Uniforms, Weapons and Accoutrements",
+      "url" : "https://patcosta.com/wp-content/uploads/2015/09/Survey-of-US-Soldier-Arms-and-Accouterments-2007.pdf"
+    },
+    {
+      "id" : "03",
+      "institution" : "CIE Hub",
+      "locator" : "Historique des révisions · 1949–1982",
+      "summary" : "Index de spécifications, du HBT au satin de coton OG-107, puis de jacket à shirt.",
+      "title" : "MIL-J-3001 et MIL-S-3001",
+      "url" : "https://ciehub.info/spec/DTL/MIL-J-3001.html"
+    },
+    {
+      "id" : "04",
+      "institution" : "U.S. Department of the Army",
+      "locator" : "AR 670–1 · chap. 31 · 1987",
+      "summary" : "Décrit les textiles et les coupes masculine et féminine, les similitudes OG-107 / OG-507 et la date limite de port dans l’Army.",
+      "title" : "Wear and Appearance of Army Uniforms and Insignia",
+      "url" : "https://ciehub.info/ref/AR/670-1_1987.pdf"
+    },
+    {
+      "id" : "05",
+      "institution" : "UNT · Texas Fashion Collection",
+      "locator" : "1967 · 2006.006.001",
+      "summary" : "Pièce institutionnelle en satin de coton, à deux poches à rabat en chevron et poignets boutonnés.",
+      "title" : "U.S. Army utility shirt",
+      "url" : "https://digital.library.unt.edu/ark:/67531/metadc2408800/"
+    },
+    {
+      "id" : "06",
+      "institution" : "MASH",
+      "locator" : "Configurations anciennes à manches tubulaires",
+      "summary" : "Source spécialisée avec exemplaires et marquages, dont un libellé Shirt pour une pièce datée par sa ligne contractuelle de 1960. La typologie du site lui est propre.",
+      "title" : "Collection d’OG-107 en satin de coton",
+      "url" : "https://www.mash-japan.co.jp/moc/collection/og107_shirt/history/index.html"
+    },
+    {
+      "id" : "07",
+      "institution" : "MASH",
+      "locator" : "DSA 100-2175 · Contract No. et Contract Date",
+      "summary" : "Transcription du contrat et date estimée par la source spécialisée.",
+      "title" : "Exemplaire de chemise à poignets boutonnés",
+      "url" : "https://www.mash-japan.co.jp/moc/collection/og107_shirt/history/detail/06/index.html"
+    },
+    {
+      "id" : "08",
+      "institution" : "The Mariners’ Museum",
+      "locator" : "2017.0031.000003A · Marks et Notes",
+      "summary" : "Notice de l’exemplaire P64 et de ses marquages. Le pantalon et la casquette ont leurs propres références.",
+      "title" : "Marine Corps Utility Uniform",
+      "url" : "https://catalogs.marinersmuseum.org/object/CL30778"
+    }
+  ]
+}
