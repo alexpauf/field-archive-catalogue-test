@@ -1,15 +1,15 @@
-# FIELD ARCHIVE — Catalogue de test build 13
+# FIELD ARCHIVE — Catalogue documentaire de test
 
-Préparation locale, non publiée. La création du dépôt public et la mise en ligne exigent l’accord explicite du propriétaire du compte alexpauf.
+Catalogue signé compatible avec FIELD ARCHIVE build 13. Coût supplémentaire : 0 €.
 
-Source prévue : https://raw.githubusercontent.com/alexpauf/field-archive-catalogue-test/main/catalogue/
+Source : https://raw.githubusercontent.com/alexpauf/field-archive-catalogue-test/main/catalogue/
 
-Séquence 2 : M-1943 Field Jacket, M-1951 Field Jacket, M-65 Field Jacket, OG-107 Utility Jacket / Shirt et Jacket, Combat, Winter. Cette dernière reste une notice partielle Explorer sans critère admis pour Identifier. Les règles de confiance existantes sont conservées.
+La séquence 3 conserve les cinq notices de la séquence 2 et ajoute une photographie principale à la M-1951 : trois notices illustrées sur cinq. Les critères Identifier sont inchangés ; Winter Combat reste exclue d’Identifier.
 
-Le dossier catalogue contient neuf fichiers : manifeste signé, cinq notices JSON, registre de 31 références (28 URL distinctes) et deux photographies. Aucun livre, PDF, OCR, photographie personnelle, magasin SwiftData, sauvegarde, code applicatif ou clé privée n’est inclus.
+Les vues de dos, étiquettes et détails restent à compléter. Le build 13 affiche une seule image locale par notice. L’accès comparatif depuis Identifier passe par le bouton existant « Ouvrir la notice dans Explorer » ; aucune nouvelle comparaison visuelle automatique n’est introduite.
 
-PUBLIC-KEY.json contient la clé publique déjà embarquée dans le build 13. L’application utilise sa propre clé de confiance, pas un téléchargement de ce fichier. PROVENANCE.json et ATTRIBUTIONS.md détaillent l’audit et les droits.
+Les crédits et licences des trois photographies figurent dans ATTRIBUTIONS.md et dans les notices. PROVENANCE.json conserve les décisions documentaires et photographiques. Aucun document source intégral, photo personnelle, sauvegarde, magasin SwiftData ou clé privée n’est inclus. PUBLIC-KEY.json est la clé publique existante ; la confiance de l’application provient de sa clé embarquée.
 
-Le dépôt proposé est public : contenu, compte propriétaire et historique seraient accessibles à tous, indexables et copiables. Un retrait ultérieur n’efface pas les copies obtenues par des tiers. Aucun service payant, compilation Xcode, GitHub Actions, GitHub Pages, domaine ou déploiement sur le Mac mini n’est nécessaire pour cet essai.
+Le dépôt est public, indexable et copiable. Les licences propres à chaque photographie s’appliquent. Aucune licence globale nouvelle sur les autres contenus n’est ajoutée par ce fichier. La signature garantit l’authenticité du lot, pas l’authenticité historique de chaque exemplaire photographié.
 
-Après publication autorisée : contrôler les réponses HTTPS et les octets de tous les fichiers, puis configurer la source dans Explorer. Vérifier cinq notices, le fonctionnement hors ligne après mode avion avec Wi-Fi coupé, la relance hors ligne puis le retour aux quatre notices embarquées. La séquence 2 annulée ne se réinstalle pas automatiquement ; un nouvel essai nécessiterait une séquence supérieure signée, sans réinitialisation de données.
+La version précédente sous releases/v2-bcc9a9b6d4cab3c94f99 doit rester disponible. Publier les fichiers de version avant le manifeste. Aucune publication automatique sans accord explicite n’est autorisée par les scripts de préparation.
