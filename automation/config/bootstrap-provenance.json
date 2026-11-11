@@ -1,0 +1,26 @@
+[
+  {
+    "path": "engine/corpus/govinfo.json",
+    "sha256": "fb58181e06c1f3f78bbdc5fc53977f320eeb47c5b3a82962e7433bf4c5777dfb",
+    "source": "https://www.govinfo.gov/content/pkg/GOVPUB-W-9c87e70d9be8c6094d9d50191b4ed150/html/GOVPUB-W-9c87e70d9be8c6094d9d50191b4ed150.htm",
+    "declaredTextRights": "US-federal-work"
+  },
+  {
+    "path": "engine/corpus/survey_field.json",
+    "sha256": "5d1cb72a873fa931d4b32b8512a1c8345f066f1b11840e41d1fc947955df9f29",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Survey_of_U.S._Army_Uniforms%2C_Weapons_and_Accoutrements_%282007%29%2C_by_David_Cole.pdf",
+    "declaredTextRights": "US-federal-work"
+  },
+  {
+    "path": "engine/corpus/survey_utility.json",
+    "sha256": "1f0d9cb736f591b590bbdf026ed59d4e9204cb7801dd687ccf4fbb96f8e9d79b",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Survey_of_U.S._Army_Uniforms%2C_Weapons_and_Accoutrements_%282007%29%2C_by_David_Cole.pdf",
+    "declaredTextRights": "US-federal-work"
+  },
+  {
+    "path": "engine/corpus/survey_ww2.json",
+    "sha256": "0df74cabd5a52b088a5ce45da7b6237f3c992e2c9732c9b34e54776213970849",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Survey_of_U.S._Army_Uniforms%2C_Weapons_and_Accoutrements_%282007%29%2C_by_David_Cole.pdf",
+    "declaredTextRights": "US-federal-work"
+  }
+]

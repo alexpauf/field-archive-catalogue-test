@@ -1,0 +1,63 @@
+name: FIELD ARCHIVE weekly research
+on:
+  schedule:
+    - cron: '17 7 * * 1'
+      timezone: 'Europe/Paris'
+  workflow_dispatch:
+permissions: {}
+concurrency:
+  group: fieldarchive-catalogue-main
+  cancel-in-progress: false
+jobs:
+  research:
+    if: github.repository == 'alexpauf/field-archive-catalogue-test' && github.ref == 'refs/heads/main' && github.event.repository.private == false && vars.FIELDARCHIVE_WEEKLY_APPROVED == 'true'
+    runs-on: macos-15
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+          ref: ${{ github.sha }}
+      - name: Research without signing secret
+        run: bash automation/tools/run-approved-workflow.sh research
+      - name: Transfer data only
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: fieldarchive-research-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/fieldarchive-transfer
+          retention-days: 1
+          if-no-files-found: error
+  publish:
+    needs: research
+    if: github.repository == 'alexpauf/field-archive-catalogue-test' && github.ref == 'refs/heads/main' && github.event.repository.private == false && vars.FIELDARCHIVE_WEEKLY_APPROVED == 'true'
+    environment: fieldarchive-production
+    runs-on: macos-15
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+      - name: Receive data from this run
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: fieldarchive-research-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/fieldarchive-transfer
+      - name: Validate before production secret exists
+        run: bash automation/tools/run-approved-workflow.sh validate
+      - name: Sign validated data only
+        env:
+          FIELDARCHIVE_SIGNING_KEY_B64: ${{ secrets.FIELDARCHIVE_SIGNING_KEY_B64 }}
+        run: bash automation/tools/run-approved-workflow.sh sign
+      - name: Verify after private-key cleanup
+        run: bash automation/tools/run-approved-workflow.sh verify
+      - name: Publish verified catalogue or research checkpoint
+        env:
+          FIELDARCHIVE_WEEKLY_APPROVED: ${{ vars.FIELDARCHIVE_WEEKLY_APPROVED }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 automation/tools/publish-github.py --repo "$GITHUB_WORKSPACE" --work "$RUNNER_TEMP/fieldarchive-research"

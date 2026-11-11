@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "userAgent": "FieldArchiveResearch/0.4 (weekly documentary catalogue)",
+  "maxRequests": 45,
+  "maxBytesPerResponse": 2000000,
+  "maxRunBytes": 6000000,
+  "timeoutMs": 15000,
+  "sources": [
+    {
+      "id": "ia-clothing",
+      "adapter": "internet-archive",
+      "origin": "https://archive.org",
+      "policyURL": "https://archive.org/developers/bots.html",
+      "query": "mediatype:texts AND (title:clothing OR title:uniforms) AND (creator:Army OR creator:\"War Department\") AND year:[1940 TO 1999]",
+      "rows": 20,
+      "maxPages": 1,
+      "maxDocuments": 6,
+      "delayMs": 1100,
+      "metadataTTLSeconds": 3600
+    },
+    {
+      "id": "ia-cold-weather",
+      "adapter": "internet-archive",
+      "origin": "https://archive.org",
+      "policyURL": "https://archive.org/developers/bots.html",
+      "query": "mediatype:texts AND (title:\"quartermaster supply\" OR title:\"cold weather\") AND (creator:Army OR creator:\"War Department\") AND year:[1940 TO 1999]",
+      "rows": 20,
+      "maxPages": 1,
+      "maxDocuments": 4,
+      "delayMs": 1100,
+      "metadataTTLSeconds": 3600
+    }
+  ]
+}
