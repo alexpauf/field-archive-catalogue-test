@@ -1,0 +1,114 @@
+{
+  "checkedAt": "2026-11-11T22:43:07.139747+00:00",
+  "catalogueSequence": 4,
+  "catalogueChanged": true,
+  "knownReferences": [
+    "ia:07540970R.nlm.nih.gov",
+    "ia:101708855.nlm.nih.gov",
+    "ia:1308030R.nlm.nih.gov",
+    "ia:FM10-6-nsia",
+    "ia:FM21-15-nsia",
+    "ia:FM2115-nsia",
+    "ia:PAM360-527",
+    "ia:ProblemsOfMedicalEvacuationInColdWeather",
+    "ia:TBMED121",
+    "ia:TBMED121-nsia",
+    "ia:TM1-440",
+    "ia:TM9-207",
+    "ia:careuseofindivid00unit",
+    "ia:fm-31-70-basic-cold-weather-manual-1968",
+    "ia:fm-9-207-operations-and-maintenance-of-ordnance-materials-in-cold-weather-1998",
+    "ia:micro_IA41152603_0166",
+    "ia:ost-military-doctrine-fm9_207",
+    "ia:soldiers-handbook-for-individual-operations-and-survival-in-cold-weather-areas-tc-21-3",
+    "ia:worldarmyuniform00andr"
+  ],
+  "newReferencesSincePreviousCheckpoint": 19,
+  "photoResearchQueue": [
+    {
+      "missingViews": [
+        "front",
+        "back",
+        "label",
+        "construction"
+      ],
+      "modelID": "jacket-combat-winter"
+    },
+    {
+      "missingViews": [
+        "back",
+        "label",
+        "construction"
+      ],
+      "modelID": "m1943-field-jacket"
+    },
+    {
+      "missingViews": [
+        "back",
+        "label",
+        "construction"
+      ],
+      "modelID": "m1951-field-jacket"
+    },
+    {
+      "missingViews": [
+        "back",
+        "label",
+        "construction"
+      ],
+      "modelID": "m65-field-jacket"
+    },
+    {
+      "missingViews": [
+        "front",
+        "back",
+        "label",
+        "construction"
+      ],
+      "modelID": "og107-utility-top"
+    }
+  ],
+  "photoResearch": {
+    "cacheHits": 0,
+    "candidates": 6,
+    "discoveredReferences": 0,
+    "documentDownloads": 0,
+    "downloaded": 1,
+    "eligibleDocuments": 0,
+    "errors": 0,
+    "identityAccepted": 2,
+    "indexedFiles": 244,
+    "licenseAccepted": 4,
+    "models": 5,
+    "networkBytes": 1784894,
+    "networkRequests": 16,
+    "newReferences": 0,
+    "notModified": 0,
+    "rightsRejected": 0,
+    "unchangedDocuments": 0,
+    "viewSearches": 20
+  },
+  "documentaryMetrics": {
+    "activeDocumentCaptures": 7,
+    "additionalPaidServiceCostEUR": 0,
+    "cacheHits": 1,
+    "configSHA256": "69533955507f205b04105ed0abc69823676398d04c40da15ddcd0bb8e95c4137",
+    "discoveredReferences": 20,
+    "documentDownloads": 7,
+    "elapsedSeconds": 58.048467584,
+    "eligibleDocuments": 9,
+    "errors": 2,
+    "heapUsedBytes": 11657536,
+    "mode": "live-network",
+    "networkBytes": 2628755,
+    "networkRequests": 45,
+    "newReferences": 19,
+    "notModified": 0,
+    "rightsRejected": 9,
+    "runId": "2026-11-11T22-41-58-353Z-bdacd5",
+    "startedAt": "2026-11-11T22:41:58.352Z",
+    "unchangedDocuments": 1,
+    "uniqueReferencesInState": 19
+  },
+  "runID": "43113597107"
+}
