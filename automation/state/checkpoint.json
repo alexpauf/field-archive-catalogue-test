@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-11T22:43:07.139747+00:00",
+  "checkedAt": "2026-11-11T22:58:44.241694+00:00",
   "catalogueSequence": 4,
-  "catalogueChanged": true,
+  "catalogueChanged": false,
   "knownReferences": [
     "ia:07540970R.nlm.nih.gov",
     "ia:101708855.nlm.nih.gov",
@@ -23,7 +23,7 @@
     "ia:soldiers-handbook-for-individual-operations-and-survival-in-cold-weather-areas-tc-21-3",
     "ia:worldarmyuniform00andr"
   ],
-  "newReferencesSincePreviousCheckpoint": 19,
+  "newReferencesSincePreviousCheckpoint": 0,
   "photoResearchQueue": [
     {
       "missingViews": [
@@ -89,26 +89,58 @@
     "viewSearches": 20
   },
   "documentaryMetrics": {
-    "activeDocumentCaptures": 7,
+    "activeDocumentCaptures": 6,
     "additionalPaidServiceCostEUR": 0,
     "cacheHits": 1,
     "configSHA256": "69533955507f205b04105ed0abc69823676398d04c40da15ddcd0bb8e95c4137",
     "discoveredReferences": 20,
-    "documentDownloads": 7,
-    "elapsedSeconds": 58.048467584,
+    "documentDownloads": 6,
+    "elapsedSeconds": 88.020894041,
     "eligibleDocuments": 9,
-    "errors": 2,
-    "heapUsedBytes": 11657536,
+    "errors": 5,
+    "heapUsedBytes": 11128488,
     "mode": "live-network",
-    "networkBytes": 2628755,
+    "networkBytes": 2513959,
     "networkRequests": 45,
     "newReferences": 19,
     "notModified": 0,
-    "rightsRejected": 9,
-    "runId": "2026-11-11T22-41-58-353Z-bdacd5",
-    "startedAt": "2026-11-11T22:41:58.352Z",
+    "rightsRejected": 7,
+    "runId": "2026-11-11T22-57-08-315Z-27675e",
+    "startedAt": "2026-11-11T22:57:08.314Z",
     "unchangedDocuments": 1,
     "uniqueReferencesInState": 19
   },
-  "runID": "43113597107"
+  "runID": "43115252049",
+  "documentaryErrors": [
+    {
+      "at": "2026-11-11T22:58:36.328Z",
+      "error": "Request budget exhausted",
+      "status": 0,
+      "where": "ia:FM10-6-nsia"
+    },
+    {
+      "at": "2026-11-11T22:58:36.330Z",
+      "error": "Request budget exhausted",
+      "status": 0,
+      "where": "ia:ost-military-doctrine-fm9_207"
+    },
+    {
+      "at": "2026-11-11T22:58:36.332Z",
+      "error": "Request budget exhausted",
+      "status": 0,
+      "where": "ia:ProblemsOfMedicalEvacuationInColdWeather"
+    },
+    {
+      "at": "2026-11-11T22:58:36.333Z",
+      "error": "Request budget exhausted",
+      "status": 0,
+      "where": "ia:soldiers-handbook-for-individual-operations-and-survival-in-cold-weather-areas-tc-21-3"
+    },
+    {
+      "at": "2026-11-11T22:58:36.335Z",
+      "error": "Request budget exhausted",
+      "status": 0,
+      "where": "ia:TM9-207"
+    }
+  ]
 }
