@@ -36,6 +36,7 @@ def main():
  intake=work/'checkpoint-input.json';documents={key:None for key in json.loads(intake.read_text()).get('knownReferences',[])} if intake.exists() else {}
  known=sorted(set(prior.get('knownReferences',[]))|set(documents))
  checkpoint={'checkedAt':result['checkedAt'],'catalogueSequence':result['sequence'],'catalogueChanged':result['signed'],'knownReferences':known,'newReferencesSincePreviousCheckpoint':len(set(documents)-set(prior.get('knownReferences',[]))),'photoResearchQueue':result['photoResearchQueue'],'photoResearch':result['photoMetrics'],'documentaryMetrics':{k:v for k,v in result['sourceMetrics'].items() if k not in ['catalogue','heapNote']},'runID':os.environ.get('GITHUB_RUN_ID')}
+ checkpoint['documentaryErrors']=result.get('sourceErrors',[])
  dest.write_text(json.dumps(checkpoint,indent=2)+'\n');targets.append(state)
  git(repo,'add','--',*targets)
  if set(git(repo,'diff','--cached','--name-only').splitlines())-set(targets):raise ValueError('Unexpected staged paths')

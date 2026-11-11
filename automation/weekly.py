@@ -29,6 +29,15 @@ def read_baseline(repo):
     return m,models,images
 
 
+def fact_identity(fact):
+    # Evidence IDs change with capture provenance; they are not a new historical fact.
+    # Keep the field, value (including scope), source identities and all other data.
+    stable=copy.deepcopy(fact)
+    stable['label']=re.sub(r' · [a-f0-9]{6}$','',stable['label'])
+    stable['sources']=sorted(set(stable['sources']))
+    return encoded(stable)
+
+
 def merge(models, drafts, evidence):
     result=copy.deepcopy(models);by_id={x['id']:x for x in result};decisions=[]
     gates={x['id']:x for x in evidence['decisions']}
@@ -56,11 +65,11 @@ def merge(models, drafts, evidence):
             if source['url'] not in existing_urls:
                 item=copy.deepcopy(source);item['id']=sid;current['sources'].append(item);existing_urls[source['url']]=sid;added.append(source['url'])
         sections=current['sections'];section=next((s for s in sections if s['title']=='Compléments documentaires automatiques'),None)
-        known={encoded(f) for s in sections for f in s['facts']};facts=[]
+        known={fact_identity(f) for s in sections for f in s['facts']};facts=[]
         for source_section in draft['sections']:
             for original in source_section['facts']:
                 fact=copy.deepcopy(original);fact['sources']=[mapping[x] for x in fact['sources']]
-                if encoded(fact) not in known: facts.append(fact);known.add(encoded(fact))
+                if fact_identity(fact) not in known: facts.append(fact);known.add(fact_identity(fact))
         if facts:
             if section is None:section={'title':'Compléments documentaires automatiques','facts':[]};sections.append(section)
             section['facts'].extend(facts)
@@ -144,6 +153,7 @@ def main():
         photo_report=json.loads((photos/'photo-intake.json').read_text())
         photo_decisions=admit_photos(models,photo_report,photos,images)
         result={'checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'baselineSequence':m['sequence'],'noticeDecisions':decisions,'photoDecisions':photo_decisions,'sourceMetrics':live_report['metrics'],'photoMetrics':photo_report['metrics'],'networkIntakePerformedThisRun':a.live,'additionalPaidServiceCostEUR':0,'productionPublicationPerformed':False}
+        result['sourceErrors']=[{k:e.get(k) for k in ['where','error','status','at']} for e in live_report.get('events',[]) if e.get('kind')=='error'][:30]
         result['photoResearchQueue']=[{'modelID':model['id'],'missingViews':([] if model['illustration'].get('filename') else ['front'])+['back','label','construction']} for model in models]
         if encoded(sorted(models,key=lambda x:x['id']))==encoded(sorted(baseline,key=lambda x:x['id'])):
             result.update(status='unchanged',sequence=m['sequence'],signed=False);save(work/'result.json',result);print(json.dumps({'status':'unchanged','signed':False}));return
