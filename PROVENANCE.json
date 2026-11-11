@@ -1,0 +1,362 @@
+{
+  "checkedOn": "2026-11-11",
+  "publicationStatus": "NON PUBLIÉ — accord explicite requis",
+  "repositoryProposed": "https://github.com/alexpauf/field-archive-catalogue-test",
+  "baseURLProposed": "https://raw.githubusercontent.com/alexpauf/field-archive-catalogue-test/main/catalogue/",
+  "visibilityProposed": "public",
+  "sequence": 2,
+  "catalogueVersion": "bcc9a9b6d4cab3c94f99",
+  "referenceCount": 31,
+  "distinctReferenceURLs": 28,
+  "sourceDocumentsRedistributed": 0,
+  "images": [
+    {
+      "path": "images/m1943-paris-musees.jpg",
+      "object": "2002.1743",
+      "imageID": "LPDP_158807-31",
+      "authorOfObject": "Anonyme",
+      "credit": "Paris Musées / Musée de la Libération de Paris – musée du général Leclerc – musée Jean Moulin",
+      "license": "CC0 1.0 Universal",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://apicollections.parismusees.paris.fr/iiif/600000762/manifest",
+      "dimensions": [
+        1617,
+        2160
+      ],
+      "checks": "Manifeste officiel : vue, objet et CC0 concordants. Dimensions concordantes. Fichier local inchangé depuis le build 13 et conforme au manifeste signé. Une nouvelle comparaison binaire avec le serveur n’a pas été possible dans cet environnement.",
+      "modificationsByFieldArchive": "Aucune pour ce lot : fichier existant recopié sans transformation.",
+      "bytes": 329068,
+      "sha256": "1cee36aaf1c448eb56e683dccae392952c6fe6330ff974002534523cebc228ab"
+    },
+    {
+      "path": "images/m65-liberation-museum.jpg",
+      "object": "3.1.265",
+      "creator": "KingaNBM",
+      "credit": "KingaNBM / National Liberation Museum 1944–1945, photographie du 24 septembre 2015",
+      "license": "CC BY-SA 4.0 International",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Coat,_U.S._Cold_Weather_Field_Jacket,_82nd_Airborne_emblem.JPG",
+      "dimensions": [
+        1888,
+        2224
+      ],
+      "checks": "789781 octets et SHA-1 060044bf5fccfa5e8a33eea33325434acda33e6f identiques à la fiche Commons. Auteur et licence vérifiés. Fichier original, métadonnées et mentions antérieures conservés.",
+      "modificationsByFieldArchive": "Aucune : fichier original Commons conservé.",
+      "bytes": 789781,
+      "sha256": "70b9ab1d8f1d0e530ccdc5eb12174b821e8e228f894fa1688244e02a9101cf13"
+    }
+  ],
+  "referenceAudit": [
+    {
+      "url": "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt",
+      "title": "Principles of cold weather clothing and equipment",
+      "institution": "United States. War Department, author",
+      "usedBy": [
+        "jacket-combat-winter"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Nouvel accès Archive.org indisponible. Capture OCR Phase 51 du 11/11/2026 : octets archivés et SHA-256 vérifiés, auteur War Department, 1944. Titre et §20 corroborés sur GovInfo. La capture ne concède aucun droit photographique.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Survey_of_U.S._Army_Uniforms%2C_Weapons_and_Accoutrements_%282007%29%2C_by_David_Cole.pdf",
+      "title": "Survey of U.S. Army Uniforms, Weapons and Accoutrements — David Cole, 2007",
+      "institution": "U.S. Army / David Cole",
+      "usedBy": [
+        "jacket-combat-winter"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Fiche Commons consultée : David Cole, 27/11/2007, provenance originale U.S. Army, 133 pages ; indication de domaine public aux États-Unis. Aucun PDF ni illustration redistribué.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-W-9c87e70d9be8c6094d9d50191b4ed150/html/GOVPUB-W-9c87e70d9be8c6094d9d50191b4ed150.htm",
+      "title": "Principles of Cold Weather Clothing and Equipment",
+      "institution": "War Department",
+      "usedBy": [
+        "m1943-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "TM 10-275, War Department, 26/10/1944 ; §20 confirme la Winter Combat Jacket.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://www.ibiblio.org/pha/USA-in-WWII/Set-5-of-7/Disk-3/ServV_I.pdf",
+      "title": "The Quartermaster Corps: Organization, Supply, and Services",
+      "institution": "U.S. Army Center of Military History",
+      "usedBy": [
+        "m1943-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Miroir cité dans la notice validée. PDF de 40 365 370 octets, trop volumineux pour une nouvelle lecture intégrale ici.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://www.parismuseescollections.paris.fr/fr/musee-jean-moulin/oeuvres/us-jacket-field-m-1943-stock-no-55-j-190-55-j-192-98",
+      "title": "Jacket, Field, M-1943",
+      "institution": "Paris Musées",
+      "usedBy": [
+        "m1943-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Notice 2002.1743 retrouvée ; manifeste IIIF 600000762 consulté, vue LPDP_158807-31 sous CC0.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://patcosta.com/wp-content/uploads/2015/09/Survey-of-US-Soldier-Arms-and-Accouterments-2007.pdf",
+      "title": "Survey of U.S. Army Uniforms, Weapons and Accoutrements",
+      "institution": "U.S. Army Center of Military History",
+      "usedBy": [
+        "m1943-field-jacket",
+        "m1951-field-jacket",
+        "m65-field-jacket",
+        "og107-utility-top"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "PDF consulté : Survey of U.S. Army Uniforms, Weapons and Accoutrements, David Cole, 133 pages.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://www.usww2uniforms.com/370E.html",
+      "title": "M-1943 Field Jacket · PQD 370E",
+      "institution": "U.S. WWII Uniforms",
+      "usedBy": [
+        "m1943-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Page de l’éditeur consultée : PQD 370E, M-1943, 13/01/1945.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-GP3-d7b4fef548e9c79c6ab1897b02234c64/pdf/GOVPUB-GP3-d7b4fef548e9c79c6ab1897b02234c64.pdf",
+      "title": "Monthly Catalog",
+      "institution": "U.S. Government Printing Office",
+      "usedBy": [
+        "m1943-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "PDF GovInfo identifié, 47 621 152 octets ; non relu intégralement, fiche web sans texte exploitable. Référence conservée depuis la notice validée.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://parismuseescollections.paris.fr/en/node/774018",
+      "title": "Jacket, Field, M-1943, Women’s",
+      "institution": "Paris Musées",
+      "usedBy": [
+        "m1943-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Notice institutionnelle consultée : M-1943 Women’s, objet distinct 2002.1735.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://ciehub.info/spec/DTL/MIL-J-11448.html",
+      "title": "MIL-J-11448 et MIL-C-11448",
+      "institution": "CIE Hub",
+      "usedBy": [
+        "m1951-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Page de l’éditeur consultée : MIL-J-11448 / MIL-C-11448.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://ciehub.info/clothing/CW/M1951/JacketField.html",
+      "title": "M-1951 Field Jacket Shell and Liner",
+      "institution": "CIE Hub",
+      "usedBy": [
+        "m1951-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Page de l’éditeur consultée : M-1951 Field Jacket Shell and Liner.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://ciehub.info/clothing/CW/M1951/HoodWinter.html",
+      "title": "M-1951 Winter Hood",
+      "institution": "CIE Hub",
+      "usedBy": [
+        "m1951-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Page de l’éditeur consultée : M-1951 Winter Hood.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://www.raregearusa.com/blogs/military-guides/m51-field-jacket-identification-dating-guide",
+      "title": "M-51 Field Jacket Collector’s Guide",
+      "institution": "Rare Gear USA",
+      "usedBy": [
+        "m1951-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Article de l’éditeur consulté : M-51 Field Jacket Collector’s Guide.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://www.si.edu/object/model-1951-jacket-shell%3Anmah_447096",
+      "title": "Model 1951; Jacket, Shell",
+      "institution": "Smithsonian · National Museum of American History",
+      "usedBy": [
+        "m1951-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Fiche Smithsonian retrouvée dans l’index officiel : Model 1951; Jacket, Shell, nmah_447096. Ouverture directe en erreur 404. Métadonnées indiquées CC0, photographie sous Usage Conditions Apply : aucune image copiée.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=23626",
+      "title": "Coat, Cold Weather, Field",
+      "institution": "Defense Logistics Agency",
+      "usedBy": [
+        "m65-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Fiche officielle ASSIST/DLA consultée : MIL-DTL-43455, Coat, Cold Weather, Field.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://americanhistory.si.edu/collections/object/nmah_447073",
+      "title": "Model 65",
+      "institution": "Smithsonian · National Museum of American History",
+      "usedBy": [
+        "m65-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Fiche Smithsonian retrouvée dans l’index officiel : Model 65, 1979.0805.190, nmah_447073. Accès direct en erreur 500. Aucune photographie Smithsonian copiée.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://ciehub.info/ref/TM/10-8400-201-23P_2014.pdf",
+      "title": "General Repair Procedures for Clothing",
+      "institution": "U.S. Army",
+      "usedBy": [
+        "m65-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Lien du manuel identifié ; PDF de 22 314 460 octets, trop volumineux pour une nouvelle lecture intégrale ici.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://ciehub.info/spec/DTL/MIL-C-43455.html",
+      "title": "MIL-C-43455",
+      "institution": "CIE Hub",
+      "usedBy": [
+        "m65-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Page de l’éditeur consultée : MIL-C-43455, révisions J et K.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://www.benning.army.mil/infantry/199th/ocs/content/pdf/p670_1.pdf",
+      "title": "Guide to the Wear and Appearance of Army Uniforms and Insignia",
+      "institution": "U.S. Department of the Army",
+      "usedBy": [
+        "m65-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Adresse institutionnelle de DA PAM 670-1 (2015) conservée depuis la notice validée ; nouvelle lecture en délai dépassé.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://ciehub.info/clothing/CW/M65/CoatCWField.html",
+      "title": "M-65 Cold Weather Field Coat",
+      "institution": "CIE Hub",
+      "usedBy": [
+        "m65-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Page de l’éditeur consultée : M-65 Cold Weather Field Coat.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://omegamilitaria.com/blogs/reference-guides/the-ultimate-visual-buyers-guide-to-the-m65-field-jacket?page=1",
+      "title": "The Ultimate Visual Buyers Guide to the M65 Field Jacket",
+      "institution": "Omega Militaria",
+      "usedBy": [
+        "m65-field-jacket"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Article de l’éditeur consulté : Alex Valli, 12/04/2023.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-GP3-e95c8001f71fbd826bce93d0e75811f4/pdf/GOVPUB-GP3-e95c8001f71fbd826bce93d0e75811f4.pdf",
+      "title": "Monthly Catalog of United States Government Publications",
+      "institution": "U.S. Government Printing Office",
+      "usedBy": [
+        "og107-utility-top"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Fiche GovInfo consultée : Monthly Catalog, avril 1954, Government Printing Office, GP 3.8:954/4. PDF de 15 655 212 octets non relu intégralement. La fiche distingue un XML ProQuest sous CC BY-NC 4.0 : aucun XML, OCR, scan ou PDF redistribué.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://ciehub.info/spec/DTL/MIL-J-3001.html",
+      "title": "MIL-J-3001 et MIL-S-3001",
+      "institution": "CIE Hub",
+      "usedBy": [
+        "og107-utility-top"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Page de l’éditeur consultée : MIL-J-3001 / MIL-S-3001.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://ciehub.info/ref/AR/670-1_1987.pdf",
+      "title": "Wear and Appearance of Army Uniforms and Insignia",
+      "institution": "U.S. Department of the Army",
+      "usedBy": [
+        "og107-utility-top"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Adresse du règlement identifiée ; PDF de 13 246 652 octets, trop volumineux pour une nouvelle lecture intégrale ici.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc2408800/",
+      "title": "U.S. Army utility shirt",
+      "institution": "UNT · Texas Fashion Collection",
+      "usedBy": [
+        "og107-utility-top"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Notice UNT consultée : U.S. Army utility shirt, 2006.006.001.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://www.mash-japan.co.jp/moc/collection/og107_shirt/history/index.html",
+      "title": "Collection d’OG-107 en satin de coton",
+      "institution": "MASH",
+      "usedBy": [
+        "og107-utility-top"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Page de l’éditeur MASH consultée : historique des OG107 Cotton Sateen Shirts.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://www.mash-japan.co.jp/moc/collection/og107_shirt/history/detail/06/index.html",
+      "title": "Exemplaire de chemise à poignets boutonnés",
+      "institution": "MASH",
+      "usedBy": [
+        "og107-utility-top"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Page de l’éditeur MASH consultée : Shirt, Man’s, Cotton Sateen, OG107, DSA 100-2175.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    },
+    {
+      "url": "https://catalogs.marinersmuseum.org/object/CL30778",
+      "title": "Marine Corps Utility Uniform",
+      "institution": "The Mariners’ Museum",
+      "usedBy": [
+        "og107-utility-top"
+      ],
+      "sourceDocumentRedistributed": false,
+      "provenanceCheck": "Notice institutionnelle consultée : Marine Corps Utility Uniform, CL30778, vers 1965–1968.",
+      "rightsDecision": "Référence bibliographique, localisateur et synthèse de faits seulement. Pas de licence générale de redistribution supposée ; aucun texte intégral, scan, PDF, OCR ou image de ce document inclus, hormis la photographie Paris Musées déclarée séparément."
+    }
+  ]
+}
