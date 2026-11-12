@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "parserVersion": "historical-index-v1",
+  "maxPagesPerRun": 180,
+  "transport": {
+    "userAgent": "FieldArchiveResearch/0.5 (historical clothing index)",
+    "maxRequests": 18,
+    "maxBytesPerResponse": 70000000,
+    "maxRunBytes": 85000000,
+    "timeoutMs": 45000
+  },
+  "documents": [
+    {
+      "id": "tm8400-201-1995",
+      "title": "TM 10-8400-201-23 — General Repair Procedures for Clothing, 7 May 1990 / changes through 4 August 1995",
+      "institution": "Headquarters, Department of the Army",
+      "year": 1995,
+      "workID": "army-tm8400-201-1995",
+      "structure": "inspection-headings",
+      "url": "https://ciehub.info/ref/TM/10-8400-201-23.pdf",
+      "sha256": "b2c2d87f5880391ca9c79404aef51739463bdd19219ec1f99d5774e37cbcf5b6",
+      "bytes": 3224027,
+      "firstPage": 23,
+      "lastPage": 39,
+      "authorityTokens": [
+        "department of the army"
+      ],
+      "authorityPages": 2,
+      "rights": "US-federal-text-only; no image permission"
+    },
+    {
+      "id": "qm31-1943",
+      "title": "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "institution": "War Department / Army Service Forces",
+      "year": 1943,
+      "workID": "army-qm31-1943",
+      "structure": "stock-headings",
+      "url": "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+      "sha256": "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+      "bytes": 40152392,
+      "firstPage": 1,
+      "lastPage": 40,
+      "authorityTokens": [
+        "quartermaster supply catalog",
+        "august, 1943"
+      ],
+      "authorityPages": 4,
+      "rights": "US-federal-text-only; no image permission",
+      "bibliographicProof": {
+        "kind": "reviewed-institutional-bootstrap",
+        "url": "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+        "title": "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+        "author": "United States Army Quartermaster Corps",
+        "year": 1943,
+        "extent": "[2], 38 p.",
+        "approvedDocumentSHA256": "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "scope": "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite."
+      }
+    },
+    {
+      "id": "qm31-1946",
+      "title": "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "institution": "Headquarters, Army Service Forces",
+      "year": 1946,
+      "workID": "army-qm31-1946",
+      "structure": "stock-headings",
+      "url": "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+      "sha256": "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+      "bytes": 10212056,
+      "firstPage": 1,
+      "lastPage": 48,
+      "authorityTokens": [
+        "quartermaster supply catalog",
+        "army service forces"
+      ],
+      "authorityPages": 2,
+      "rights": "US-federal-text-only; no image permission"
+    },
+    {
+      "id": "qm32-1944",
+      "title": "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+      "institution": "Headquarters, Army Service Forces",
+      "year": 1944,
+      "workID": "army-qm32-1944",
+      "structure": "stock-headings",
+      "url": "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf",
+      "sha256": "ddc983ef4b215b6f865280532ccf08d239e0ee8cf6480aa485c1419d9ddf108e",
+      "bytes": 4845138,
+      "firstPage": 1,
+      "lastPage": 30,
+      "authorityTokens": [
+        "quartermaster supply catalog",
+        "army service forces"
+      ],
+      "authorityPages": 2,
+      "rights": "US-federal-text-only; no image permission"
+    },
+    {
+      "id": "fm2115-1977",
+      "title": "FM 21-15 — Care and Use of Individual Clothing and Equipment, 15 February 1977",
+      "institution": "Headquarters, Department of the Army",
+      "year": 1977,
+      "workID": "army-fm21-15-1977",
+      "structure": "uniform-table",
+      "firstPage": 103,
+      "lastPage": 105,
+      "url": "https://ciehub.info/ref/FM/21-15_1977.pdf",
+      "sha256": "5593fb03bdd7b6eca7bf3cb0c4043dcbb77e0619844c3ba8a7ee25aec47c47f5",
+      "bytes": 61737742,
+      "authorityTokens": [
+        "department of the army"
+      ],
+      "authorityPages": 2,
+      "rights": "US-federal-text-only; no image permission"
+    },
+    {
+      "id": "fm3170-1968",
+      "title": "FM 31-70 — Basic Cold Weather Manual, April 1968 / Change 1 December 1968",
+      "institution": "Headquarters, Department of the Army",
+      "year": 1968,
+      "workID": "army-fm31-70-1968",
+      "structure": "issue-list",
+      "firstPage": 5,
+      "lastPage": 5,
+      "url": "https://ciehub.info/ref/FM/31-70_1968_C1.pdf",
+      "sha256": "21a2839d72d5df9a7fa364b8676e57fcfd3ebb2ebd11732de885ec2f432e842e",
+      "bytes": 15565456,
+      "authorityTokens": [
+        "department of the army"
+      ],
+      "authorityPages": 2,
+      "rights": "US-federal-text-only; no image permission"
+    }
+  ]
+}

@@ -6,6 +6,8 @@ research_work="${RUNNER_TEMP:?}/fieldarchive-research"
 mode="${1:?research, validate, sign or verify}"
 case "$mode" in
 research)
+    swiftc -parse-as-library "$automation_root/tools/PDFText.swift" -o "$RUNNER_TEMP/fieldarchive-pdf-text"
+    export FIELDARCHIVE_PDF_TEXT="$RUNNER_TEMP/fieldarchive-pdf-text"
     swiftc -swift-version 6 "$automation_root"/tools/native/*.swift -o "$RUNNER_TEMP/fieldarchive-reader"
     python3 "$automation_root/weekly.py" --repo "$GITHUB_WORKSPACE" --work "$research_work" \
       --reader "$RUNNER_TEMP/fieldarchive-reader" --trust "$automation_root/config/Distribution.json" --live --prepare-only
@@ -14,7 +16,10 @@ from pathlib import Path
 import hashlib,json,shutil,sys
 work,out=map(Path,sys.argv[1:]);out.mkdir()
 result=json.loads((work/'result.json').read_text());shutil.copyfile(work/'result.json',out/'result.json')
-state=json.loads((work/'intake/state.json').read_text());(out/'checkpoint-input.json').write_text(json.dumps({'knownReferences':sorted(state.get('documents',{}))}))
+state=json.loads((work/'intake/state.json').read_text())
+documents=sorted(state.get('documents',{}).values(),key=lambda d:(not d.get('status','').startswith('pending'),d.get('firstSeen','')))
+photo_state=json.loads((work/'photos/state.json').read_text())
+(out/'checkpoint-input.json').write_text(json.dumps({'knownReferences':sorted(state.get('documents',{}))[:1000],'discoveryCursors':state.get('discoveryCursors',{}),'sourceTurn':state.get('sourceTurn',0),'sourceCooldowns':state.get('sourceCooldowns',{}),'primaryProgress':state.get('primaryProgress',{}),'photoProgress':photo_state.get('photoProgress',{}),'documentQueue':[{k:d[k] for k in ['id','status','firstSeen','lastSeen','sourceID','title','blockedUntil','fileDescriptor','indexedVersion'] if k in d} for d in documents[:500]]}))
 if result['status']=='valid-change':
  shutil.copyfile(work/'candidate.json',out/'candidate.json');shutil.copytree(work/'images',out/'images')
 files={str(p.relative_to(out)):hashlib.sha256(p.read_bytes()).hexdigest() for p in out.rglob('*') if p.is_file()}
@@ -39,7 +44,7 @@ result=json.loads((work/'result.json').read_text())
 if result['status'] not in ['unchanged','valid-change'] or result['signed']:raise SystemExit('Unexpected research result')
 if result['status']=='valid-change':
  body=json.loads((source/'candidate.json').read_text());raw=json.dumps(body,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()
- if len(raw)>512_000 or not 1<=len(body['models'])<=200:raise SystemExit('Candidate budget exceeded')
+ if len(raw)>4_000_000 or not 1<=len(body['models'])<=1000:raise SystemExit('Candidate budget exceeded')
  (work/'candidate.json').write_bytes(raw);shutil.copytree(source/'images',work/'images')
 PY
     swiftc -parse-as-library "$automation_root/tools/Publisher.swift" -o "$RUNNER_TEMP/fieldarchive-publisher"
