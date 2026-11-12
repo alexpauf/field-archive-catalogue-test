@@ -2,6 +2,9 @@
 """Approved GitHub-only publishing gate; invoked by the prepared scheduled workflow."""
 import argparse,base64,datetime,hashlib,json,os,re,shutil,subprocess
 from pathlib import Path
+import sys
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'engine'))
+import designation_gate as documentary_gate
 
 REPOSITORY='alexpauf/field-archive-catalogue-test'
 def git(repo,*args,env=None):return subprocess.run(['git','-C',str(repo),*map(str,args)],env=env,check=True,capture_output=True,text=True).stdout.strip()
@@ -16,7 +19,8 @@ def main():
  if result['status']=='valid-change':
   dist=work/'distribution';envelope=json.loads((dist/'manifest.json').read_text());m=json.loads(base64.b64decode(envelope['payload'],validate=True))
   old=json.loads(base64.b64decode(json.loads((repo/'catalogue/manifest.json').read_text())['payload'],validate=True))
-  if m['sequence']!=old['sequence']+1 or not re.fullmatch(r'releases/v[0-9]+-[a-f0-9]{20}/',m['contentPath']):raise ValueError('Sequence or content path changed')
+  if m['sequence']!=documentary_gate.next_sequence(repo) or not re.fullmatch(r'releases/v[0-9]+-[a-f0-9]{20}/',m['contentPath']):raise ValueError('Sequence or content path changed')
+  documentary_gate.verify_distribution(dist)
   # Native reader validation is a prerequisite; only its exact output is publishable.
   proof=json.loads((work/'candidate-validation/validation.json').read_text())
   if not proof['signedAndCompatible'] or proof['sequence']!=m['sequence'] or proof['manifestSHA256']!=hashlib.sha256((dist/'manifest.json').read_bytes()).hexdigest():raise ValueError('Native compatibility proof absent')
@@ -37,6 +41,24 @@ def main():
  known=sorted(set(prior.get('knownReferences',[]))|set(documents))
  checkpoint={'checkedAt':result['checkedAt'],'catalogueSequence':result['sequence'],'catalogueChanged':result['signed'],'knownReferences':known,'newReferencesSincePreviousCheckpoint':len(set(documents)-set(prior.get('knownReferences',[]))),'photoResearchQueue':result['photoResearchQueue'],'photoResearch':result['photoMetrics'],'documentaryMetrics':{k:v for k,v in result['sourceMetrics'].items() if k not in ['catalogue','heapNote']},'runID':os.environ.get('GITHUB_RUN_ID')}
  checkpoint['documentaryErrors']=result.get('sourceErrors',[])
+ if 'fullReferenceResearch' in result:checkpoint['fullReferenceResearch']=result['fullReferenceResearch']
+ if 'historicalResearch' in result:checkpoint['historicalResearch']={k:v for k,v in result['historicalResearch'].items() if k!='primaryProgress'}
+ checkpoint['documentationLevels']=result.get('levels',{})
+ checkpoint['designationQuarantineCount']=result.get('designationQuarantineCount',0)
+ quarantine_file=work/'designation-quarantine.json'
+ current_pending=json.loads(quarantine_file.read_text()) if quarantine_file.exists() else []
+ pending={}
+ for item in prior.get('designationQuarantine',[])+current_pending:
+  row={k:item[k] for k in ['id','modelID','name','designation','reason','sourceURL','sourceURLs','documentSHA256','page','recordSHA256','evidenceSHA256'] if k in item}
+  identity=hashlib.sha256(json.dumps(row,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
+  pending.setdefault(identity,row)
+ checkpoint['designationQuarantine']=list(pending.values())[:250]
+ checkpoint['designationQuarantineOverflowCount']=max(0,len(pending)-250)
+
+ if intake.exists():
+  queue=json.loads(intake.read_text())
+  for key in ['discoveryCursors','documentQueue','sourceTurn','sourceCooldowns','primaryProgress','photoProgress']:checkpoint[key]=queue.get(key,[] if key=='documentQueue' else 0 if key=='sourceTurn' else {})
+ if len(json.dumps(checkpoint).encode())>512_000:raise ValueError('Research checkpoint too large')
  dest.write_text(json.dumps(checkpoint,indent=2)+'\n');targets.append(state)
  git(repo,'add','--',*targets)
  if set(git(repo,'diff','--cached','--name-only').splitlines())-set(targets):raise ValueError('Unexpected staged paths')
