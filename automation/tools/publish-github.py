@@ -37,13 +37,6 @@ def main():
  known=sorted(set(prior.get('knownReferences',[]))|set(documents))
  checkpoint={'checkedAt':result['checkedAt'],'catalogueSequence':result['sequence'],'catalogueChanged':result['signed'],'knownReferences':known,'newReferencesSincePreviousCheckpoint':len(set(documents)-set(prior.get('knownReferences',[]))),'photoResearchQueue':result['photoResearchQueue'],'photoResearch':result['photoMetrics'],'documentaryMetrics':{k:v for k,v in result['sourceMetrics'].items() if k not in ['catalogue','heapNote']},'runID':os.environ.get('GITHUB_RUN_ID')}
  checkpoint['documentaryErrors']=result.get('sourceErrors',[])
- if 'fullReferenceResearch' in result:checkpoint['fullReferenceResearch']=result['fullReferenceResearch']
- if 'historicalResearch' in result:checkpoint['historicalResearch']={k:v for k,v in result['historicalResearch'].items() if k!='primaryProgress'}
- checkpoint['documentationLevels']=result.get('levels',{})
- if intake.exists():
-  queue=json.loads(intake.read_text())
-  for key in ['discoveryCursors','documentQueue','sourceTurn','sourceCooldowns','primaryProgress','photoProgress']:checkpoint[key]=queue.get(key,[] if key=='documentQueue' else 0 if key=='sourceTurn' else {})
- if len(json.dumps(checkpoint).encode())>512_000:raise ValueError('Research checkpoint too large')
  dest.write_text(json.dumps(checkpoint,indent=2)+'\n');targets.append(state)
  git(repo,'add','--',*targets)
  if set(git(repo,'diff','--cached','--name-only').splitlines())-set(targets):raise ValueError('Unexpected staged paths')

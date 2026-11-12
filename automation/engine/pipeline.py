@@ -64,9 +64,6 @@ def load_corpus(folder):
         doc = json.loads(path.read_text())
         if doc.get('ingestAllowed') is False:
             continue
-        if doc.get('adapter')=='federal-pdf-v1':
-            from federal_pdf import validate_capture
-            validate_capture(doc, folder)
         if doc.get('adapter')=='military-ocr-v1':
             raw_path=doc.get('rawRelativePath','')
             if not re.fullmatch(r'http/[a-f0-9]{64}',raw_path):
@@ -152,8 +149,6 @@ def discover(docs):
     extra, other_excluded = discover_ocr(docs, model_id, window)
     mentions.extend(extra)
     excluded.extend(other_excluded)
-    from federal_pdf import corroborate
-    mentions.extend(corroborate(docs, mentions, window))
     return mentions, excluded
 
 
@@ -475,8 +470,6 @@ def run(corpus, out, quality=False, support_corpora=()):
     if quality:
         from documentary_quality import improve
         mentions, claims, issues=improve(docs,mentions,claims,issues)
-    from federal_pdf import identity_claims
-    claims.extend(identity_claims(docs, mentions, proof, digest, encode))
     for c in claims:
         validate_claim(c,docs)
         if quality:

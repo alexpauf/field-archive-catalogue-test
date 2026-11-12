@@ -68,7 +68,7 @@ struct Publisher {
             try fm.createDirectory(at: dest.deletingLastPathComponent(), withIntermediateDirectories: true)
             try data.write(to: dest, options: .withoutOverwriting)
         }
-        let manifest: [String: Any] = ["schemaVersion": 2, "minimumReaderVersion": body["minimumReaderVersion"] as? Int ?? 3, "catalogueVersion": version,
+        let manifest: [String: Any] = ["schemaVersion": 2, "minimumReaderVersion": 2, "catalogueVersion": version,
                                       "sequence": sequence, "contentPath": contentPath, "publishedAt": Date().timeIntervalSinceReferenceDate,
                                       "modelIDs": models.map { $0["id"] as! String }.sorted(), "files": files]
         let payload = try json(manifest)

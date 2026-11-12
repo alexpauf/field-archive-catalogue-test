@@ -43,32 +43,6 @@ struct CatalogueSnapshot: Sendable {
     }
 }
 
-struct CatalogueSearchIndex: Sendable {
-    let models: [DocumentaryModel]
-    private let text: [String]
-    init(models: [DocumentaryModel]) {
-        self.models = models
-        text = models.map { model in
-            Self.fold(([model.name, model.shortName, model.period, model.intro, model.family.title, model.documentationLevel.title]
-                + (model.indexMetadata?.aliases ?? []) + model.sections.flatMap { $0.facts.map(\.value) }).joined(separator: " "))
-        }
-    }
-    private static func fold(_ value: String) -> String {
-        value.folding(options: [.caseInsensitive, .diacriticInsensitive], locale: Locale(identifier: "fr_FR"))
-    }
-    func matching(_ query: String, family: HistoricalFamily? = nil, decade: Int? = nil, level: DocumentaryLevel? = nil) -> [DocumentaryModel] {
-        let words = Self.fold(query).split(whereSeparator: \.isWhitespace).map(String.init)
-        return models.indices.compactMap { i in
-            let model = models[i]
-            guard family == nil || model.family == family,
-                  level == nil || model.documentationLevel == level,
-                  decade == nil || model.attestedYears.contains(where: { $0 >= decade! && $0 < decade! + 10 }),
-                  words.allSatisfy({ text[i].contains($0) }) else { return nil }
-            return model
-        }
-    }
-}
-
 enum CatalogueError: LocalizedError {
     case invalid(String)
     var errorDescription: String? {
@@ -124,11 +98,11 @@ enum CatalogueRules {
         let publicKey = try Curve25519.Signing.PublicKey(rawRepresentation: key)
         try require(envelope.keyID == keyID && publicKey.isValidSignature(envelope.signature, for: envelope.payload), "signature absente ou invalide")
         let m = try JSONDecoder().decode(CatalogueManifest.self, from: envelope.payload)
-        try require(m.schemaVersion == 2 && (1...3).contains(m.minimumReaderVersion), "format incompatible")
+        try require(m.schemaVersion == 2 && (1...2).contains(m.minimumReaderVersion), "format incompatible")
         try require(m.sequence > 0 && m.sequence < Int.max && identifier(m.catalogueVersion), "version invalide")
         try require(m.contentPath.range(of: "^releases/[a-z0-9][a-z0-9-]{1,100}/$", options: .regularExpression) != nil, "répertoire de version invalide")
         try require(m.publishedAt.timeIntervalSince1970.isFinite && m.publishedAt <= Date().addingTimeInterval(86400), "date invalide")
-        try require(!m.files.isEmpty && m.files.count <= 2048 && !m.modelIDs.isEmpty && m.modelIDs.count <= 1000, "lot vide ou trop volumineux")
+        try require(!m.files.isEmpty && m.files.count <= 256 && !m.modelIDs.isEmpty && m.modelIDs.count <= 200, "lot vide ou trop volumineux")
         try require(Set(m.files.map(\.path)).count == m.files.count && Set(m.modelIDs).count == m.modelIDs.count && m.modelIDs.allSatisfy(identifier), "identifiants en double")
         var total = 0
         for file in m.files {
@@ -155,39 +129,7 @@ enum CatalogueRules {
         for source in n.sources {
             try require(!source.id.isEmpty && !source.title.isEmpty && !source.institution.isEmpty && !source.locator.isEmpty && !source.summary.isEmpty && documentURL(source.url), "référence documentaire incomplète")
         }
-        let minimumSources = n.documentationLevel == .identifiable ? 2 : 1
-        try require(Set(publication.identitySources).count >= minimumSources && Set(publication.identitySources).isSubset(of: refs), "identité insuffisamment établie")
-        if n.documentationLevel != .identifiable {
-            try require(!publication.identifierEligible && n.criteria.isEmpty, "référence non admissible dans Identifier")
-        } else {
-            try require(publication.identifierEligible && !n.criteria.isEmpty, "admission Identifier absente")
-        }
-        if n.documentationLevel == .reference { try require(n.indexMetadata != nil, "attestation de référence absente") }
-        if let index = n.indexMetadata {
-            try require(index.synthetic != true, "données synthétiques interdites")
-            try require(!index.years.isEmpty && index.years.allSatisfy { (1940...1999).contains($0) }
-                        && Set(index.years).count == index.years.count && !index.aliases.isEmpty
-                        && !index.branch.isEmpty && !index.variantGroup.isEmpty, "index historique incohérent")
-            try require(!index.attestations.isEmpty && index.attestations.count <= 100, "attestations absentes ou excessives")
-            for proof in index.attestations {
-                let targetYear = proof.historicalYear ?? proof.documentYear
-                let latestYear = Calendar(identifier: .gregorian).component(.year, from: Date()) + 1
-                try require(refs.contains(proof.sourceID) && (1940...1999).contains(targetYear)
-                            && (1800...latestYear).contains(proof.documentYear) && index.years.contains(targetYear)
-                            && proof.page > 0 && proof.page <= 10000 && !proof.designation.isEmpty && !proof.workID.isEmpty
-                            && index.aliases.contains(proof.designation)
-                            && n.sources.contains(where: { $0.id == proof.sourceID && $0.url == proof.sourceURL }), "provenance d’attestation incohérente")
-                try require(proof.documentSHA256.range(of: "^[a-f0-9]{64}$", options: .regularExpression) != nil
-                            && !proof.quote.isEmpty && proof.quote.utf8.count <= 2048
-                            && hash(Data(proof.quote.utf8)) == proof.quoteSHA256, "preuve d’attestation invalide")
-                let quotation = proof.quote.decomposedStringWithCompatibilityMapping
-                    .replacingOccurrences(of: "’", with: "'").replacingOccurrences(of: "‐", with: "-").replacingOccurrences(of: "–", with: "-")
-                    .replacingOccurrences(of: "(?<=[A-Za-z])-\\s*\\n\\s*(?=[a-z])", with: "", options: .regularExpression)
-                    .replacingOccurrences(of: "\\s+", with: " ", options: .regularExpression).replacingOccurrences(of: "*", with: "")
-                try require(quotation.localizedCaseInsensitiveContains(proof.designation), "désignation absente de l’attestation")
-                if let year = proof.historicalYear { try require(year <= proof.documentYear && proof.quote.contains(String(year)), "date historique absente de l’attestation") }
-            }
-        }
+        try require(Set(publication.identitySources).count >= 2 && Set(publication.identitySources).isSubset(of: refs), "identité insuffisamment établie")
         try require(!publication.summarySources.isEmpty && Set(publication.summarySources).isSubset(of: refs), "résumé non sourcé")
         try require(Set(publication.unknowns).count == publication.unknowns.count && publication.unknowns.allSatisfy { !$0.isEmpty }, "informations inconnues incohérentes")
         try require(Set(n.sections.map(\.title)).count == n.sections.count, "sections en double")
@@ -259,7 +201,6 @@ actor CatalogueCache {
     private let bundle: CatalogueSnapshot
     private var pointer: Pointer
     private var updating = false
-    private var pinnedVersions: [String:Int] = [:]
     private(set) var canRollback = false
 
     init(root: URL, key: Data, keyID: String, bundle: CatalogueSnapshot = .embedded) throws {
@@ -345,38 +286,6 @@ actor CatalogueCache {
         try JSONEncoder().encode(value).write(to: root.appending(path: "active.json"), options: .atomic)
         pointer = value; canRollback = value.previous != nil
     }
-    func pin(_ url: URL) throws {
-        let id=url.lastPathComponent
-        let expected=try directory(id)
-        try CatalogueRules.require(url.isFileURL && expected.standardizedFileURL.path == url.standardizedFileURL.path, "version à conserver invalide")
-        pinnedVersions[id, default:0] += 1
-    }
-    func unpin(_ url: URL) {
-        let id=url.lastPathComponent
-        if let count=pinnedVersions[id],count>1 { pinnedVersions[id]=count-1 }
-        else { pinnedVersions.removeValue(forKey:id) }
-        if !updating { try? pruneCatalogue(removeStaging:false) }
-    }
-    private func pruneCatalogue(removeStaging: Bool) throws {
-        // Only this catalogue cache is bounded. Public release history remains immutable on GitHub.
-        let fm=FileManager.default
-        let versions=root.appending(path:"versions",directoryHint:.isDirectory)
-        try CatalogueRules.require((try? versions.resourceValues(forKeys:[.isSymbolicLinkKey]).isSymbolicLink) != true,"versions symboliques")
-        let keep=Set([pointer.current,pointer.previous].compactMap{$0}).union(pinnedVersions.keys)
-        for url in (try? fm.contentsOfDirectory(at:versions,includingPropertiesForKeys:[.isDirectoryKey,.isSymbolicLinkKey])) ?? [] {
-            guard !keep.contains(url.lastPathComponent),let expected=try? directory(url.lastPathComponent),expected.standardizedFileURL.path==url.standardizedFileURL.path,
-                  (try? url.resourceValues(forKeys:[.isDirectoryKey]).isDirectory)==true else { continue }
-            try fm.removeItem(at:url)
-        }
-        if removeStaging {
-            let staging=root.appending(path:"staging",directoryHint:.isDirectory)
-            try CatalogueRules.require((try? staging.resourceValues(forKeys:[.isSymbolicLinkKey]).isSymbolicLink) != true,"zone temporaire symbolique")
-            for url in (try? fm.contentsOfDirectory(at:staging,includingPropertiesForKeys:[.isDirectoryKey,.isSymbolicLinkKey])) ?? [] {
-                guard UUID(uuidString:url.lastPathComponent) != nil,(try? url.resourceValues(forKeys:[.isSymbolicLinkKey]).isSymbolicLink) != true else { continue }
-                try fm.removeItem(at:url)
-            }
-        }
-    }
     func update(from base: URL, transport: any CatalogueTransport = CatalogueHTTPS()) async throws -> CatalogueSnapshot {
         try CatalogueRules.require(!updating, "vérification déjà en cours")
         updating = true; defer { updating = false }
@@ -391,7 +300,6 @@ actor CatalogueCache {
             throw CatalogueError.invalid("version déjà utilisée avec un autre contenu")
         }
         let fm = FileManager.default
-        try pruneCatalogue(removeStaging:true)
         let total = (fm.enumerator(at: root, includingPropertiesForKeys: [.fileSizeKey])?.allObjects as? [URL] ?? []).reduce(0) { $0 + ((try? $1.resourceValues(forKeys: [.fileSizeKey]).fileSize) ?? 0) }
         try CatalogueRules.require(total + m.files.reduce(0) { $0 + $1.bytes } < CatalogueRules.maximumCache, "espace réservé au catalogue atteint")
         let staging = root.appending(path: "staging", directoryHint: .isDirectory)
@@ -422,7 +330,6 @@ actor CatalogueCache {
         let result = try package(at: destination)
         let date = Date()
         try commit(Pointer(current: id, previous: pointer.current, highestSequence: m.sequence, activatedAt: date))
-        try? pruneCatalogue(removeStaging:false)
         return CatalogueSnapshot(version: result.version, sequence: result.sequence, date: date, models: result.models)
     }
     func rollback() throws -> CatalogueSnapshot {

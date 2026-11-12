@@ -6,7 +6,6 @@ ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT/'engine'))
 from admission import admit_partial
 from pipeline import run as documentary_run
-from historical_index import merge_index, extract_network_capture
 
 
 def digest(data): return hashlib.sha256(data).hexdigest()
@@ -39,40 +38,6 @@ def fact_identity(fact):
     return encoded(stable)
 
 
-def seed_research_state(repo, intake):
-    checkpoint=repo/'automation/state/checkpoint.json'
-    if (intake/'state.json').exists() or not checkpoint.exists(): return
-    if checkpoint.stat().st_size>512_000: raise ValueError('Research checkpoint budget exceeded')
-    prior=json.loads(checkpoint.read_text());documents={}
-    for item in prior.get('documentQueue',[])[:500]:
-        key=item.get('id','')
-        if not re.fullmatch(r'ia:[A-Za-z0-9_.-]+',key):raise ValueError('Unsafe research document identity')
-        if 'sourceID' in item and not re.fullmatch(r'[a-z0-9-]+',item['sourceID']):raise ValueError('Unsafe research source identity')
-        if 'title' in item and (not isinstance(item['title'],str) or len(item['title'])>240):raise ValueError('Research title budget exceeded')
-        documents[key]={k:item[k] for k in ['id','status','firstSeen','lastSeen','sourceID','title','blockedUntil','fileDescriptor','indexedVersion'] if k in item}
-    for key in prior.get('knownReferences',[])[:1000]:
-        if not re.fullmatch(r'ia:[A-Za-z0-9_.-]+',key):raise ValueError('Unsafe research reference')
-        documents.setdefault(key,{'id':key,'status':'seen-before'})
-    cursors=prior.get('discoveryCursors',{})
-    if any(not re.fullmatch(r'[a-z0-9-]+',key) or not re.fullmatch(r'[a-f0-9]{64}',value.get('fingerprint','')) or not isinstance(value.get('nextPage'),int) or not 1<=value['nextPage']<=10000 for key,value in cursors.items()):raise ValueError('Invalid discovery cursor')
-    primary=prior.get('primaryProgress',{})
-    for key,value in primary.items():
-        if not re.fullmatch(r'[a-z0-9-]+',key) or not re.fullmatch(r'[a-f0-9]{64}',value.get('sha256','')) or not isinstance(value.get('nextPage'),int) or not 1<=value['nextPage']<=10001:raise ValueError('Invalid primary-source cursor')
-    save(intake/'state.json',{'schemaVersion':1,'http':{},'documents':documents,'discoveryCursors':cursors,'primaryProgress':primary,'sourceCooldowns':prior.get('sourceCooldowns',{}),'sourceTurn':int(prior.get('sourceTurn',0))%1000})
-
-def seed_photo_state(repo,photos):
-    checkpoint=repo/'automation/state/checkpoint.json'
-    if (photos/'state.json').exists() or not checkpoint.exists():return
-    prior=json.loads(checkpoint.read_text());photo=prior.get('photoProgress',{})
-    frontier=photo.get('categoryFrontier',[])[:100]
-    if any(not isinstance(url,str) or not re.fullmatch(r'https://commons\.wikimedia\.org/wiki/Category:[^\s]+',url) for url in frontier):raise ValueError('Unsafe photo category state')
-    index=photo.get('index',[])[:600]
-    if len(encoded(index))>200_000:raise ValueError('Photo discovery index budget exceeded')
-    for row in index:
-        if not re.fullmatch(r'https://commons\.wikimedia\.org/wiki/File:[^\s]+',row.get('url','')) or not re.fullmatch(r'[a-f0-9]{64}',row.get('indexSHA256','')):raise ValueError('Unsafe photo index entry')
-    save(photos/'state.json',{'schemaVersion':1,'http':{},'documents':{},'photoProgress':{'categoryFrontier':frontier,'categoryOffset':int(photo.get('categoryOffset',0))%10000,'modelOffset':int(photo.get('modelOffset',0))%10000,'index':index}})
-
-
 def merge(models, drafts, evidence):
     result=copy.deepcopy(models);by_id={x['id']:x for x in result};decisions=[]
     gates={x['id']:x for x in evidence['decisions']}
@@ -84,11 +49,11 @@ def merge(models, drafts, evidence):
             decisions.append({'id':draft['id'],'decision':'pending','reasons':reasons});continue
         key={'og107-utility':'og107-utility-top'}.get(draft['id'],draft['id'])
         if key not in by_id:
-            # Every newly discovered model starts in Explorer only. No automatic promotion.
-            if partial is None:
-                decisions.append({'id':key,'decision':'pending','reasons':reasons});continue
-            admitted=copy.deepcopy(partial)
+            admitted=copy.deepcopy(draft if strict else partial)
             admitted['id']=key
+            if strict:
+                refs=[x['id'] for x in admitted['sources']]
+                admitted['publication']={'identifierEligible':bool(admitted['criteria']),'identitySources':refs,'summarySources':refs,'unknowns':[]}
             result.append(admitted);by_id[key]=admitted
             decisions.append({'id':key,'decision':'new-verified-model','identifierEligible':bool(admitted['criteria'])});continue
         current=by_id[key]; old_criteria=copy.deepcopy(current['criteria']);old_publication=copy.deepcopy(current.get('publication'))
@@ -120,21 +85,19 @@ def admit_photos(models,intake,root,images):
         if row.get('modelID') not in by_id: reason='unknown-model'
         elif not row.get('license',{}).get('allowed') or not row.get('identity',{}).get('allowed'):reason='rights-or-identity-not-established'
         elif not row.get('downloaded'):reason='original-not-verified'
-        elif row.get('view') not in ['front','back','label','construction','general-unconfirmed']:reason='unsupported-photo-view'
+        elif row.get('view')!='front':reason='front-view-not-explicit-in-metadata'
         elif by_id[row['modelID']]['illustration'].get('filename'):reason='existing-main-photo-preserved'
-        elif any(k not in row for k in ['localPath','sha256','sourceSHA1','sourceBytes','metadataSHA256','author','sourceURL','originalURL']):reason='incomplete-photo-provenance'
         if reason:decisions.append({'id':row.get('id'),'decision':'pending','reason':reason});continue
         relative=row['localPath']
         if not re.fullmatch(r'images/commons-[0-9]+\.jpg',relative):raise ValueError('Unsafe photograph path')
         data=(root/relative).read_bytes()
         if digest(data)!=row['sha256'] or hashlib.sha1(data).hexdigest()!=row['sourceSHA1'] or len(data)!=row['sourceBytes']:raise ValueError('Photograph integrity failure')
-        licence=row['license'];allowed={'CC BY 3.0','CC BY 4.0','CC BY-SA 4.0','CC BY-SA 3.0','CC0 1.0'}
+        licence=row['license'];allowed={'CC BY 4.0','CC BY-SA 4.0','CC BY-SA 3.0','CC0 1.0'}
         if licence.get('license') not in allowed or not row.get('author') or not row.get('metadataSHA256'):raise ValueError('Incomplete photograph provenance')
-        model=by_id[row['modelID']];name='catalogue-'+digest(model['id'].encode())[:16]+'-'+row['id']+'.jpg';images[name]=data
+        model=by_id[row['modelID']];name=model['id']+'-'+row['id']+'.jpg';images[name]=data
         sid='photo-'+row['id'];model['sources'].append({'id':sid,'title':row['title'],'institution':row['author']+' / Wikimedia Commons','url':row['sourceURL'],'locator':'Source metadata SHA-256 '+row['metadataSHA256'],'summary':'Attribution explicite par la source ; variante non établie. Aucun critère Identifier déduit de la photographie.'})
-        view={'front':'vue de face selon la source','back':'vue de dos selon la source','label':'étiquette selon la source','construction':'détail selon la source','general-unconfirmed':'vue non précisée'}[row['view']]
-        model['illustration']={'filename':'images/'+name,'title':model['name']+' · '+view,'credit':(row.get('attribution') or row['author'])+' / Wikimedia Commons · original non modifié','license':licence['license'],'licenseURL':licence['licenseURL'],'url':row['sourceURL'],'provenance':{'requiredAttribution':row.get('attribution',row['author']),'institution':licence.get('credit','Wikimedia Commons'),'license':licence,'author':row['author'],'sourceURL':row['sourceURL'],'originalURL':row['originalURL'],'sha256':row['sha256'],'sourceSHA1':row['sourceSHA1'],'metadataSHA256':row['metadataSHA256'],'variant':'Non établie','view':row['view'],'collectionPhoto':False}}
-        decisions.append({'id':row['id'],'decision':'verified-documentary-photo','modelID':model['id']})
+        model['illustration']={'filename':'images/'+name,'title':model['name']+' · vue de face selon la source','credit':(row.get('attribution') or row['author'])+' / Wikimedia Commons · original non modifié','license':licence['license'],'licenseURL':licence['licenseURL'],'url':row['sourceURL'],'provenance':{'requiredAttribution':row.get('attribution',row['author']),'institution':licence.get('credit','Wikimedia Commons'),'license':licence,'author':row['author'],'sourceURL':row['sourceURL'],'originalURL':row['originalURL'],'sha256':row['sha256'],'sourceSHA1':row['sourceSHA1'],'metadataSHA256':row['metadataSHA256'],'variant':'Non établie','view':'front','collectionPhoto':False}}
+        decisions.append({'id':row['id'],'decision':'verified-front-photo','modelID':model['id']})
     return decisions
 
 
@@ -178,51 +141,18 @@ def main():
         intake=a.intake.resolve() if a.intake else work/'intake'
         photos=a.photo_intake.resolve() if a.photo_intake else work/'photos'
         if a.live:
-            seed_research_state(repo,intake)
             command(['node',ROOT/'engine/network_collector.mjs','--config',ROOT/'config/sources.json','--state',intake])
-        if a.live:
-            command(['node',ROOT/'tools/collect-reference-pdfs.mjs',ROOT/'config/sources.json',intake,os.environ['FIELDARCHIVE_PDF_TEXT']])
-            command(['node',ROOT/'tools/collect-historical.mjs',ROOT/'config/historical-sources.json',intake,os.environ['FIELDARCHIVE_PDF_TEXT']])
         live_report=json.loads((intake/'last-run.json').read_text())
-        if live_report['metrics']['mode']!='live-network':raise ValueError('No verified research intake')
+        if live_report['metrics']['mode']!='live-network' or live_report['metrics']['activeDocumentCaptures']<1:raise ValueError('No verified live documentary intake; no release')
         doc=work/'documentary';documentary_run(intake/'corpus',doc,quality=True,support_corpora=[ROOT/'engine/corpus'])
         evidence=json.loads((doc/'documentary-catalogue.json').read_text());drafts=json.loads((doc/'explorer-drafts.json').read_text())['models']
         models,decisions=merge(baseline,drafts,evidence)
-        historical=intake/'historical-attestations.json'
-        attestations=json.loads(historical.read_text()) if historical.exists() else []
-        bootstrap=ROOT/'config/bootstrap-attestations.json'
-        if bootstrap.exists():
-            if bootstrap.stat().st_size>1_000_000:raise ValueError('Historical bootstrap exceeds budget')
-            seed=json.loads(bootstrap.read_text())
-            if seed.get('synthetic') or seed.get('schemaVersion')!=1:raise ValueError('Invalid historical bootstrap')
-            attestations.extend(seed['attestations'])
-            known={m['id'] for m in models}
-            for model in seed.get('documentedModels',[]):
-                if model['id'] in known:continue
-                if model.get('criteria') or model['publication']['identifierEligible'] or model['publication'].get('documentationLevel') not in ['reference','documented']:raise ValueError('Bootstrap cannot grant Identifier admission')
-                models.append(copy.deepcopy(model));known.add(model['id'])
-        for capture in sorted((intake/'corpus').glob('*.json')):
-            attestations.extend(extract_network_capture(json.loads(capture.read_text())))
-        models,index_decisions=merge_index(models,attestations)
-        state_file=intake/'state.json'
-        if state_file.exists():
-            state=json.loads(state_file.read_text())
-            for item in state.get('documents',{}).values():
-                if item.get('corpusSHA256'):item['indexedVersion']='historical-index-v1'
-            save(state_file,state)
         if a.live:
-            seed_photo_state(repo,photos)
             save(work/'photo-models.json',{'models':models})
             command(['node',ROOT/'tools/collect-photos.mjs',work/'photo-models.json',photos])
         photo_report=json.loads((photos/'photo-intake.json').read_text())
         photo_decisions=admit_photos(models,photo_report,photos,images)
         result={'checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'baselineSequence':m['sequence'],'noticeDecisions':decisions,'photoDecisions':photo_decisions,'sourceMetrics':live_report['metrics'],'photoMetrics':photo_report['metrics'],'networkIntakePerformedThisRun':a.live,'additionalPaidServiceCostEUR':0,'productionPublicationPerformed':False}
-        result['historicalDecisions']=index_decisions
-        result['levels']={level:sum(m['publication'].get('documentationLevel')==level for m in models) for level in ['reference','documented','identifiable']}
-        historical_report=intake/'historical-report.json'
-        if historical_report.exists():result['historicalResearch']=json.loads(historical_report.read_text())
-        reference_report=intake/'full-reference-report.json'
-        if reference_report.exists():result['fullReferenceResearch']=json.loads(reference_report.read_text())
         result['sourceErrors']=[{k:e.get(k) for k in ['where','error','status','at']} for e in live_report.get('events',[]) if e.get('kind')=='error'][:30]
         result['photoResearchQueue']=[{'modelID':model['id'],'missingViews':([] if model['illustration'].get('filename') else ['front'])+['back','label','construction']} for model in models]
         if encoded(sorted(models,key=lambda x:x['id']))==encoded(sorted(baseline,key=lambda x:x['id'])):

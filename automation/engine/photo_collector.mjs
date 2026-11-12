@@ -21,10 +21,7 @@ export function targetsForModels(models){
   return models.map(model=>{
     const known=targets.find(t=>t.id===model.id);if(known)return known;
     const name=clean(model.name);const tokens=name.match(/[A-Za-z0-9]+/g)||[];
-    const aliases=[name,...(model.indexMetadata?.aliases||[])];
-    const identity=aliases.map(a=>(a.match(/[A-Za-z0-9]+/g)||[]).map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('[\\s,._-]+')).filter(a=>a.length>5).join('|');
-    const garments={fieldJacket:'jacket|coat|vest|veste',utilityTop:'shirt|sweater|jumper|pullover|chemise',outerwear:'jacket|coat|parka|poncho|cape',trousers:'trousers|pants|slacks|breeches|shorts',headwear:'cap|hat|hood|balaclava',handwear:'glove|mitten',coveralls:'coverall|overall|suit',liners:'liner',underwear:'underwear|drawers|undershirt|sock|stocking|pajama',workwear:'apron|frock|smock',servicewear:'jacket|coat|dress|skirt|waist|vest|blouse',accessories:'belt|suspender|scarf|muffler|necktie'};
-    return {id:model.id,query:name,identity,garment:garments[model.family]||'garment',allowWomen:/woman|women|wac|nurse/i.test(aliases.join(' '))};
+    return {id:model.id,query:name,identity:tokens.map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('[\\s,._-]+'),garment:'jacket|coat|shirt|veste|chemise'};
   }).filter(t=>t.identity.length>3);
 }
 export const views=[['general',''],['back','(back OR rear OR dos)'],['label','(label OR tag OR marking OR etiquette)'],['construction','(detail OR pocket OR cuff OR construction)']];
@@ -34,7 +31,6 @@ export function licenseGate(meta){
     ['https://creativecommons.org/licenses/by-sa/4.0','CC BY-SA 4.0'],
     ['https://creativecommons.org/licenses/by-sa/3.0','CC BY-SA 3.0'],
     ['https://creativecommons.org/licenses/by/4.0','CC BY 4.0'],
-    ['https://creativecommons.org/licenses/by/3.0','CC BY 3.0'],
     ['https://creativecommons.org/publicdomain/zero/1.0','CC0 1.0']
   ]);
   if(!accepted.has(url))return {allowed:false,reason:'No explicitly supported redistribution license on this image'};
@@ -44,9 +40,7 @@ export function licenseGate(meta){
 }
 export function identityGate(target,page,meta){
   const description=clean(meta.ImageDescription?.value),text=normalized(page.title+' '+description);
-  if(/replica|reproduction|repro\b|prototype|experimental|airsoft|civilian|fashion|commercial|norwegian|norway|soviet|icelandic|german/.test(text)
-     ||(!target.allowWomen&&/women|female/.test(text)))return {allowed:false,reason:'Different model, nation, reproduction or separate garment'};
-  if(targets.some(t=>t.id===target.id)&&/parka|trousers|pants|rip.?stop|poplin|jungle/.test(text))return {allowed:false,reason:'Separate garment or unsupported variant of established model'};
+  if(/replica|reproduction|repro\b|prototype|experimental|airsoft|civilian|fashion|commercial|norwegian|norway|soviet|icelandic|german|parka|trousers|pants|rip.?stop|poplin|jungle|women|female/.test(text))return {allowed:false,reason:'Different model, nation, reproduction or separate garment'};
   if(!new RegExp(target.identity,'i').test(text)||!new RegExp(target.garment,'i').test(text))return {allowed:false,reason:'Exact garment designation missing from source metadata'};
   if(!/\bu[ .]?s[ .]?(?:a|army|military|\b)|united states|american|estatunidenc/.test(text))return {allowed:false,reason:'United States attribution not established'};
   return {allowed:true,designation:description,modelID:target.id,variant:'Non établie ; aucune généralisation des insignes ou détails du spécimen.',verificationLevel:'explicit-source-designation; individual-contract-not-verified',basis:'Description du fichier par son auteur ; aucune inférence d’identité depuis la ressemblance visuelle.'};
@@ -69,28 +63,19 @@ export function parseCommons(html,url){
     url:original,descriptionurl:url,size:Number(html.match(/"property":"P3575"[\s\S]{0,200}?"amount":"\+(\d+)"/)?.[1]),
     sha1:html.match(/"property":"P4092"[\s\S]{0,200}?"value":"([a-f0-9]{40})"/)?.[1],
     width:Number(html.match(/data-file-width="(\d+)"/)?.[1]),height:Number(html.match(/data-file-height="(\d+)"/)?.[1]),
-    extmetadata:{ImageDescription:{value:cell('fileinfotpl_desc')},Artist:{value:cell('fileinfotpl_aut')},Credit:{value:cell('fileinfotpl_src')},LicenseUrl:{value:span('licensetpl_link')},AttributionRequired:{value:span('licensetpl_attr_req')},Attribution:{value:cell('fileinfotpl_attribution')},Restrictions:{value:span('licensetpl_restrictions')},Permission:{value:cell('fileinfotpl_perm')}}
+    extmetadata:{ImageDescription:{value:cell('fileinfotpl_desc')},Artist:{value:cell('fileinfotpl_aut')},Credit:{value:cell('fileinfotpl_src')},LicenseUrl:{value:span('licensetpl_link')},AttributionRequired:{value:span('licensetpl_attr_req')}}
   }]};
 }
-export async function collectPhotos(root,{downloadLimit=6,existingModels=[],categoryBudget=8,modelsPerRun=24,transport=fetch}={}){
+export async function collectPhotos(root,{downloadLimit=6,existingModels=[]}={}){
   const config={userAgent:'FieldArchive/0.1',maxRequests:40,maxRunBytes:40_000_000,maxBytesPerResponse:12_000_000,timeoutMs:20000};
   const source={id:'commons-open-images',adapter:'commons-media',origin:'https://commons.wikimedia.org',delayMs:200};
-  const session=new Session(config,root,transport);await session.open();const rows=[],queries=[],seen=new Map();let downloaded=0;
+  const session=new Session(config,root);await session.open();const rows=[],queries=[],seen=new Map();let downloaded=0;
   try{
     // Public category inventories are crawlable; /w/api.php is not in robots.txt.
     // No API alternate host, authentication, proxy or denied-path retry is used.
-    const progress=session.state.photoProgress||{},index=progress.index||[],visitedCategories=new Set();
-    const frontier=progress.categoryFrontier?.length?progress.categoryFrontier:['https://commons.wikimedia.org/wiki/Category:OG-107_utility_uniform','https://commons.wikimedia.org/wiki/Category:Uniforms_of_the_United_States_Army','https://commons.wikimedia.org/wiki/Category:Green_jackets'];
-    let categoryOffset=(progress.categoryOffset||0)%frontier.length;
-    for(let step=0;step<categoryBudget&&visitedCategories.size<frontier.length;step++){
-      const url=frontier[categoryOffset%frontier.length];categoryOffset++;visitedCategories.add(url);
+    const index=[];
+    for(const url of ['https://commons.wikimedia.org/wiki/Category:OG-107_utility_uniform','https://commons.wikimedia.org/wiki/Category:Uniforms_of_the_United_States_Army','https://commons.wikimedia.org/wiki/Category:Green_jackets']){
       try{const response=await session.request(url,source,{ttl:86400,expected:'html'});const html=response.data.toString();
-        // Follow only child categories actually listed by the source, one bounded frontier.
-        const subcategories=html.split('id="mw-subcategories"')[1]?.split('id="mw-category-media"')[0]||'';
-        for(const item of subcategories.matchAll(/href="(\/wiki\/Category:[^"]+)"/g)){
-          const child=new URL(item[1].replace(/&amp;/g,'&'),source.origin).href;
-          if(/jacket|shirt|uniform|United_States|clothing|trousers|caps|gloves|parkas|coats/i.test(child)&&!frontier.includes(child)&&frontier.length<100)frontier.push(child);
-        }
         const gallery=html.slice(html.indexOf('id="mw-category-media"'));
         for(const match of gallery.matchAll(/href="(\/wiki\/File:[^"]+)"/g)){const candidateURL=new URL(match[1].replace(/&amp;/g,'&'),source.origin).href;
           if(!index.some(x=>x.url===candidateURL))index.push({url:candidateURL,title:decodeURIComponent(match[1].slice(6)).replaceAll('_',' '),discoveredVia:url,indexSHA256:response.sha256});}
@@ -98,10 +83,7 @@ export async function collectPhotos(root,{downloadLimit=6,existingModels=[],cate
     }
     const searchTargets=targetsForModels(existingModels);
     const illustrated=new Set(existingModels.filter(m=>m.illustration?.filename).map(m=>m.id));
-    const ordered=[...searchTargets].filter(t=>!illustrated.has(t.id)).sort((a,b)=>a.id.localeCompare(b.id));
-    const modelOffset=ordered.length?(progress.modelOffset||0)%ordered.length:0;
-    const selected=[...ordered.slice(modelOffset),...ordered.slice(0,modelOffset)].slice(0,modelsPerRun);
-    search: for(const target of selected){
+    search: for(const target of [...searchTargets].sort((a,b)=>Number(illustrated.has(a.id))-Number(illustrated.has(b.id)))){
       for(const [view,suffix] of views){
         const matches=index.filter(x=>new RegExp(target.identity,'i').test(x.title)&& (view==='general'||viewType(x.title)===view)).slice(0,8);
         const query={modelID:target.id,requestedView:view,method:'local-filter-of-allowed-category-inventories',results:matches.length};queries.push(query);
@@ -133,10 +115,7 @@ export async function collectPhotos(root,{downloadLimit=6,existingModels=[],cate
     for(const [modelID,url] of [['m1943-field-jacket','https://apicollections.parismusees.paris.fr/iiif/600000762/manifest'],['og107-utility-top','https://digital.library.unt.edu/ark:/67531/metadc2408800/manifest/']]){
       try{const response=await session.request(url,{id:'institutional-media',adapter:'museum-iiif',origin:new URL(url).origin,delayMs:200},{ttl:86400});const m=JSON.parse(response.data);const canvases=m.sequences?.flatMap(s=>s.canvases||[])||m.items||[];institutional.push({modelID,url,metadataSHA256:response.sha256,license:m.license||m.rights,rightsStatements:(m.metadata||[]).filter(x=>String(x.label).startsWith('rights')),canvases:canvases.map(c=>({label:c.label,images:c.images?.map(i=>i.resource?.['@id'])||[]})),status:'review-pending; no image license inferred from public access'});}catch(e){institutional.push({modelID,url,error:e.message});}
     }
-    const photoProgress={categoryFrontier:frontier,categoryOffset:categoryOffset%frontier.length,modelOffset:ordered.length?(modelOffset+selected.length)%ordered.length:0,index:index.slice(-600)};
-    while(Buffer.byteLength(JSON.stringify(photoProgress))>200_000&&photoProgress.index.length)photoProgress.index.shift();
-    session.state.photoProgress=photoProgress;await session.checkpoint();
-    const report={schemaVersion:1,checkedAt:new Date().toISOString(),queries,candidates:rows,institutional,metrics:{categoriesVisited:visitedCategories.size,categoryFrontier:frontier.length,models:searchTargets.length,modelsSearched:selected.length,viewSearches:queries.length,indexedFiles:index.length,candidates:rows.length,downloaded,licenseAccepted:rows.filter(x=>x.license.allowed).length,identityAccepted:rows.filter(x=>x.identity.allowed).length,...session.metrics},events:session.events,publicationPerformed:false};
+    const report={schemaVersion:1,checkedAt:new Date().toISOString(),queries,candidates:rows,institutional,metrics:{models:searchTargets.length,viewSearches:queries.length,indexedFiles:index.length,candidates:rows.length,downloaded,licenseAccepted:rows.filter(x=>x.license.allowed).length,identityAccepted:rows.filter(x=>x.identity.allowed).length,...session.metrics},events:session.events,publicationPerformed:false};
     await fs.writeFile(path.join(root,'photo-intake.json'),JSON.stringify(report,null,2)+'\n');return report;
   }finally{await session.close();}
 }
