@@ -1,0 +1,134 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "underwear",
+  "id" : "ref-socks-cushion-sole-wool-a225594c14",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://ciehub.info/ref/FM/21-15_1977.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "SOCKS, WOOL, CUSHION SOLE",
+      "Socks, wool, black, cushion sole"
+    ],
+    "attestations" : [
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.017783005929960405,
+            "w" : 0.23158711751302088,
+            "x" : 0.23099612221542407,
+            "y" : 0.46978510244245009
+          }
+        ],
+        "designation" : "SOCKS, WOOL, CUSHION SOLE",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 7,
+        "quote" : "SOCKS, WOOL, CUSHION SOLE\nStock No. 73-S-31760-73-S-31792-Gray",
+        "quoteSHA256" : "70445ae8c794d943d749c36e86cf2091f1a9b0120fd668e45f7a3334b462388e",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "designation" : "Socks, wool, black, cushion sole",
+        "documentSHA256" : "5593fb03bdd7b6eca7bf3cb0c4043dcbb77e0619844c3ba8a7ee25aec47c47f5",
+        "documentYear" : 1977,
+        "institution" : "Headquarters, Department of the Army",
+        "kind" : "uniform-table-heading",
+        "page" : 103,
+        "quote" : "Socks, wool, black,\ncushion sole",
+        "quoteSHA256" : "7356558a7412efbd158e1dadd5b6b34c8e69e5c7d3ddcdf73dce9835099873eb",
+        "sourceID" : "fm2115-1977",
+        "sourceTitle" : "FM 21-15 — Care and Use of Individual Clothing and Equipment, 15 February 1977",
+        "sourceURL" : "https://ciehub.info/ref/FM/21-15_1977.pdf",
+        "workID" : "army-fm21-15-1977"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "socks cushion sole wool",
+    "years" : [
+      1943,
+      1977
+    ]
+  },
+  "indexPeriod" : "Attestée en 1943, 1977",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "SOCKS, WOOL, CUSHION SOLE",
+  "period" : "Attesté en 1943, 1977",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "fm2115-1977",
+      "qm31-1943"
+    ],
+    "summarySources" : [
+      "fm2115-1977",
+      "qm31-1943"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1943"
+          ],
+          "value" : "SOCKS, WOOL, CUSHION SOLE"
+        },
+        {
+          "label" : "Désignation 2",
+          "sources" : [
+            "fm2115-1977"
+          ],
+          "value" : "Socks, wool, black, cushion sole"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "SOCKS, WOOL, CUSHION SOLE",
+  "sources" : [
+    {
+      "id" : "fm2115-1977",
+      "institution" : "Headquarters, Department of the Army",
+      "locator" : "PDF p. 103",
+      "summary" : "Désignation attestée dans le document de 1977. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "FM 21-15 — Care and Use of Individual Clothing and Equipment, 15 February 1977",
+      "url" : "https://ciehub.info/ref/FM/21-15_1977.pdf"
+    },
+    {
+      "id" : "qm31-1943",
+      "institution" : "War Department / Army Service Forces",
+      "locator" : "PDF p. 7",
+      "summary" : "Désignation attestée dans le document de 1943. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+    }
+  ]
+}

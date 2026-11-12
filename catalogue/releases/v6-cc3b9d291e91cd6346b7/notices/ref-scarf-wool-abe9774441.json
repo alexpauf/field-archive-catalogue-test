@@ -1,0 +1,95 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "accessories",
+  "id" : "ref-scarf-wool-abe9774441",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://ciehub.info/ref/TM/10-8400-201-23.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "Scarf, Wool"
+    ],
+    "attestations" : [
+      {
+        "designation" : "Scarf, Wool",
+        "documentSHA256" : "b2c2d87f5880391ca9c79404aef51739463bdd19219ec1f99d5774e37cbcf5b6",
+        "documentYear" : 1995,
+        "institution" : "Headquarters, Department of the Army",
+        "kind" : "inspection-heading",
+        "lin" : "S52982",
+        "page" : 34,
+        "quote" : "Scarf, Wool\nLIN S52982",
+        "quoteSHA256" : "49355a0b2af927c76c3f5b0c956f6d3fdb1e3b08dab9fb2c7d0f754ef9e383e5",
+        "sourceID" : "tm8400-201-1995",
+        "sourceTitle" : "TM 10-8400-201-23 — General Repair Procedures for Clothing, 7 May 1990 / changes through 4 August 1995",
+        "sourceURL" : "https://ciehub.info/ref/TM/10-8400-201-23.pdf",
+        "workID" : "army-tm8400-201-1995"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "scarf wool",
+    "years" : [
+      1995
+    ]
+  },
+  "indexPeriod" : "Attestée en 1995",
+  "intro" : "Référence historique attestée. Les identifiants logistiques reproduits proviennent des documents cités ; ils ne constituent pas un critère Identifier.",
+  "name" : "Scarf, Wool",
+  "period" : "Attesté en 1995",
+  "publication" : {
+    "documentationLevel" : "documented",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "tm8400-201-1995"
+    ],
+    "summarySources" : [
+      "tm8400-201-1995"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "tm8400-201-1995"
+          ],
+          "value" : "Scarf, Wool"
+        }
+      ],
+      "title" : "Désignations attestées"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Identifiant logistique 1",
+          "sources" : [
+            "tm8400-201-1995"
+          ],
+          "value" : "LIN S52982"
+        }
+      ],
+      "title" : "Informations documentées"
+    }
+  ],
+  "shortName" : "Scarf, Wool",
+  "sources" : [
+    {
+      "id" : "tm8400-201-1995",
+      "institution" : "Headquarters, Department of the Army",
+      "locator" : "PDF p. 34",
+      "summary" : "Désignation attestée dans le document de 1995. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "TM 10-8400-201-23 — General Repair Procedures for Clothing, 7 May 1990 / changes through 4 August 1995",
+      "url" : "https://ciehub.info/ref/TM/10-8400-201-23.pdf"
+    }
+  ]
+}

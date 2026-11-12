@@ -1,0 +1,95 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "headwear",
+  "id" : "ref-cap-coldweather-4bc9ee8156",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://ciehub.info/ref/TM/10-8400-201-23.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "Cap, Coldweather"
+    ],
+    "attestations" : [
+      {
+        "designation" : "Cap, Coldweather",
+        "documentSHA256" : "b2c2d87f5880391ca9c79404aef51739463bdd19219ec1f99d5774e37cbcf5b6",
+        "documentYear" : 1995,
+        "institution" : "Headquarters, Department of the Army",
+        "kind" : "inspection-heading",
+        "lin" : "D03476",
+        "page" : 23,
+        "quote" : "1. Cap, Coldweather; Chapter 8\nLIN D03476",
+        "quoteSHA256" : "dcb59720a72257d0f80f79f4b3e66fa1895052753b1082bbaa4167e990e9cf7b",
+        "sourceID" : "tm8400-201-1995",
+        "sourceTitle" : "TM 10-8400-201-23 — General Repair Procedures for Clothing, 7 May 1990 / changes through 4 August 1995",
+        "sourceURL" : "https://ciehub.info/ref/TM/10-8400-201-23.pdf",
+        "workID" : "army-tm8400-201-1995"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "cap coldweather",
+    "years" : [
+      1995
+    ]
+  },
+  "indexPeriod" : "Attestée en 1995",
+  "intro" : "Référence historique attestée. Les identifiants logistiques reproduits proviennent des documents cités ; ils ne constituent pas un critère Identifier.",
+  "name" : "Cap, Coldweather",
+  "period" : "Attesté en 1995",
+  "publication" : {
+    "documentationLevel" : "documented",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "tm8400-201-1995"
+    ],
+    "summarySources" : [
+      "tm8400-201-1995"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "tm8400-201-1995"
+          ],
+          "value" : "Cap, Coldweather"
+        }
+      ],
+      "title" : "Désignations attestées"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Identifiant logistique 1",
+          "sources" : [
+            "tm8400-201-1995"
+          ],
+          "value" : "LIN D03476"
+        }
+      ],
+      "title" : "Informations documentées"
+    }
+  ],
+  "shortName" : "Cap, Coldweather",
+  "sources" : [
+    {
+      "id" : "tm8400-201-1995",
+      "institution" : "Headquarters, Department of the Army",
+      "locator" : "PDF p. 23",
+      "summary" : "Désignation attestée dans le document de 1995. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "TM 10-8400-201-23 — General Repair Procedures for Clothing, 7 May 1990 / changes through 4 August 1995",
+      "url" : "https://ciehub.info/ref/TM/10-8400-201-23.pdf"
+    }
+  ]
+}

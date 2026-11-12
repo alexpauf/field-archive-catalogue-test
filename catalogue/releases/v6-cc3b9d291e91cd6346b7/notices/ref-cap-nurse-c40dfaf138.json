@@ -1,0 +1,124 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "headwear",
+  "id" : "ref-cap-nurse-c40dfaf138",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://ciehub.info/ref/FM/21-15_1977.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "CAP, NURSE'S, WHITE",
+      "Cap, nurse, white"
+    ],
+    "attestations" : [
+      {
+        "boxes" : [
+          {
+            "h" : 0.014534883499145557,
+            "w" : 0.17453798923104558,
+            "x" : 0.4394250504643461,
+            "y" : 0.20203488384126089
+          }
+        ],
+        "designation" : "CAP, NURSE'S, WHITE",
+        "documentSHA256" : "ddc983ef4b215b6f865280532ccf08d239e0ee8cf6480aa485c1419d9ddf108e",
+        "documentYear" : 1944,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 18,
+        "quote" : "CAP, NURSE'S, WHITE\nStock No.",
+        "quoteSHA256" : "cf63eef34f8b3d157ec66fb1704fbc40afbd46a925f3a1263d840075e9103c50",
+        "sourceID" : "qm32-1944",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf",
+        "workID" : "army-qm32-1944"
+      },
+      {
+        "designation" : "Cap, nurse, white",
+        "documentSHA256" : "5593fb03bdd7b6eca7bf3cb0c4043dcbb77e0619844c3ba8a7ee25aec47c47f5",
+        "documentYear" : 1977,
+        "institution" : "Headquarters, Department of the Army",
+        "kind" : "uniform-table-heading",
+        "page" : 104,
+        "quote" : "Cap, nurse, white",
+        "quoteSHA256" : "d186f40b748f0cf73a46804b4c5f8217fdf810c5871a08f8d35fa9640276d2b1",
+        "sourceID" : "fm2115-1977",
+        "sourceTitle" : "FM 21-15 — Care and Use of Individual Clothing and Equipment, 15 February 1977",
+        "sourceURL" : "https://ciehub.info/ref/FM/21-15_1977.pdf",
+        "workID" : "army-fm21-15-1977"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "cap nurse",
+    "years" : [
+      1944,
+      1977
+    ]
+  },
+  "indexPeriod" : "Attestée en 1944, 1977",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "CAP, NURSE'S, WHITE",
+  "period" : "Attesté en 1944, 1977",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "fm2115-1977",
+      "qm32-1944"
+    ],
+    "summarySources" : [
+      "fm2115-1977",
+      "qm32-1944"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm32-1944"
+          ],
+          "value" : "CAP, NURSE'S, WHITE"
+        },
+        {
+          "label" : "Désignation 2",
+          "sources" : [
+            "fm2115-1977"
+          ],
+          "value" : "Cap, nurse, white"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "CAP, NURSE'S, WHITE",
+  "sources" : [
+    {
+      "id" : "fm2115-1977",
+      "institution" : "Headquarters, Department of the Army",
+      "locator" : "PDF p. 104",
+      "summary" : "Désignation attestée dans le document de 1977. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "FM 21-15 — Care and Use of Individual Clothing and Equipment, 15 February 1977",
+      "url" : "https://ciehub.info/ref/FM/21-15_1977.pdf"
+    },
+    {
+      "id" : "qm32-1944",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 18",
+      "summary" : "Désignation attestée dans le document de 1944. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf"
+    }
+  ]
+}

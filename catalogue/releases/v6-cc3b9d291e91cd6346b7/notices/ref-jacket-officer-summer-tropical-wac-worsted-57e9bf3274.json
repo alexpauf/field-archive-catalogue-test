@@ -1,0 +1,109 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "servicewear",
+  "id" : "ref-jacket-officer-summer-tropical-wac-worsted-57e9bf3274",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "JACKET, WAC, SUMMER, OFFICER'S, TROPICAL WORSTED, KHAKI"
+    ],
+    "attestations" : [
+      {
+        "boxes" : [
+          {
+            "h" : 0.015841981172561637,
+            "w" : 0.11940270920541829,
+            "x" : 0.71031917923870158,
+            "y" : 0.31475342806336326
+          },
+          {
+            "h" : 0.011627906560897849,
+            "w" : 0.16221765708754698,
+            "x" : 0.68993839927547285,
+            "y" : 0.30087209323903574
+          },
+          {
+            "h" : 0.013132267594337388,
+            "w" : 0.16427105027526812,
+            "x" : 0.68788500863649327,
+            "y" : 0.28343023242824505
+          },
+          {
+            "h" : 0.011627906560897738,
+            "w" : 0.053388091339462096,
+            "x" : 0.74332648809511148,
+            "y" : 0.26889534907041057
+          }
+        ],
+        "designation" : "JACKET, WAC, SUMMER, OFFICER'S, TROPICAL WORSTED, KHAKI",
+        "documentSHA256" : "ddc983ef4b215b6f865280532ccf08d239e0ee8cf6480aa485c1419d9ddf108e",
+        "documentYear" : 1944,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 9,
+        "quote" : "JACKET, WAC,\nSUMMER, OFFICER'S,\nTROPICAL WORSTED,\nKHAKI\nStock No.",
+        "quoteSHA256" : "e6e7dbc26c40f8602b89229a08dcf92d094b8276cc87a34d05a6fc91958ec318",
+        "sourceID" : "qm32-1944",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf",
+        "workID" : "army-qm32-1944"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "jacket officer summer tropical wac worsted",
+    "years" : [
+      1944
+    ]
+  },
+  "indexPeriod" : "Attestée en 1944",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "JACKET, WAC, SUMMER, OFFICER'S, TROPICAL WORSTED, KHAKI",
+  "period" : "Attesté en 1944",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm32-1944"
+    ],
+    "summarySources" : [
+      "qm32-1944"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm32-1944"
+          ],
+          "value" : "JACKET, WAC, SUMMER, OFFICER'S, TROPICAL WORSTED, KHAKI"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "JACKET, WAC, SUMMER, OFFICER'S, TROPICAL WORSTED, KHAKI",
+  "sources" : [
+    {
+      "id" : "qm32-1944",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 9",
+      "summary" : "Désignation attestée dans le document de 1944. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf"
+    }
+  ]
+}

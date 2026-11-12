@@ -1,0 +1,82 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "utilityTop",
+  "id" : "ref-shirt-nylon-og-wool-d90a692a11",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://ciehub.info/ref/FM/31-70_1968_C1.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "Shirt, Wool Nylon, OG"
+    ],
+    "attestations" : [
+      {
+        "designation" : "Shirt, Wool Nylon, OG",
+        "documentSHA256" : "21a2839d72d5df9a7fa364b8676e57fcfd3ebb2ebd11732de885ec2f432e842e",
+        "documentYear" : 1968,
+        "institution" : "Headquarters, Department of the Army",
+        "kind" : "named-issue-list",
+        "page" : 5,
+        "quote" : "Shirt, Wool Nylon, OG",
+        "quoteSHA256" : "88b9e979deda1c59993b582ceb025e6034b3264077ae74090420a78dd832aac6",
+        "sourceID" : "fm3170-1968",
+        "sourceTitle" : "FM 31-70 — Basic Cold Weather Manual, April 1968 / Change 1 December 1968",
+        "sourceURL" : "https://ciehub.info/ref/FM/31-70_1968_C1.pdf",
+        "workID" : "army-fm31-70-1968"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "shirt nylon og wool",
+    "years" : [
+      1968
+    ]
+  },
+  "indexPeriod" : "Attestée en 1968",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "Shirt, Wool Nylon, OG",
+  "period" : "Attesté en 1968",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "fm3170-1968"
+    ],
+    "summarySources" : [
+      "fm3170-1968"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "fm3170-1968"
+          ],
+          "value" : "Shirt, Wool Nylon, OG"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "Shirt, Wool Nylon, OG",
+  "sources" : [
+    {
+      "id" : "fm3170-1968",
+      "institution" : "Headquarters, Department of the Army",
+      "locator" : "PDF p. 5",
+      "summary" : "Désignation attestée dans le document de 1968. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "FM 31-70 — Basic Cold Weather Manual, April 1968 / Change 1 December 1968",
+      "url" : "https://ciehub.info/ref/FM/31-70_1968_C1.pdf"
+    }
+  ]
+}

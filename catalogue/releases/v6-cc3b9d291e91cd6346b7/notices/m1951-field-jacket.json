@@ -1,0 +1,381 @@
+{
+  "criteria" : [
+    {
+      "concordant" : [
+        "Veste de terrain"
+      ],
+      "contradictory" : [
+        "Pantalon",
+        "Chemise",
+        "Autre vêtement"
+      ],
+      "expected" : "Veste de terrain",
+      "field" : "family",
+      "sources" : [
+        "01",
+        "05"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "Historique et renvois aux catalogues fédéraux · 1951–1968",
+            "sourceID" : "01"
+          },
+          {
+            "locator" : "Construction, marquages et exemple DSA-1-3571-64-C",
+            "sourceID" : "05"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Glissière sous patte à pressions"
+      ],
+      "contradictory" : [
+        "Glissière visible",
+        "Boutons seuls",
+        "Pressions seules"
+      ],
+      "expected" : "Glissière sous patte à pressions",
+      "field" : "closure",
+      "sources" : [
+        "05"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "Construction, marquages et exemple DSA-1-3571-64-C",
+            "sourceID" : "05"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Quatre poches avant"
+      ],
+      "contradictory" : [
+        "Deux poches avant",
+        "Deux poches de poitrine",
+        "Autre nombre de poches avant",
+        "Aucune poche avant"
+      ],
+      "expected" : "Deux poches hautes et deux basses",
+      "field" : "pockets",
+      "sources" : [
+        "05"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "Construction, marquages et exemple DSA-1-3571-64-C",
+            "sourceID" : "05"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Extérieure uniquement",
+        "Absente après examen du col"
+      ],
+      "contradictory" : [
+        "Logée dans le col"
+      ],
+      "expected" : "Capuche séparée, sans capuche intégrée au col",
+      "field" : "hood",
+      "sources" : [
+        "03",
+        "05"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "Instructions d’attache · MIL-H-11377",
+            "sourceID" : "03"
+          },
+          {
+            "locator" : "Construction, marquages et exemple DSA-1-3571-64-C",
+            "sourceID" : "05"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "jacket shell field m 1951",
+        "jacket shell field m1951",
+        "jacket field m 1951",
+        "jacket field m1951",
+        "coat man s field m 1951",
+        "coat man s field m1951",
+        "coat man s field olive green 107 m 1951",
+        "coat man s field olive green 107 m1951",
+        "coat man s field o g 107 m1951",
+        "coat man s field og 107 m 1951",
+        "m 1951 field jacket",
+        "m1951 field jacket",
+        "m 51 field jacket",
+        "m51 field jacket"
+      ],
+      "contradictory" : [
+
+      ],
+      "expected" : "Jacket, Shell, Field, M-1951 ou Coat, Man’s, Field, Olive Green 107, M-1951",
+      "field" : "label",
+      "sources" : [
+        "01",
+        "05"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "Historique et renvois aux catalogues fédéraux · 1951–1968",
+            "sourceID" : "01"
+          },
+          {
+            "locator" : "Construction, marquages et exemple DSA-1-3571-64-C",
+            "sourceID" : "05"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Vert olive"
+      ],
+      "contradictory" : [
+
+      ],
+      "expected" : "Olive Green 107 documenté",
+      "field" : "color",
+      "sources" : [
+        "01",
+        "05"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "Historique et renvois aux catalogues fédéraux · 1951–1968",
+            "sourceID" : "01"
+          },
+          {
+            "locator" : "Construction, marquages et exemple DSA-1-3571-64-C",
+            "sourceID" : "05"
+          }
+        ],
+        "status" : "verified"
+      }
+    }
+  ],
+  "family" : "fieldJacket",
+  "id" : "m1951-field-jacket",
+  "illustration" : {
+    "credit" : "Joan Rocaguinard / Wikimedia Commons · fichier original non modifié",
+    "filename" : "images/m1951-commons-43631971.jpg",
+    "license" : "CC BY-SA 4.0",
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+    "provenance" : {
+      "author" : "Joan Rocaguinard",
+      "collectionPhoto" : false,
+      "discoveredVia" : "https://commons.wikimedia.org/wiki/Category:Green_jackets",
+      "license" : {
+        "allowed" : true,
+        "attributionRequired" : true,
+        "creator" : "Joan Rocaguinard",
+        "credit" : "Own work",
+        "license" : "CC BY-SA 4.0",
+        "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modifications" : "Aucune ; fichier source conservé sans transformation.",
+        "requiredAttribution" : "Joan Rocaguinard"
+      },
+      "metadataSHA256" : "b8c1ca408051e3c9c3b9960d471e7b899ebd70755f5cb69d0e83e999ba426b34",
+      "modelID" : "m1951-field-jacket",
+      "originalURL" : "https://upload.wikimedia.org/wikipedia/commons/b/b1/Jc-m51-EUA.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "photographDate" : "Inconnue : date erronée ou ambiguë dans les métadonnées source ; ne pas utiliser comme datation historique.",
+      "requiredAttribution" : "Joan Rocaguinard",
+      "sha256" : "42e64c13e8e7e09402ffa20409ac6274b5abf9e30ad894c2e76bae7f7a2b6740",
+      "sourceSHA1" : "f1f72ca23073279e04fa9513bafd682d7ca932bd",
+      "sourceURL" : "https://commons.wikimedia.org/wiki/File:Jc-m51-EUA.JPG",
+      "variant" : "Contrat, fabricant, datation de l’exemplaire et variante non vérifiés.",
+      "verificationLevel" : "attribution-explicite-par-auteur-coherence-documentaire; non-certification-museale",
+      "view" : "front"
+    },
+    "title" : "M-1951 : vue de face d’un exemplaire présenté comme tel par son auteur ; contrat et variante non vérifiés.",
+    "url" : "https://commons.wikimedia.org/wiki/File:Jc-m51-EUA.JPG"
+  },
+  "indexPeriod" : "Documentée dès 1951",
+  "intro" : "Veste de terrain à quatre poches, à glissière sous patte à pressions et à col à pointes. Une doublure isolante amovible et une capuche séparée complètent l’ensemble de temps froid. [01, 02, 03, 05]",
+  "name" : "M-1951 Field Jacket",
+  "period" : "Spécification initiale répertoriée au 13 septembre 1951 [01]. Remplacement dans l’inventaire à partir de 1966 et port documenté en 1973 [04]. Fin de port non établie.",
+  "publication" : {
+    "documentationLevel" : "identifiable",
+    "identifierEligible" : true,
+    "identitySources" : [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "summarySources" : [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "unknowns" : [
+
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignations",
+          "sources" : [
+            "01"
+          ],
+          "value" : "Jacket, Shell, Field, M-1951 dans MIL-J-11448 (QMC). La série MIL-C-11448 emploie ensuite Coat, Man’s, Field. La révision B précise Olive Green 107, M-1951. M-51 est l’abréviation courante."
+        },
+        {
+          "label" : "Jalons",
+          "sources" : [
+            "01",
+            "04"
+          ],
+          "value" : "Spécification initiale de septembre 1951. Le Survey montre un port à Fort Jackson en 1973, après l’entrée de la M-65 dans l’inventaire. Fin de port non établie."
+        }
+      ],
+      "title" : "Désignation et période"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Coupe et textile",
+          "sources" : [
+            "01",
+            "05"
+          ],
+          "value" : "Veste courte à serrage de taille. Des pièces publiées montrent du satin de coton traité déperlant. La teinte OG-107 figure dans la désignation de la révision B. La doublure fixe et le grammage varient ou restent à préciser selon révision."
+        },
+        {
+          "label" : "Fermeture et poches",
+          "sources" : [
+            "05",
+            "06"
+          ],
+          "value" : "Glissière séparable sous patte à pressions. Deux poches de poitrine et deux poches basses à rabat. Poignets ajustables par boutons sur les pièces étudiées."
+        },
+        {
+          "label" : "Col et couches",
+          "sources" : [
+            "02",
+            "03",
+            "05"
+          ],
+          "value" : "Col rabattu à pointes. Capuche d’hiver rapportée, avec attaches extérieures. Doublure amovible en mohair frieze documentée dans la série MIL-L-11449."
+        }
+      ],
+      "title" : "Construction"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Étiquettes et stock",
+          "sources" : [
+            "02",
+            "05"
+          ],
+          "value" : "Marquages imprimés ou étiquettes cousues selon les pièces. Série Quartermaster 55-J-610-5 à 55-J-610-55 et FSN 8405-255-8587 pour Medium Regular, selon l’index CIE Hub."
+        },
+        {
+          "label" : "Exemple de contrat",
+          "sources" : [
+            "05"
+          ],
+          "value" : "DSA-1-3571-64-C, relevé sur un exemplaire publié par Rare Gear USA. La ligne contractuelle renseigne la commande de cette pièce."
+        },
+        {
+          "label" : "Variantes et voisins",
+          "sources" : [
+            "01",
+            "03",
+            "04",
+            "05"
+          ],
+          "value" : "Révisions A à E répertoriées. Leur correspondance complète avec les tissus et fournitures reste incertaine. La parka M-1951 est un article distinct. Avec une glissière et quatre poches, l’examen du col et des poignets aide à départager cette veste de la M-65."
+        }
+      ],
+      "title" : "Marquages et variantes"
+    }
+  ],
+  "shortName" : "M-1951",
+  "sources" : [
+    {
+      "id" : "01",
+      "institution" : "CIE Hub",
+      "locator" : "Historique et renvois aux catalogues fédéraux · 1951–1968",
+      "summary" : "Index spécialisé des révisions. Il répertorie le titre de 1951 et le libellé de la révision B, avec les références vers les catalogues originaux.",
+      "title" : "MIL-J-11448 et MIL-C-11448",
+      "url" : "https://ciehub.info/spec/DTL/MIL-J-11448.html"
+    },
+    {
+      "id" : "02",
+      "institution" : "CIE Hub",
+      "locator" : "Nomenclature, numéros de stock et MIL-L-11449",
+      "summary" : "Index logistique de l’enveloppe et de la doublure amovible, avec renvois au catalogue Quartermaster.",
+      "title" : "M-1951 Field Jacket Shell and Liner",
+      "url" : "https://ciehub.info/clothing/CW/M1951/JacketField.html"
+    },
+    {
+      "id" : "03",
+      "institution" : "CIE Hub",
+      "locator" : "Instructions d’attache · MIL-H-11377",
+      "summary" : "La capuche d’hiver est une pièce séparée. Les instructions décrivent notamment sa fixation aux boutons d’épaule.",
+      "title" : "M-1951 Winter Hood",
+      "url" : "https://ciehub.info/clothing/CW/M1951/HoodWinter.html"
+    },
+    {
+      "id" : "04",
+      "institution" : "U.S. Army Center of Military History",
+      "locator" : "p. 107",
+      "summary" : "Entrée de la M-65 dans l’inventaire à partir de 1966 et port d’une M-1951 à Fort Jackson en 1973.",
+      "title" : "Survey of U.S. Army Uniforms, Weapons and Accoutrements",
+      "url" : "https://patcosta.com/wp-content/uploads/2015/09/Survey-of-US-Soldier-Arms-and-Accouterments-2007.pdf"
+    },
+    {
+      "id" : "05",
+      "institution" : "Rare Gear USA",
+      "locator" : "Construction, marquages et exemple DSA-1-3571-64-C",
+      "summary" : "Source commerciale illustrée de pièces et de marquages. Elle documente la fermeture, les quatre poches, le col, les poignets et la coexistence de plusieurs fournitures.",
+      "title" : "M-51 Field Jacket Collector’s Guide",
+      "url" : "https://www.raregearusa.com/blogs/military-guides/m51-field-jacket-identification-dating-guide"
+    },
+    {
+      "id" : "06",
+      "institution" : "Smithsonian · National Museum of American History",
+      "locator" : "Objet 1979.0805.183",
+      "summary" : "Fiche institutionnelle de la veste. L’image porte une mention de réutilisation restreinte.",
+      "title" : "Model 1951; Jacket, Shell",
+      "url" : "https://www.si.edu/object/model-1951-jacket-shell%3Anmah_447096"
+    },
+    {
+      "id" : "photo-commons-43631971",
+      "institution" : "Joan Rocaguinard / Wikimedia Commons",
+      "locator" : "File:Jc-m51-EUA.JPG ; Description, Author, Licensing et historique du fichier ; SHA-1 f1f72ca23073279e04fa9513bafd682d7ca932bd",
+      "summary" : "Photographie propre de l’auteur, explicitement désignée US Army M-1951 field jacket. CC BY-SA 4.0. Date de prise de vue inconnue ; contrat et variante de l’exemplaire non vérifiés. Aucun critère d’identification déduit de cette photographie.",
+      "title" : "US Army M-1951 field jacket — photographie de face",
+      "url" : "https://commons.wikimedia.org/wiki/File:Jc-m51-EUA.JPG"
+    }
+  ]
+}

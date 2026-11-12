@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-11T22:58:44.241694+00:00",
-  "catalogueSequence": 4,
-  "catalogueChanged": false,
+  "checkedAt": "2026-11-12T07:40:59.351488+00:00",
+  "catalogueSequence": 6,
+  "catalogueChanged": true,
   "knownReferences": [
     "ia:07540970R.nlm.nih.gov",
     "ia:101708855.nlm.nih.gov",
@@ -27,120 +27,1797 @@
   "photoResearchQueue": [
     {
       "missingViews": [
-        "front",
-        "back",
-        "label",
-        "construction"
+        "front"
       ],
       "modelID": "jacket-combat-winter"
     },
     {
       "missingViews": [
-        "back",
-        "label",
-        "construction"
+        "front"
       ],
+      "modelID": "jacket-mountain"
+    },
+    {
+      "missingViews": [],
       "modelID": "m1943-field-jacket"
     },
     {
-      "missingViews": [
-        "back",
-        "label",
-        "construction"
-      ],
+      "missingViews": [],
       "modelID": "m1951-field-jacket"
     },
     {
-      "missingViews": [
-        "back",
-        "label",
-        "construction"
-      ],
+      "missingViews": [],
       "modelID": "m65-field-jacket"
     },
     {
       "missingViews": [
-        "front",
-        "back",
-        "label",
-        "construction"
+        "front"
       ],
       "modelID": "og107-utility-top"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-apron-1-impermeable-m-protective-faaba54154"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-apron-and-baker-bib-butcher-cook-with-51ac217305"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-apron-baker-cook-laundress-wac-2387ef1b74"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-apron-command-fighter-wac-e7fdfbf6cf"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-apron-food-handlers-efadc24945"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-battle-dress-uniform-29fa876007"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-belt-complete-wo-37a7073bfc"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-belt-em-leather-new-type-811e231453"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-belt-em-m1937-waist-web-c970c24d88"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-blouse-454bfa8ad2"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-breeches-18-elastique-oz-protective-wool-e979dced95"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-breeches-18-elastique-oz-special-wool-0ed3645e46"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-breeches-cotton-e68aad6571"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-breeches-cotton-protective-50564f45ba"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-breeches-cotton-special-6ded77bec7"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-106-cotton-og-poplin-utility-8e99dfa091"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-and-baker-cook-9a10565b3e"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-army-garrison-274a9a3a78"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-army-service-71657bc73a"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-aviation-cadet-garrison-39a5a4ae3b"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-baker-cook-laundress-wac-cc1d3c3c23"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-coldweather-4bc9ee8156"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-cotton-field-visor-with-a14d8f7c84"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-field-pile-b9fc779039"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-garrison-c2620d4a3b"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-garrison-nurse-1f06fbc50e"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-herringbone-twill-a7db93114a"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-knit-m1941-wool-23daa2de0f"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-member-wac-winter-2b7f2e8027"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-nurse-c40dfaf138"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-nurse-seersucker-cf5214d744"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-nurse-service-wool-1e4e4c5dfa"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-officer-summer-wac-133f889c9c"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-officer-wac-winter-264b592900"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-serge-service-wool-2bc69f1bf5"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-ski-d371b898d1"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-summer-wac-712405fe38"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cap-winter-fe4b19d01c"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cape-covert-nurse-wool-427e6d39a2"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-cape-nurse-007b27dac5"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-coat-107-cotton-og-840adf2b18"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-coat-aircrew-combat-e501f96ede"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-coat-and-baker-cook-9417e31c68"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-coat-and-food-handlers-men-woman-b821ded3bf"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-coat-army-f6e610bebb"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-coat-covert-nurse-wool-bfa174d96b"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-coat-mackinaw-66563b57c5"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-coat-member-utility-wac-7a1e005a96"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-coat-officer-utility-wac-6e361db160"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-coverall-cold-mechanics-weather-e978a8f503"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-coverall-flyers-d4c1347abd"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-coverall-mechanics-warm-weather-74fd5cc2d3"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-drawers-50-50-08ebb4ad7a"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-drawers-cold-polypropylene-weather-76703b6a26"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-dress-baker-cook-laundress-wac-working-ff2fad8558"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-dress-f66b9ff405"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-dress-jacket-summer-with-5f0ef45503"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-frock-butcher-d9ab1093ec"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-0fa2fa40ba"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-cotton-574384e927"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-cotton-protective-69373d3f9a"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-cotton-protective-unbleached-08fa3d005f"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-cotton-protective-woman-7952e9ef41"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-cotton-special-woman-ece40f326c"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-cotton-wac-work-7d1dda94c0"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-dress-leather-nurse-ce2235a005"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-dress-leather-woman-b9db84f790"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-heavy-leather-7815ca7c7a"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-horsehide-lined-riding-b62702b996"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-horsehide-riding-unlined-89740668fc"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-impermeable-protective-7a80667add"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-leather-ea3a5244b3"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-leather-palm-wool-270072e5f0"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-mosquito-66b5b92724"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-service-feba76843c"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-glove-woman-wool-0f72ae348b"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-hat-9a9a020577"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-hat-herringbone-twill-7d10cab172"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-hat-rain-e320742ae4"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-hat-service-651d2a2ada"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-hat-summer-wac-5ff7aafd90"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-hood-cloth-c403e73160"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-hood-cold-extreme-liner-w-weather-fee19cd243"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-hood-field-jacket-m1943-30970a75a4"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-hood-protective-wool-97268936b8"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-1-cold-flyers-ma-weather-be4f993bf4"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-1-n-winter-068b244d8a"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-arctic-field-bae64731fc"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-b-field-pile-type-bfa8a7e6ea"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-camouflage-herringbone-twill-b381ce3bce"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-cloth-jungle-555e9c6c53"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-cotton-nurse-seersucker-dcd0cd7ddf"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-field-cb7e536970"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-field-wool-6eeb628093"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-flyers-l2b-lightweight-a91cbff095"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-flyers-n2b-natural-synthetic-ae837372a0"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-herringbone-protective-twill-0f5e54584f"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-herringbone-special-twill-441ada5a80"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-herringbone-twill-024a2e996d"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-lightweight-special-affabaa8ce"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-member-summer-wac-1201e12a07"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-member-wac-winter-9580ffd548"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-nurse-woman-wool-6eed85813e"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-officer-summer-tropical-wac-worsted-57e9bf3274"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-officer-wac-woman-wool-b1933ff8c7"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jacket-rain-037180c11a"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-jumper-dungaree-816d13739c"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-liner-coat-mohair-dc4d45bf5c"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-liner-coat-nylon-8b4de4833f"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-liner-mohair-parka-58f0b66414"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-liner-mohair-trouser-86973eea24"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-liner-nylon-parka-0fe0d04510"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-liner-nylon-trousers-91dbf62080"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-mitten-1-finger-insert-trigger-type-af26a6c681"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-mitten-arctic-6e7b7e4d40"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-mitten-asbestos-m1942-692bde67dd"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-mitten-cotton-nylon-set-f5e20fe9d5"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-mitten-finger-insert-trigger-a5d589c9a9"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-mitten-finger-insert-trigger-woman-a676230915"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-mitten-finger-shell-trigger-woman-5725f9bb27"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-mitten-over-da7714abdf"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-muffler-nurse-wool-07099c425d"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-muffler-wool-a78d2e5eb3"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-necktie-four-hand-in-110729117d"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-necktie-nurse-39215ca421"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-necktie-woman-91c825d05a"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-overall-bib-cold-fiberpile-weather-9ea2bab36c"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-overcoat-107-og-8d3c73bc16"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-overcoat-alpaca-lined-parka-type-08d4e94906"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-overcoat-army-29c817f42d"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-overcoat-climate-cold-nurse-parka-type-61cf0d5b74"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-overcoat-covert-lining-nurse-removable-wool-ce7daced40"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-overcoat-field-officer-woman-df80137c8a"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-overcoat-field-woman-b87561ec4b"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-overcoat-lined-parka-sheepskin-type-f338d0b249"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-overcoat-liner-parka-pile-reversible-type-with-4238b78e62"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-overcoat-member-wac-c29ba4f5b6"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-overcoat-parka-type-woman-72b17b9069"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-overcoat-taupe-1f9951be92"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-pajamas-wac-winter-e2bcf68323"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-parka-camouflage-cold-extended-weather-b506c96667"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-parka-cold-hood-o-w-weather-681ec0bf3f"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-parka-cold-hood-w-weather-80b51a5867"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-parka-cotton-field-eeeddd1651"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-parka-cotton-nylon-b6d0bfdbff"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-parka-field-over-16e4344b59"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-parka-field-pile-689c272fe8"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-parka-weather-wet-43192f1711"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-raincoat-8b32e4cc43"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-raincoat-coated-mounted-resin-synthetic-3f1ef7cb78"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-raincoat-dismounted-m1938-rubberized-6b70a483d0"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-raincoat-dismounted-oil-treated-3828838fbc"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-raincoat-dismounted-rubberized-single-texture-ff8f33d36a"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-raincoat-m1938-mounted-rubberized-f27019c206"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-raincoat-mounted-oil-treated-254364ed4c"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-raincoat-mounted-rubberized-single-texture-3a7243c6b0"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-raincoat-parka-type-woman-b5658835b2"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-scarf-adopted-design-def22fedab"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-scarf-army-673a7939bf"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-scarf-woman-68d411f813"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-scarf-wool-abe9774441"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-108-og-wool-b8670b498e"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-22f2223277"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-445-army-cotton-durable-man-polyester-press-short-sleeve-ac741f58e6"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-446-46-army-or-shade-7d5ce87f00"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-army-1fdcbe70b1"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-coat-flannel-protective-style-42e3c7f46c"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-coat-flannel-special-style-92e479d197"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-coat-flannel-style-f5246dd709"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-cold-fiberpile-polyester-weather-5d842bf585"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-cold-weather-wool-10420aaacc"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-cotton-c2f5944dee"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-cotton-nurse-seersucker-d080adb842"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-cotton-polyester-7ccf0486c5"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-cotton-protective-1ad4e75c29"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-cotton-special-2ec901c722"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-duty-training-f008bcc68a"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-herringbone-special-twill-woman-8e785f11b2"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-knit-71c58ab06b"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shirt-nylon-og-wool-d90a692a11"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-shorts-duty-training-e69e17ccb1"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-skirt-duty-training-c860044dc1"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-skirt-member-wac-winter-6391c22aa9"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-skirt-officer-tropical-woman-worsted-40edec1004"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-skirt-officer-wac-winter-480ef17772"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-skirt-summer-wac-329b43d95a"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-slacks-cotton-nurse-seersucker-1fbbf6b7ab"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-slacks-maternity-uniform-woman-work-3f97f3eb1d"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-smock-assistant-male-medical-4355c0bfc7"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-socks-arctic-3c2b304b92"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-socks-burlap-jute-or-eadf585e24"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-socks-cotton-18d017f52c"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-socks-cushion-sole-wool-a225594c14"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-socks-dress-bb77f68f8b"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-socks-heavy-wool-473d1daf52"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-socks-light-protective-wool-6497889855"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-socks-light-wool-6b68651ca2"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-socks-ski-wool-dfd1fb74c8"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-stockings-anklet-wac-250916afce"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-stockings-cotton-woman-01535f1092"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-stockings-f36648c405"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-stockings-knee-length-woman-wool-63a5dfe46e"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-stockings-nylon-or-silk-3b320a7c32"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-stockings-rayon-woman-cdd5734c27"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-suit-exercise-wac-1bbc5a4ebe"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-suit-herringbone-one-piece-protective-twill-24759d35a6"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-suit-herringbone-one-piece-special-twill-5bcf47bffc"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-suit-herringbone-one-piece-twill-work-6528cc868c"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-suit-impermeable-one-piece-protective-028c1e94b9"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-suit-jungle-one-piece-52b4a3a1df"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-suspenders-trousers-f46df47b37"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-sweater-coat-heather-nurse-style-ce598fcdfc"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-sweater-coat-nurse-style-wool-da09780066"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-sweater-f3162b0ba3"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-sweater-highneck-8067a3ee19"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-sweater-sleeveless-4d126026bc"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-sweater-wac-4b255d9344"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-1-n-winter-9f7e5115aa"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-18-field-oz-serge-special-wool-0850677dd2"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-22-field-oz-wool-9cb34f9eda"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-445-army-cotton-durable-man-polyester-press-d290a1c3ef"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-aircrew-combat-1a2ccc3245"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-and-baker-cook-977833b506"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-army-3b2b95b206"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-assistant-male-medical-7459fa3434"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-camouflage-herringbone-twill-029e7c5dc6"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-cloth-jungle-d08c832a39"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-combat-winter-9999bcf1fb"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-cotton-b8ba4af347"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-cotton-field-a539a92968"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-cotton-nylon-wr-3b30f4b978"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-cotton-protective-ee6a05b957"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-cotton-special-0cead51f58"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-cover-outer-woman-ad1cfa2ceb"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-dungaree-bc5d1f362a"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-durable-og507-press-utility-7a7ac50c57"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-field-over-284209d965"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-herringbone-protective-twill-a21a791f64"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-herringbone-special-twill-436e5ee2e5"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-herringbone-special-twill-woman-4c4b07f0c7"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-herringbone-twill-7bb188f0e4"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-kersey-lined-506d7d3b98"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-lightweight-special-ca5076120f"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-liner-woman-wool-c2ede1d90b"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-mountain-d30c9d429e"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-og-serge-9fe588e78b"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-protective-serge-wool-d3233ff97e"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-rain-5675fdf09d"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-regular-serge-wool-0b657e12fb"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-serge-special-wool-5c66f1497f"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-ski-b900c20f4c"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-ski-wool-983b465c42"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-trousers-weather-wet-125cdad1a4"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-undershirt-50-50-ca092bf42f"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-undershirt-cold-polypropylene-weather-1732685338"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-underwear-chemical-piece-protective-two-fb07f17444"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-vest-wac-winter-ece2b4272b"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-vest-winter-woman-9a46f95474"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-waist-cotton-248d7edcb1"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-waist-cotton-powder-c0a37a3c89"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-waist-cotton-woman-3d979b35b8"
+    },
+    {
+      "missingViews": [
+        "front"
+      ],
+      "modelID": "ref-waist-woman-wool-e57dfc7648"
     }
   ],
   "photoResearch": {
-    "cacheHits": 0,
-    "candidates": 6,
-    "discoveredReferences": 0,
-    "documentDownloads": 0,
-    "downloaded": 1,
-    "eligibleDocuments": 0,
-    "errors": 0,
-    "identityAccepted": 2,
-    "indexedFiles": 244,
-    "licenseAccepted": 4,
-    "models": 5,
-    "networkBytes": 1784894,
-    "networkRequests": 16,
-    "newReferences": 0,
-    "notModified": 0,
-    "rightsRejected": 0,
-    "unchangedDocuments": 0,
-    "viewSearches": 20
+    "downloaded": 0,
+    "models": 268,
+    "modelsSearched": 0
   },
   "documentaryMetrics": {
-    "activeDocumentCaptures": 6,
-    "additionalPaidServiceCostEUR": 0,
-    "cacheHits": 1,
-    "configSHA256": "69533955507f205b04105ed0abc69823676398d04c40da15ddcd0bb8e95c4137",
-    "discoveredReferences": 20,
-    "documentDownloads": 6,
-    "elapsedSeconds": 88.020894041,
-    "eligibleDocuments": 9,
-    "errors": 5,
-    "heapUsedBytes": 11128488,
-    "mode": "live-network",
-    "networkBytes": 2513959,
-    "networkRequests": 45,
-    "newReferences": 19,
-    "notModified": 0,
-    "rightsRejected": 7,
-    "runId": "2026-11-11T22-57-08-315Z-27675e",
-    "startedAt": "2026-11-11T22:57:08.314Z",
-    "unchangedDocuments": 1,
-    "uniqueReferencesInState": 19
+    "discoveredReferences": 0,
+    "errors": 0,
+    "mode": "approved-lot-replay",
+    "networkBytes": 0,
+    "networkRequests": 0,
+    "newReferences": 0
   },
-  "runID": "43115252049",
-  "documentaryErrors": [
+  "runID": "43177001211",
+  "documentaryErrors": [],
+  "documentationLevels": {
+    "documented": 29,
+    "identifiable": 4,
+    "reference": 235
+  },
+  "designationQuarantineCount": 16,
+  "designationQuarantine": [
     {
-      "at": "2026-11-11T22:58:36.328Z",
-      "error": "Request budget exhausted",
-      "status": 0,
-      "where": "ia:FM10-6-nsia"
+      "id": "jacket-field-pile",
+      "name": "JACKET, FIELD, PILE",
+      "reason": "D\u00e9signation g\u00e9n\u00e9rique sans attestation de rubrique compl\u00e8te ; distinction avec la veste pile Type B non \u00e9tablie."
     },
     {
-      "at": "2026-11-11T22:58:36.330Z",
-      "error": "Request budget exhausted",
-      "status": 0,
-      "where": "ia:ost-military-doctrine-fm9_207"
+      "id": "ref-belt-em-waist-web-d62e1f1951",
+      "name": "BELT, WAIST, WEB, EM",
+      "reason": "Intitul\u00e9 tronqu\u00e9 : M-1937 et largeur manquent ; recoupe la r\u00e9f\u00e9rence 10."
     },
     {
-      "at": "2026-11-11T22:58:36.332Z",
-      "error": "Request budget exhausted",
-      "status": 0,
-      "where": "ia:ProblemsOfMedicalEvacuationInColdWeather"
+      "id": "ref-belt-waist-7d67d77e21",
+      "name": "Belt, waist",
+      "reason": "D\u00e9signation g\u00e9n\u00e9rique sans mati\u00e8re ni type ; distinction avec les ceinturons de taille d\u00e9j\u00e0 d\u00e9crits non \u00e9tablie."
     },
     {
-      "at": "2026-11-11T22:58:36.333Z",
-      "error": "Request budget exhausted",
-      "status": 0,
-      "where": "ia:soldiers-handbook-for-individual-operations-and-survival-in-cold-weather-areas-tc-21-3"
+      "id": "ref-breeches-wool-cc9d5ce55d",
+      "name": "BREECHES, WOOL",
+      "reason": "Intitul\u00e9 tronqu\u00e9 : ELASTIQUE, od, 18 oz manquent."
     },
     {
-      "at": "2026-11-11T22:58:36.335Z",
-      "error": "Request budget exhausted",
-      "status": 0,
-      "where": "ia:TM9-207"
+      "id": "ref-coat-parachute-1e2bb18a86",
+      "name": "COAT, PARACHUTE",
+      "reason": "Intitul\u00e9 tronqu\u00e9 : JUMPER manque."
+    },
+    {
+      "id": "ref-glove-12-a-flying-mitten-type-winter-ed79820d6a",
+      "name": "GLOVE, WINTER, FLYING (MITTEN) (Type A-12)",
+      "reason": "Rapport d\u2019essai disponible seulement en OCR ; compl\u00e9tude du titre/type non v\u00e9rifi\u00e9e sur une page originale dans les sources locales."
+    },
+    {
+      "id": "ref-glove-2-f-leather-shell-type-1955e92afe",
+      "name": "GLOVES, SHELL, LEATHER (Type F-2)",
+      "reason": "Rapport d\u2019essai disponible seulement en OCR ; compl\u00e9tude du titre/type non v\u00e9rifi\u00e9e sur une page originale dans les sources locales."
+    },
+    {
+      "id": "ref-glove-protective-0f74f67ab1",
+      "name": "GLOVES, PROTECTIVE",
+      "reason": "Intitul\u00e9 tronqu\u00e9 : COTTON et UNBLEACHED manquent ; m\u00eame stock 73-G-12335 que la r\u00e9f\u00e9rence 50."
+    },
+    {
+      "id": "ref-liner-nylon-parka-quilted-caa51a0e0e",
+      "name": "Liner, Parka, Nylon Quilted",
+      "reason": "Distinction non \u00e9tablie avec Liner, Parka, Nylon (LIN L70720)."
+    },
+    {
+      "id": "ref-overcoat-melton-wool-3c17a860d8",
+      "name": "OVERCOAT, WOOL, MELTON",
+      "reason": "Intitul\u00e9 tronqu\u00e9 : od, ROLL COLLAR, 32 oz manquent."
+    },
+    {
+      "id": "ref-socks-cushion-sole-a3b2c3890a",
+      "name": "Socks, Cushion Sole",
+      "reason": "Distinction non \u00e9tablie avec SOCKS, WOOL, CUSHION SOLE."
+    },
+    {
+      "id": "ref-socks-heavy-light-or-wool-wool-a736d006ee",
+      "name": "SOCKS, LIGHT WOOL OR HEAVY WOOL",
+      "reason": "Titre de classification de plusieurs chaussettes, pas un article individualis\u00e9."
+    },
+    {
+      "id": "ref-suit-arctic-mechanic-9bd93c26de",
+      "name": "SUIT, MECHANIC'S, ARCTIC",
+      "reason": "Rapport d\u2019essai disponible seulement en OCR ; compl\u00e9tude du titre/type non v\u00e9rifi\u00e9e sur une page originale dans les sources locales."
+    },
+    {
+      "id": "ref-suit-herringbone-protective-twill-e2bc00eb86",
+      "name": "SUIT, HERRINGBONE TWILL, od No. 7, PROTECTIVE",
+      "reason": "Intitul\u00e9 tronqu\u00e9 : ONE-PIECE manque."
+    },
+    {
+      "id": "ref-trousers-parachute-842f129b89",
+      "name": "TROUSERS, PARACHUTE",
+      "reason": "Intitul\u00e9 tronqu\u00e9 : JUMPER manque."
+    },
+    {
+      "id": "ref-trousers-serge-wool-830989b71a",
+      "name": "TROUSERS, WOOL, SERGE, od, LIGHT-SHADE",
+      "reason": "Chevauchement des num\u00e9ros de stock avec la r\u00e9f\u00e9rence 191 ; distinction non \u00e9tablie."
     }
-  ]
+  ],
+  "designationQuarantineOverflowCount": 0,
+  "discoveryCursors": {},
+  "documentQueue": [
+    {
+      "id": "ia:07540970R.nlm.nih.gov",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:101708855.nlm.nih.gov",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:1308030R.nlm.nih.gov",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:FM10-6-nsia",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:FM21-15-nsia",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:FM2115-nsia",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:PAM360-527",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:ProblemsOfMedicalEvacuationInColdWeather",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:TBMED121",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:TBMED121-nsia",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:TM1-440",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:TM9-207",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:careuseofindivid00unit",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:fm-31-70-basic-cold-weather-manual-1968",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:fm-9-207-operations-and-maintenance-of-ordnance-materials-in-cold-weather-1998",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:micro_IA41152603_0166",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:ost-military-doctrine-fm9_207",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:soldiers-handbook-for-individual-operations-and-survival-in-cold-weather-areas-tc-21-3",
+      "status": "seen-before"
+    },
+    {
+      "id": "ia:worldarmyuniform00andr",
+      "status": "seen-before"
+    }
+  ],
+  "sourceTurn": 0,
+  "sourceCooldowns": {},
+  "primaryProgress": {},
+  "photoProgress": {
+    "categoryFrontier": [],
+    "categoryOffset": 0,
+    "index": [],
+    "modelOffset": 0
+  }
 }
