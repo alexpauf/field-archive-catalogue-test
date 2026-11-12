@@ -28,7 +28,8 @@ export function robotRules(body,agent){
       group.agents.push(value.toLowerCase());
     }else if(group){hasRules=true;if(['allow','disallow'].includes(key)&&value)group.rules.push({allow:key==='allow',pattern:value});if(key==='crawl-delay'&&Number.isFinite(Number(value)))group.delay=Number(value)*1000;}
   }
-  const a=agent.toLowerCase();const matches=groups.map(g=>({g,n:Math.max(-1,...g.agents.map(x=>x==='*'?0:a.includes(x)?x.length:-1))}));
+  // Match the declared crawler product, not words inside its descriptive comment.
+  const a=agent.split(/[\s/]/,1)[0].toLowerCase();const matches=groups.map(g=>({g,n:Math.max(-1,...g.agents.map(x=>x==='*'?0:a.includes(x)?x.length:-1))}));
   const best=Math.max(-1,...matches.map(x=>x.n));
   const selected=matches.filter(x=>x.n===best&&best>=0).map(x=>x.g);
   return {rules:selected.flatMap(x=>x.rules),delay:Math.max(0,...selected.map(x=>x.delay))};
@@ -55,6 +56,8 @@ export class Session {
     if(u.protocol!=='https:')throw new HTTPFailure('HTTPS required');
     if(source.adapter==='internet-archive'&&(u.hostname==='archive.org'||u.hostname.endsWith('.archive.org')))return true;
     if(source.adapter==='loc'&&u.hostname==='www.loc.gov')return true;
+    if(source.adapter==='federal-pdf'&&['commons.wikimedia.org','upload.wikimedia.org','history.army.mil'].includes(u.hostname))return true;
+    if(source.adapter==='historical-primary'&&['patcosta.com','ciehub.info','collections.si.edu','www.govinfo.gov','history.army.mil','www.loc.gov','tile.loc.gov','usarmyjrotc.army.mil','archive.org'].includes(u.hostname))return true;
     // Photo discovery uses the same bounded/cache/robots transport, without widening text sources.
     if(source.adapter==='commons-media'&&['commons.wikimedia.org','upload.wikimedia.org'].includes(u.hostname))return true;
     if(source.adapter==='museum-iiif'&&['apicollections.parismusees.paris.fr','digital.library.unt.edu'].includes(u.hostname))return true;
@@ -133,7 +136,7 @@ export class Session {
 export function rightsGate(meta){
   const md=meta.metadata||{};
   if(meta.is_dark||meta.is_restricted||['true','1'].includes(String(md['access-restricted-item']).toLowerCase())||array(md.collection).some(x=>['inlibrary','printdisabled'].includes(x)))return {allowed:false,reason:'restricted item'};
-  if(!/^(?:United States[., ]|U\.S\.|US Army|Department of the Army)/i.test(text(md.creator)))return {allowed:false,reason:'government authorship not established by metadata'};
+  if(!/^(?:United States[., ]|U\.S\.|US Army|Department of the (?:Army|Navy|Air Force)|Navy Department)/i.test(text(md.creator)))return {allowed:false,reason:'government authorship not established by metadata'};
   let licence=text(md.licenseurl).replace(/^http:/,'https:');
   // Public-domain metadata is not required for federal TEXT attributed by the
   // National Library of Medicine. This exception never permits images, and the
@@ -141,10 +144,10 @@ export function rightsGate(meta){
   const federalNLM=!licence&&array(md.collection).includes('usnationallibraryofmedicine');
   if(!['https://creativecommons.org/publicdomain/mark/1.0/','https://creativecommons.org/publicdomain/zero/1.0/'].includes(licence)&&!federalNLM)return {allowed:false,reason:'no accepted rights basis for text'};
   if(federalNLM)licence='US-federal-text-only; 17-USC-105; NLM attribution; no media licence';
-  if(!/\b(army|war department|air force|air corps)\b/i.test(text(md.creator)))return {allowed:false,reason:'not US military author'};
+  if(!/\b(army|war department|air force|air corps|navy|naval|marine corps)\b/i.test(text(md.creator)))return {allowed:false,reason:'not US military author'};
   const year=Number(text(md.year||md.date).slice(0,4));if(!(year>=1940&&year<=1999))return {allowed:false,reason:'publication outside configured historical interval'};
   if(/seven allies|insect repellent|ordnance|medical evacuation/i.test(text(md.title)))return {allowed:false,reason:'topic outside garment-construction experiment'};
-  return {allowed:true,licence,year,requiresFederalFrontMatter:federalNLM,authority:'government-primary-text-in-third-party-repository; metadata attribution not authenticated'};
+  return {allowed:true,licence,year,requiresFederalFrontMatter:true,authority:'government-primary-text-in-third-party-repository; metadata attribution and federal front matter required'};
 }
 
 function workIdentity(md,ocr){
@@ -154,22 +157,40 @@ function workIdentity(md,ocr){
   return 'government-title-'+sha(Buffer.from(text(md.title).toLowerCase().replace(/[^a-z0-9]+/g,' '))).slice(0,20);
 }
 
+export function discoveryPage(source,state){
+  const fingerprint=sha(jsonBytes({query:source.query,rows:source.rows||20,sort:source.sort||'identifier asc'}));
+  const old=state.discoveryCursors?.[source.id];
+  return {fingerprint,page:old?.fingerprint===fingerprint?old.nextPage:1};
+}
+export function prioritizeReferences(refs,documents){
+  const score=ref=>{
+    const old=documents['ia:'+ref.identifier];
+    const pending=/^pending-(?:run|error|retained)/.test(old?.status||'');
+    return (pending?-40:old?20:0)+(/clothing|uniform|garment|jacket|shirt/i.test(text(ref.title))?-15:0)+(/food|ration|efficiency|simplification/i.test(text(ref.title))?100:0);
+  };
+  return [...refs].sort((a,b)=>score(a)-score(b)||a.identifier.localeCompare(b.identifier));
+}
 async function archiveSource(session,source){
-  const refs=[];
-  for(let page=1;page<=(source.maxPages||1);page++){
-    const url=source.origin+'/advancedsearch.php?'+new URLSearchParams({q:source.query,output:'json',rows:String(source.rows||20),page:String(page),'fl[]':'identifier,title,year,creator',sort:'identifier asc'});
+  const refs=[];const cursor=discoveryPage(source,session.state);let nextPage=cursor.page,totalPages=1;
+  for(let page=cursor.page;page<cursor.page+(source.maxPages||1);page++){
+    const url=source.origin+'/advancedsearch.php?'+new URLSearchParams({q:source.query,output:'json',rows:String(source.rows||20),page:String(page),'fl[]':'identifier,title,year,creator',sort:source.sort||'identifier asc'});
     const result=await session.request(url,source);const j=JSON.parse(result.data);
     if(!j.response||!Array.isArray(j.response.docs))throw new HTTPFailure('Unknown discovery response');
     session.events.push({kind:'discovery-index',source:source.id,url,total:j.response.numFound,returned:j.response.docs.length,sha256:result.sha256,at:now()});
+    totalPages=Math.max(1,Math.ceil(j.response.numFound/(source.rows||20)));nextPage=page>=totalPages?1:page+1;
     for(const row of j.response.docs){if(!/^[a-zA-Z0-9_.-]+$/.test(row.identifier||''))continue;refs.push({...row,discoveredVia:url,indexSHA256:result.sha256});}
     if(j.response.docs.length<(source.rows||20))break;
   }
+  session.state.discoveryCursors??={};session.state.discoveryCursors[source.id]={fingerprint:cursor.fingerprint,nextPage};await session.checkpoint();
+  // A deferred document stays actionable even after discovery moves to another page.
+  session.metrics.discoveredReferences+=refs.length;
+  const deferred=Object.values(session.state.documents).filter(d=>d.sourceID===source.id&&/^pending-(?:run|error|retained)/.test(d.status||'')).map(d=>({identifier:d.id.slice(3),title:d.title||'',discoveredVia:d.discoveredVia,indexSHA256:d.indexSHA256}));
+  const actionable=new Map([...deferred,...refs].map(d=>[d.identifier,d]));
   let accepted=0;
-  for(const ref of refs){
-    session.metrics.discoveredReferences++;
+  for(const ref of prioritizeReferences([...actionable.values()],session.state.documents)){
     const id='ia:'+ref.identifier,old=session.state.documents[id];
     if(!old)session.metrics.newReferences++;
-    const record={...old,id,provider:'internet-archive',identifier:ref.identifier,recordURL:source.origin+'/details/'+encodeURIComponent(ref.identifier),discoveredVia:ref.discoveredVia,indexSHA256:ref.indexSHA256,firstSeen:old?.firstSeen||now(),lastSeen:now()};
+    const record={...old,id,provider:'internet-archive',sourceID:source.id,title:text(ref.title).slice(0,240),identifier:ref.identifier,recordURL:source.origin+'/details/'+encodeURIComponent(ref.identifier),discoveredVia:ref.discoveredVia,indexSHA256:ref.indexSHA256,firstSeen:old?.firstSeen||now(),lastSeen:now()};
     session.state.documents[id]=record;await session.checkpoint();
     if(source.excludeTitlePattern&&new RegExp(source.excludeTitlePattern,'i').test(text(ref.title))){
       record.status='excluded-source-topic';session.events.push({kind:'source-topic-excluded',id,title:ref.title,pattern:source.excludeTitlePattern});await session.checkpoint();continue;
@@ -196,6 +217,9 @@ async function archiveSource(session,source){
       if(old?.fileDescriptor&&JSON.stringify(old.fileDescriptor)===JSON.stringify(descriptor)&&old.corpusSHA256){
         try{const b=await fs.readFile(corpusFile);if(sha(b)===old.corpusSHA256){session.metrics.unchangedDocuments++;record.status='unchanged';await session.checkpoint();continue;}}catch(e){if(e.code!=='ENOENT')throw e;}
       }
+      if(old?.indexedVersion==='historical-index-v1'&&JSON.stringify(old.fileDescriptor)===JSON.stringify(descriptor)){
+        record.status='indexed-unchanged';session.metrics.unchangedDocuments++;await session.checkpoint();continue;
+      }
       if(accepted>=source.maxDocuments){record.status='pending-run-document-budget';await session.checkpoint();continue;}accepted++;
       const downloadURL=source.origin+'/download/'+encodeURIComponent(ref.identifier)+'/'+encodeURIComponent(f.name);
       let result;
@@ -213,7 +237,7 @@ async function archiveSource(session,source){
       if(result.data.length!==descriptor.size)throw new HTTPFailure('OCR length does not match repository metadata');
       if(descriptor.sha1&&sha(result.data,'sha1')!==descriptor.sha1)throw new HTTPFailure('OCR SHA-1 does not match repository metadata');
       const ocr=result.data.toString('utf8');if(ocr.includes('\u0000')||ocr.trim().length<100)throw new HTTPFailure('Invalid/empty OCR text');
-      if(gate.requiresFederalFrontMatter&&!/WAR\s+DEPARTMENT|DEPARTMENT\s+OF\s+THE\s+ARMY/i.test(ocr.slice(0,12000))){
+      if(gate.requiresFederalFrontMatter&&!/WAR\s+DEPARTMENT|DEPARTMENT\s+OF\s+THE\s+(ARMY|NAVY|AIR\s+FORCE)|ARMY\s+SERVICE\s+FORCES|NAVY\s+DEPARTMENT|UNITED\s+STATES\s+MARINE\s+CORPS/i.test(ocr.slice(0,12000))){
         record.status='pending-author-unclear';record.rejectedFileDescriptor=descriptor;record.rejectionReason='Federal author not confirmed in OCR front matter';session.events.push({kind:'validation-rejection',id,reason:record.rejectionReason});await session.checkpoint();continue;
       }
       const work=workIdentity(data.metadata,ocr);
@@ -241,13 +265,17 @@ export async function run(config,root,{transport=fetch,extract=false}={}){
   const session=new Session(config,root,transport);await session.open();
   const runId=now().replace(/[:.]/g,'-')+'-'+crypto.randomBytes(3).toString('hex');
   try{
-    for(const source of config.sources){
+    const turn=(session.state.sourceTurn||0)%config.sources.length;
+    const ordered=[...config.sources.slice(turn),...config.sources.slice(0,turn)];
+    for(const source of ordered){
+      if(session.metrics.networkRequests>=session.config.maxRequests)break;
       if(!source.policyURL)throw new HTTPFailure('Source requires documented access policy');
       if(Date.parse(session.state.sourceCooldowns[source.id]||'')>Date.now()){
         session.events.push({kind:'source-cooldown',source:source.id,until:session.state.sourceCooldowns[source.id]});continue;
       }
       try{if(source.adapter==='internet-archive')await archiveSource(session,source);else if(source.adapter==='loc')await locSource(session,source);else throw new HTTPFailure('Unsupported source adapter');}
       catch(e){if([401,403,429].includes(e.status))session.state.sourceCooldowns[source.id]=new Date(Date.now()+(e.retryAfterMs||3600000)).toISOString();await session.error(source.id,e);}
+      session.state.sourceTurn=(config.sources.indexOf(source)+1)%config.sources.length;await session.checkpoint();
     }
     let catalogue=null;
     if(extract){
