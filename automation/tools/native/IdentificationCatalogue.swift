@@ -38,6 +38,7 @@ struct DocumentaryCriterion: Decodable, Sendable {
 
 enum HistoricalFamily: String, Decodable, CaseIterable, Identifiable, Sendable {
     case fieldJacket, utilityTop
+    case outerwear, trousers, coveralls, headwear, handwear, underwear, liners, accessories, servicewear, workwear
 
     var id: Self { self }
 
@@ -45,6 +46,16 @@ enum HistoricalFamily: String, Decodable, CaseIterable, Identifiable, Sendable {
         switch self {
         case .fieldJacket: "Vestes de terrain"
         case .utilityTop: "Hauts utilitaires"
+        case .outerwear: "Vestes et vêtements de protection"
+        case .trousers: "Pantalons et shorts"
+        case .coveralls: "Combinaisons et ensembles"
+        case .headwear: "Coiffures et capuches"
+        case .handwear: "Gants et moufles"
+        case .underwear: "Sous-vêtements et bonneterie"
+        case .liners: "Doublures"
+        case .accessories: "Accessoires vestimentaires"
+        case .servicewear: "Tenues de service"
+        case .workwear: "Vêtements de travail"
         }
     }
 
@@ -52,6 +63,22 @@ enum HistoricalFamily: String, Decodable, CaseIterable, Identifiable, Sendable {
         switch self {
         case .fieldJacket: "VESTE DE TERRAIN"
         case .utilityTop: "HAUT UTILITAIRE"
+        default: title.uppercased()
+        }
+    }
+}
+
+enum DocumentaryLevel: String, Decodable, CaseIterable, Identifiable, Sendable {
+    case reference, documented, identifiable
+    var id: Self { self }
+    var title: String {
+        switch self { case .reference: "Référence"; case .documented: "Documentée"; case .identifiable: "Identifiable" }
+    }
+    var explanation: String {
+        switch self {
+        case .reference: "Existence attestée dans une source vérifiable. Caractéristiques à documenter."
+        case .documented: "Informations complémentaires sourcées. Non utilisée par Identifier."
+        case .identifiable: "Caractéristiques discriminantes vérifiées. L’identification reste une hypothèse."
         }
     }
 }
@@ -62,6 +89,27 @@ struct DocumentaryModel: Decodable, Identifiable, Sendable {
         let summarySources: [String]
         let identifierEligible: Bool
         let unknowns: [String]
+        let documentationLevel: DocumentaryLevel?
+    }
+    struct IndexMetadata: Decodable, Sendable {
+        struct Attestation: Decodable, Sendable {
+            let designation: String
+            let sourceID: String
+            let sourceURL: URL
+            let documentYear: Int
+            let historicalYear: Int?
+            let documentSHA256: String
+            let page: Int
+            let quote: String
+            let quoteSHA256: String
+            let workID: String
+        }
+        let years: [Int]
+        let aliases: [String]
+        let attestations: [Attestation]
+        let branch: String
+        let variantGroup: String
+        let synthetic: Bool?
     }
     struct Section: Decodable, Identifiable, Sendable {
         struct Fact: Decodable, Identifiable, Sendable {
@@ -70,6 +118,10 @@ struct DocumentaryModel: Decodable, Identifiable, Sendable {
             let sources: [String]
 
             var id: String { label }
+            var displayLabel: String {
+                let value=label.replacingOccurrences(of: " · [a-f0-9]{6}$", with: "", options: .regularExpression)
+                return ["function":"Usage documenté", "aliases":"Autre désignation", "finish":"Traitement documenté"][value] ?? value
+            }
             var citedValue: String { "\(value) [\(sources.joined(separator: ", "))]" }
         }
 
@@ -108,11 +160,19 @@ struct DocumentaryModel: Decodable, Identifiable, Sendable {
     let sources: [ArchiveSource]
     let criteria: [DocumentaryCriterion]
     let publication: Publication?
+    let indexMetadata: IndexMetadata?
     var trustedBundle = false
     private enum CodingKeys: String, CodingKey {
-        case id, name, shortName, family, indexPeriod, period, intro, sections, illustration, sources, criteria, publication
+        case id, name, shortName, family, indexPeriod, period, intro, sections, illustration, sources, criteria, publication, indexMetadata
     }
-    var identifierEligible: Bool { trustedBundle || publication?.identifierEligible == true }
+    var documentationLevel: DocumentaryLevel {
+        publication?.documentationLevel ?? ((trustedBundle || publication?.identifierEligible == true) ? .identifiable : .documented)
+    }
+    var identifierEligible: Bool { trustedBundle || (publication?.identifierEligible == true && documentationLevel == .identifiable) }
+    var attestedYears: [Int] {
+        if let years = indexMetadata?.years { return years }
+        return period.split { !$0.isNumber }.compactMap { Int($0) }.filter { (1940...1999).contains($0) }
+    }
     var identificationCriteria: [DocumentaryCriterion] {
         trustedBundle ? criteria : criteria.filter { $0.verification?.status == "verified" }
     }
@@ -142,7 +202,7 @@ enum HistoricalCatalogue {
     static func load(from url: URL) throws -> [DocumentaryModel] {
         let resource = try JSONDecoder().decode(Resource.self, from: Data(contentsOf: url))
         guard resource.version == 1 else { throw ResourceError.unsupportedVersion(resource.version) }
-        return resource.models.map { item in var model = item; model.trustedBundle = true; return model }
+        return resource.models.map { item in var model = item; model.trustedBundle = item.publication == nil; return model }
     }
 
     static func model(for key: String) -> DocumentaryModel? {
