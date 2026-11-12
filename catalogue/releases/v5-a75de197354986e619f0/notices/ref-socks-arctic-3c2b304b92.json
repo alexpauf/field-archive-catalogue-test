@@ -1,0 +1,192 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "underwear",
+  "id" : "ref-socks-arctic-3c2b304b92",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "SOCKS, ARCTIC"
+    ],
+    "attestations" : [
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.015160098075866713,
+            "w" : 0.11977715060362748,
+            "x" : 0.63509749707515939,
+            "y" : 0.13785714295804885
+          }
+        ],
+        "designation" : "SOCKS, ARCTIC",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 7,
+        "quote" : "SOCKS, ARCTIC\nStock No. 73-S-18505 —73-S-18527",
+        "quoteSHA256" : "904c682d2a2e9f85be77bcbc981ca5b7283187b1489b4fea5b8245bd789b540f",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.01629184555869212,
+            "w" : 0.11848913828531893,
+            "x" : 0.63342460352898422,
+            "y" : 0.13502268226835223
+          }
+        ],
+        "designation" : "SOCKS, ARCTIC",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 7,
+        "quote" : "SOCKS, ARCTIC\nStock No. 73-S-18505-73-S-18527",
+        "quoteSHA256" : "bef02d4ce70f27c96b28e69b757bf3da21ba5777a331a059d09ea0aaf39ddbce",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.013587396783926953,
+            "w" : 0.0625,
+            "x" : 0.27325581388081394,
+            "y" : 0.19775280913776905
+          }
+        ],
+        "designation" : "SOCKS, ARCTIC",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 10,
+        "quote" : "SOCKS, ARCTIC\nStock No. 73-5-18510-73-5-18519",
+        "quoteSHA256" : "85effbfe445e790899b464dd249f8394a23e751dd3b79c8336daee6b50d6421e",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.013587396783926953,
+            "w" : 0.0625,
+            "x" : 0.27325581388081394,
+            "y" : 0.19775280913776905
+          }
+        ],
+        "designation" : "SOCKS, ARCTIC",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 47,
+        "quote" : "SOCKS, ARCTIC\nStock No. 73-5-18510-73-5-18519",
+        "quoteSHA256" : "85effbfe445e790899b464dd249f8394a23e751dd3b79c8336daee6b50d6421e",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "socks arctic",
+    "years" : [
+      1943,
+      1946
+    ]
+  },
+  "indexPeriod" : "1943 · 1946",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "SOCKS, ARCTIC",
+  "period" : "Attesté en 1943, 1946",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm31-1943",
+      "qm31-1946"
+    ],
+    "summarySources" : [
+      "qm31-1943",
+      "qm31-1946"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1943",
+            "qm31-1946"
+          ],
+          "value" : "SOCKS, ARCTIC"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "SOCKS, ARCTIC",
+  "sources" : [
+    {
+      "id" : "qm31-1943",
+      "institution" : "War Department / Army Service Forces",
+      "locator" : "PDF p. 7",
+      "summary" : "Désignation attestée dans le document de 1943. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+    },
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 10; PDF p. 47",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    }
+  ]
+}

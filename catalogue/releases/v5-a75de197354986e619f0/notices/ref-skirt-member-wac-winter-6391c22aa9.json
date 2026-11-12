@@ -1,0 +1,97 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "servicewear",
+  "id" : "ref-skirt-member-wac-winter-6391c22aa9",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "SKIRT, WAC, WINTER, MEMBER'S"
+    ],
+    "attestations" : [
+      {
+        "boxes" : [
+          {
+            "h" : 0.0116715115308762,
+            "w" : 0.164271050275268,
+            "x" : 0.41889116880087107,
+            "y" : 0.68895348858756678
+          },
+          {
+            "h" : 0.011627906560897738,
+            "w" : 0.075975359065884762,
+            "x" : 0.46201232036438827,
+            "y" : 0.67877906999107851
+          }
+        ],
+        "designation" : "SKIRT, WAC, WINTER, MEMBER'S",
+        "documentSHA256" : "ddc983ef4b215b6f865280532ccf08d239e0ee8cf6480aa485c1419d9ddf108e",
+        "documentYear" : 1944,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 15,
+        "quote" : "SKIRT, WAC, WINTER,\nMEMBER'S\nStock No.",
+        "quoteSHA256" : "259b363303af1a2e8c98f8def02a232e0aed1a1c39be8bab6050862d4e2e48c8",
+        "sourceID" : "qm32-1944",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf",
+        "workID" : "army-qm32-1944"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "skirt member wac winter",
+    "years" : [
+      1944
+    ]
+  },
+  "indexPeriod" : "1944",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "SKIRT, WAC, WINTER, MEMBER'S",
+  "period" : "Attesté en 1944",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm32-1944"
+    ],
+    "summarySources" : [
+      "qm32-1944"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm32-1944"
+          ],
+          "value" : "SKIRT, WAC, WINTER, MEMBER'S"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "SKIRT, WAC, WINTER, MEMBER'S",
+  "sources" : [
+    {
+      "id" : "qm32-1944",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 15",
+      "summary" : "Désignation attestée dans le document de 1944. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf"
+    }
+  ]
+}

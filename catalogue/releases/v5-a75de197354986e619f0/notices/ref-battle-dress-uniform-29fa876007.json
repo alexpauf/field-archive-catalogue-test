@@ -1,0 +1,95 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "coveralls",
+  "id" : "ref-battle-dress-uniform-29fa876007",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://upload.wikimedia.org/wikipedia/commons/a/a7/Survey_of_U.S._Army_Uniforms%2C_Weapons_and_Accoutrements_%282007%29%2C_by_David_Cole.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "Battle Dress Uniform"
+    ],
+    "attestations" : [
+      {
+        "designation" : "Battle Dress Uniform",
+        "documentSHA256" : "408b3f7da9f1e0cc31f5e38170ced7e8bd00fada675460b8d27c9121d30a1dff",
+        "documentYear" : 2007,
+        "historicalYear" : 1981,
+        "institution" : "U.S. Army / David Cole",
+        "kind" : "explicit-dated-introduction",
+        "page" : 108,
+        "quote" : "On October 1, 1981 the Army introduced the Battle Dress Uniform or BDUs as they are called.",
+        "quoteSHA256" : "e30fea450a8d2d8b3c59e6949e4cb742d0b1ae38ca7e0e50bb5aac37d1a33b8e",
+        "sourceID" : "cole-survey-full-408b3f7da9",
+        "sourceTitle" : "Survey of U.S. Army Uniforms, Weapons and Accoutrements — 2007",
+        "sourceURL" : "https://upload.wikimedia.org/wikipedia/commons/a/a7/Survey_of_U.S._Army_Uniforms%2C_Weapons_and_Accoutrements_%282007%29%2C_by_David_Cole.pdf",
+        "workID" : "cole-survey-2007"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "battle dress uniform",
+    "years" : [
+      1981
+    ]
+  },
+  "indexPeriod" : "1981",
+  "intro" : "Une introduction historique est explicitement datée dans la source citée. Les caractéristiques discriminantes restent à documenter.",
+  "name" : "Battle Dress Uniform",
+  "period" : "Introduction documentée en 1981",
+  "publication" : {
+    "documentationLevel" : "documented",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "cole-survey-full-408b3f7da9"
+    ],
+    "summarySources" : [
+      "cole-survey-full-408b3f7da9"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "cole-survey-full-408b3f7da9"
+          ],
+          "value" : "Battle Dress Uniform"
+        }
+      ],
+      "title" : "Désignations attestées"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Introduction documentée 1981",
+          "sources" : [
+            "cole-survey-full-408b3f7da9"
+          ],
+          "value" : "On October 1, 1981 the Army introduced the Battle Dress Uniform or BDUs as they are called."
+        }
+      ],
+      "title" : "Jalons historiques documentés"
+    }
+  ],
+  "shortName" : "Battle Dress Uniform",
+  "sources" : [
+    {
+      "id" : "cole-survey-full-408b3f7da9",
+      "institution" : "U.S. Army / David Cole",
+      "locator" : "PDF p. 108",
+      "summary" : "Désignation attestée dans le document de 2007. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Survey of U.S. Army Uniforms, Weapons and Accoutrements — 2007",
+      "url" : "https://upload.wikimedia.org/wikipedia/commons/a/a7/Survey_of_U.S._Army_Uniforms%2C_Weapons_and_Accoutrements_%282007%29%2C_by_David_Cole.pdf"
+    }
+  ]
+}

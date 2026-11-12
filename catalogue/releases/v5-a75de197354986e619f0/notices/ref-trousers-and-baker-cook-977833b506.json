@@ -1,0 +1,172 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "trousers",
+  "id" : "ref-trousers-and-baker-cook-977833b506",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "TROUSERS, BAKER'S AND COOK'S",
+      "TROUSERS, BAKER'S AND COOK'S, WHITE"
+    ],
+    "attestations" : [
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.014060449692332555,
+            "w" : 0.084831307729085204,
+            "x" : 0.52995276708922123,
+            "y" : 0.13323140307561887
+          },
+          {
+            "h" : 0.013200257566001294,
+            "w" : 0.16917293548583984,
+            "x" : 0.48684210330971173,
+            "y" : 0.12202189326038981
+          }
+        ],
+        "designation" : "TROUSERS, BAKER'S AND COOK'S",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 16,
+        "quote" : "TROUSERS,\nBAKER'S AND COOK'S\nStock No.",
+        "quoteSHA256" : "77f9586fc9b44ea535f7bdc4dbc7cff34906c3584d654e78feb7f6251e2cfefe",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.013698887579219776,
+            "w" : 0.15988371531168619,
+            "x" : 0.16860465389454446,
+            "y" : 0.22921348328612012
+          }
+        ],
+        "designation" : "TROUSERS, BAKER'S AND COOK'S, WHITE",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 20,
+        "quote" : "TROUSERS, BAKER'S AND COOK'S, WHITE\nStock No. 55-T-87-20-55-T-131-10",
+        "quoteSHA256" : "4644a8ad9511831213b9727455d078fe2cc2d68743476085e03ca5d07b21b7dd",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.013698887579219776,
+            "w" : 0.15988371531168619,
+            "x" : 0.16860465389454446,
+            "y" : 0.22921348328612012
+          }
+        ],
+        "designation" : "TROUSERS, BAKER'S AND COOK'S, WHITE",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 37,
+        "quote" : "TROUSERS, BAKER'S AND COOK'S, WHITE\nStock No. 55-T-87-20-55-T-131-10",
+        "quoteSHA256" : "4644a8ad9511831213b9727455d078fe2cc2d68743476085e03ca5d07b21b7dd",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "trousers and baker cook",
+    "years" : [
+      1943,
+      1946
+    ]
+  },
+  "indexPeriod" : "1943 · 1946",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "TROUSERS, BAKER'S AND COOK'S",
+  "period" : "Attesté en 1943, 1946",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm31-1943",
+      "qm31-1946"
+    ],
+    "summarySources" : [
+      "qm31-1943",
+      "qm31-1946"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1943"
+          ],
+          "value" : "TROUSERS, BAKER'S AND COOK'S"
+        },
+        {
+          "label" : "Désignation 2",
+          "sources" : [
+            "qm31-1946"
+          ],
+          "value" : "TROUSERS, BAKER'S AND COOK'S, WHITE"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "TROUSERS, BAKER'S AND COOK'S",
+  "sources" : [
+    {
+      "id" : "qm31-1943",
+      "institution" : "War Department / Army Service Forces",
+      "locator" : "PDF p. 16",
+      "summary" : "Désignation attestée dans le document de 1943. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+    },
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 20; PDF p. 37",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    }
+  ]
+}

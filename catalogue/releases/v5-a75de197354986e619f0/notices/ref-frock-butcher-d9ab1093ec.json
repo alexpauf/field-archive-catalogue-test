@@ -1,0 +1,159 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "workwear",
+  "id" : "ref-frock-butcher-d9ab1093ec",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "FROCK, BUTCHER'S"
+    ],
+    "attestations" : [
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.014534883321060788,
+            "w" : 0.14849624633789063,
+            "x" : 0.17105262861797391,
+            "y" : 0.095930232767391432
+          }
+        ],
+        "designation" : "FROCK, BUTCHER'S",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 12,
+        "quote" : "FROCK, BUTCHER'S\nStock No. 55-F-9050-55-F-9130 Stock No.55-C-7376-55-C-7454",
+        "quoteSHA256" : "5aac2bdbd160abc0dbb3e670d94854347c8d360629a13ae4f07e40ac3f67d1b9",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.013775628252127747,
+            "w" : 0.072674420674641915,
+            "x" : 0.22819767330945168,
+            "y" : 0.52359550576429803
+          }
+        ],
+        "designation" : "FROCK, BUTCHER'S",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 16,
+        "quote" : "FROCK, BUTCHER'S\nStock No. 55-F-9050-55-F-9110",
+        "quoteSHA256" : "71b5935ed356d62fe24573cfa931bef518b8461b54a89e75517ab173f5f91043",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.013775628252127747,
+            "w" : 0.072674420674641915,
+            "x" : 0.22819767330945168,
+            "y" : 0.52359550576429803
+          }
+        ],
+        "designation" : "FROCK, BUTCHER'S",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 41,
+        "quote" : "FROCK, BUTCHER'S\nStock No. 55-F-9050-55-F-9110",
+        "quoteSHA256" : "71b5935ed356d62fe24573cfa931bef518b8461b54a89e75517ab173f5f91043",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "frock butcher",
+    "years" : [
+      1943,
+      1946
+    ]
+  },
+  "indexPeriod" : "1943 · 1946",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "FROCK, BUTCHER'S",
+  "period" : "Attesté en 1943, 1946",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm31-1943",
+      "qm31-1946"
+    ],
+    "summarySources" : [
+      "qm31-1943",
+      "qm31-1946"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1943",
+            "qm31-1946"
+          ],
+          "value" : "FROCK, BUTCHER'S"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "FROCK, BUTCHER'S",
+  "sources" : [
+    {
+      "id" : "qm31-1943",
+      "institution" : "War Department / Army Service Forces",
+      "locator" : "PDF p. 12",
+      "summary" : "Désignation attestée dans le document de 1943. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+    },
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 16; PDF p. 41",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    }
+  ]
+}

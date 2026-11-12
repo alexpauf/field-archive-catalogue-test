@@ -1,0 +1,391 @@
+{
+  "criteria" : [
+    {
+      "concordant" : [
+        "Veste de terrain"
+      ],
+      "contradictory" : [
+        "Pantalon",
+        "Chemise",
+        "Autre vêtement"
+      ],
+      "expected" : "Veste de terrain",
+      "field" : "family",
+      "sources" : [
+        "02"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "pp. 107–108",
+            "sourceID" : "02"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Glissière sous patte à pressions"
+      ],
+      "contradictory" : [
+        "Glissière visible",
+        "Boutons seuls",
+        "Pressions seules"
+      ],
+      "expected" : "Glissière sous patte à pressions",
+      "field" : "closure",
+      "sources" : [
+        "01",
+        "02"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "MIL-C-43455J et MIL-DTL-43455K · §§ 1.2, 3.3, 6.8 et fig. 1",
+            "sourceID" : "01"
+          },
+          {
+            "locator" : "pp. 107–108",
+            "sourceID" : "02"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Quatre poches avant"
+      ],
+      "contradictory" : [
+        "Deux poches avant",
+        "Deux poches de poitrine",
+        "Autre nombre de poches avant",
+        "Aucune poche avant"
+      ],
+      "expected" : "Deux poches hautes et deux basses",
+      "field" : "pockets",
+      "sources" : [
+        "02",
+        "07"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "pp. 107–108",
+            "sourceID" : "02"
+          },
+          {
+            "locator" : "DA PAM 670–1 · § 4–3h et fig. 4–2 · 2015",
+            "sourceID" : "07"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Logée dans le col"
+      ],
+      "contradictory" : [
+        "Extérieure uniquement",
+        "Absente après examen du col"
+      ],
+      "expected" : "Capuche logée dans le col",
+      "field" : "hood",
+      "sources" : [
+        "01",
+        "02",
+        "07",
+        "08"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "MIL-C-43455J et MIL-DTL-43455K · §§ 1.2, 3.3, 6.8 et fig. 1",
+            "sourceID" : "01"
+          },
+          {
+            "locator" : "pp. 107–108",
+            "sourceID" : "02"
+          },
+          {
+            "locator" : "DA PAM 670–1 · § 4–3h et fig. 4–2 · 2015",
+            "sourceID" : "07"
+          },
+          {
+            "locator" : "Description of Item et Materials Used",
+            "sourceID" : "08"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "coat cold weather field",
+        "coat cold weather field og 107",
+        "m 65 field jacket",
+        "m65 field jacket",
+        "m 1965 field jacket",
+        "m1965 field jacket",
+        "coat man s field with hood nylon cotton sateen og 107",
+        "coat cold weather man s field og 107"
+      ],
+      "contradictory" : [
+
+      ],
+      "expected" : "Coat, Cold Weather, Field et libellés d’étiquette documentés",
+      "field" : "label",
+      "sources" : [
+        "01",
+        "09"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "MIL-C-43455J et MIL-DTL-43455K · §§ 1.2, 3.3, 6.8 et fig. 1",
+            "sourceID" : "01"
+          },
+          {
+            "locator" : "Dating the M65 · photographies des étiquettes",
+            "sourceID" : "09"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Vert olive",
+        "Woodland",
+        "Désert six couleurs",
+        "Désert trois couleurs",
+        "UCP"
+      ],
+      "contradictory" : [
+
+      ],
+      "expected" : "OG-107, Woodland, désert six ou trois couleurs, UCP selon révision",
+      "field" : "color",
+      "sources" : [
+        "01",
+        "06"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "MIL-C-43455J et MIL-DTL-43455K · §§ 1.2, 3.3, 6.8 et fig. 1",
+            "sourceID" : "01"
+          },
+          {
+            "locator" : "Historique des révisions J et K",
+            "sourceID" : "06"
+          }
+        ],
+        "status" : "verified"
+      }
+    }
+  ],
+  "family" : "fieldJacket",
+  "id" : "m65-field-jacket",
+  "illustration" : {
+    "credit" : "KingaNBM · National Liberation Museum 1944–1945 · 3.1.265 · photographie de 2015",
+    "filename" : "images/m65-liberation-museum.jpg",
+    "license" : "CC BY-SA 4.0 · fichier original",
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+    "title" : "Veste de terrain pour temps froid, exemplaire de musée",
+    "url" : "https://commons.wikimedia.org/wiki/File:Coat,_U.S._Cold_Weather_Field_Jacket,_82nd_Airborne_emblem.JPG"
+  },
+  "indexPeriod" : "Dans l’inventaire dès 1966",
+  "intro" : "Veste de terrain pour temps froid, à quatre poches avant. Sa capuche intégrée au col est le principal repère pour la distinguer de la M-1951. [01, 02, 07]",
+  "name" : "M-65 Field Jacket",
+  "period" : "Entrée dans l’inventaire à partir de 1966 [02]. Le guide de tenue décrit encore la veste en 2015 [07]. Fin de port non établie.",
+  "publication" : {
+    "documentationLevel" : "identifiable",
+    "identifierEligible" : true,
+    "identitySources" : [
+      "01",
+      "02",
+      "03",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "summarySources" : [
+      "01",
+      "02",
+      "03",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "unknowns" : [
+
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation",
+          "sources" : [
+            "01",
+            "02"
+          ],
+          "value" : "Coat, Cold Weather, Field dans les révisions J et K. Appellations courantes M-65 et M-1965 Field Jacket."
+        },
+        {
+          "label" : "Jalons",
+          "sources" : [
+            "02",
+            "03",
+            "07"
+          ],
+          "value" : "Entrée dans l’inventaire à partir de 1966, port illustré à Fort Knox en 1975. Le Smithsonian associe 1966–1973 à sa propre pièce. Le guide Army décrit la construction en 2015."
+        }
+      ],
+      "title" : "Désignation et période"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Coupe et matières",
+          "sources" : [
+            "01",
+            "02",
+            "07"
+          ],
+          "value" : "Longueur hanches, dos à soufflets et tissu de coton-nylon dans la description Army. La révision K renvoie à MIL-DTL-43191 et spécifie une doublure fixe."
+        },
+        {
+          "label" : "Fermeture et poches",
+          "sources" : [
+            "01",
+            "02",
+            "07"
+          ],
+          "value" : "Glissière sous patte à pressions, deux poches de poitrine et deux poches basses à rabat. Les poignets sont ajustables par bande autoagrippante."
+        },
+        {
+          "label" : "Col, capuches et doublure",
+          "sources" : [
+            "01",
+            "07",
+            "08"
+          ],
+          "value" : "Col montant convertible, capuche solidaire logée dans le col et accessible par glissière. Une capuche fourrée externe peut s’y ajouter. La veste peut recevoir une doublure isolante boutonnée en plus de la doublure fixe."
+        }
+      ],
+      "title" : "Construction"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Stock et étiquettes",
+          "sources" : [
+            "05",
+            "09"
+          ],
+          "value" : "NSN 8415-00-782-2936 pour Small Regular dans le manuel de réparation. Des étiquettes publiées montrent notamment Coat, Man’s, Field, With Hood et Coat, Cold Weather, Man’s, Field. Les contrats et les dates exactes sont propres aux pièces."
+        },
+        {
+          "label" : "Révision J · 1991",
+          "sources" : [
+            "01",
+            "06"
+          ],
+          "value" : "Classe 1 OG-107, 2 Woodland, 3 désert six couleurs, 4 désert trois couleurs."
+        },
+        {
+          "label" : "Révision K · 2007",
+          "sources" : [
+            "01",
+            "06"
+          ],
+          "value" : "Classes 1, 2, 4 et 5 Universal Camouflage Pattern. Le § 6.8 retire la classe 3 en sergé coton-nylon désert six couleurs."
+        },
+        {
+          "label" : "Limites",
+          "sources" : [
+            "01",
+            "06"
+          ],
+          "value" : "Les révisions attestent les classes à leur date. La première dotation par classe et la chronologie générale des glissières restent à préciser. Fin de port non établie."
+        }
+      ],
+      "title" : "Marquages et variantes"
+    }
+  ],
+  "shortName" : "M-65",
+  "sources" : [
+    {
+      "id" : "01",
+      "institution" : "Defense Logistics Agency",
+      "locator" : "MIL-C-43455J et MIL-DTL-43455K · §§ 1.2, 3.3, 6.8 et fig. 1",
+      "summary" : "La révision K décrit la construction et retire le désert six couleurs de la classification. ASSIST fournit les révisions et la notice de retrait de la spécification.",
+      "title" : "Coat, Cold Weather, Field",
+      "url" : "https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=23626"
+    },
+    {
+      "id" : "02",
+      "institution" : "U.S. Army Center of Military History",
+      "locator" : "pp. 107–108",
+      "summary" : "Entrée dans l’inventaire à partir de 1966, port à Fort Knox en 1975 et description des quatre poches, du col et de la fermeture.",
+      "title" : "Survey of U.S. Army Uniforms, Weapons and Accoutrements",
+      "url" : "https://patcosta.com/wp-content/uploads/2015/09/Survey-of-US-Soldier-Arms-and-Accouterments-2007.pdf"
+    },
+    {
+      "id" : "03",
+      "institution" : "Smithsonian · National Museum of American History",
+      "locator" : "Objet 1979.0805.190",
+      "summary" : "La période 1966–1973 est une date associée à l’exemplaire du musée.",
+      "title" : "Model 65",
+      "url" : "https://americanhistory.si.edu/collections/object/nmah_447073"
+    },
+    {
+      "id" : "05",
+      "institution" : "U.S. Army",
+      "locator" : "TM 10-8400-201-23&P · WP 0061 · fig. 34",
+      "summary" : "Associe le NSN 8415-00-782-2936 à la taille Small Regular sous MIL-C-43455.",
+      "title" : "General Repair Procedures for Clothing",
+      "url" : "https://ciehub.info/ref/TM/10-8400-201-23P_2014.pdf"
+    },
+    {
+      "id" : "06",
+      "institution" : "CIE Hub",
+      "locator" : "Historique des révisions J et K",
+      "summary" : "Index de révisions et de classes, dont les déserts six et trois couleurs et l’UCP.",
+      "title" : "MIL-C-43455",
+      "url" : "https://ciehub.info/spec/DTL/MIL-C-43455.html"
+    },
+    {
+      "id" : "07",
+      "institution" : "U.S. Department of the Army",
+      "locator" : "DA PAM 670–1 · § 4–3h et fig. 4–2 · 2015",
+      "summary" : "Décrit le dos à soufflets, la coupe aux hanches, la capuche logée dans le col et les quatre poches.",
+      "title" : "Guide to the Wear and Appearance of Army Uniforms and Insignia",
+      "url" : "https://www.benning.army.mil/infantry/199th/ocs/content/pdf/p670_1.pdf"
+    },
+    {
+      "id" : "08",
+      "institution" : "CIE Hub",
+      "locator" : "Description of Item et Materials Used",
+      "summary" : "Description technique de l’enveloppe et des attaches de la capuche fourrée et de la doublure isolante.",
+      "title" : "M-65 Cold Weather Field Coat",
+      "url" : "https://ciehub.info/clothing/CW/M65/CoatCWField.html"
+    },
+    {
+      "id" : "09",
+      "institution" : "Omega Militaria",
+      "locator" : "Dating the M65 · photographies des étiquettes",
+      "summary" : "Source commerciale utilisée pour les libellés visibles sur des pièces précises.",
+      "title" : "The Ultimate Visual Buyers Guide to the M65 Field Jacket",
+      "url" : "https://omegamilitaria.com/blogs/reference-guides/the-ultimate-visual-buyers-guide-to-the-m65-field-jacket?page=1"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "servicewear",
+  "id" : "ref-waist-cotton-woman-3d979b35b8",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "WAIST, COTTON, WOMEN'S"
+    ],
+    "attestations" : [
+      {
+        "boxes" : [
+          {
+            "h" : 0.012931033543178039,
+            "w" : 0.21951218345649806,
+            "x" : 0.18597561924736064,
+            "y" : 0.17887931095829601
+          }
+        ],
+        "designation" : "WAIST, COTTON, WOMEN'S",
+        "documentSHA256" : "ddc983ef4b215b6f865280532ccf08d239e0ee8cf6480aa485c1419d9ddf108e",
+        "documentYear" : 1944,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 13,
+        "quote" : "WAIST, COTTON, WOMEN'S\nStock No. 55-W-132-15—55-W-133-40",
+        "quoteSHA256" : "1ad5cb9515bcec65342c7aae464862c2abc4b374cfa49413740ff3baecbd939b",
+        "sourceID" : "qm32-1944",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf",
+        "workID" : "army-qm32-1944"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.014534883499145557,
+            "w" : 0.21765913824187666,
+            "x" : 0.18480492769730694,
+            "y" : 0.175872093141204
+          }
+        ],
+        "designation" : "WAIST, COTTON, WOMEN'S",
+        "documentSHA256" : "ddc983ef4b215b6f865280532ccf08d239e0ee8cf6480aa485c1419d9ddf108e",
+        "documentYear" : 1944,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 13,
+        "quote" : "WAIST, COTTON, WOMEN'S\nStock No. 55-W-132-15-55-W-133-40",
+        "quoteSHA256" : "a70ec50671a43f319094df0e5ee14a7bc54ab33b5c387d97a1ecefac2629972a",
+        "sourceID" : "qm32-1944",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf",
+        "workID" : "army-qm32-1944"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "waist cotton woman",
+    "years" : [
+      1944
+    ]
+  },
+  "indexPeriod" : "1944",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "WAIST, COTTON, WOMEN'S",
+  "period" : "Attesté en 1944",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm32-1944"
+    ],
+    "summarySources" : [
+      "qm32-1944"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm32-1944"
+          ],
+          "value" : "WAIST, COTTON, WOMEN'S"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "WAIST, COTTON, WOMEN'S",
+  "sources" : [
+    {
+      "id" : "qm32-1944",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 13",
+      "summary" : "Désignation attestée dans le document de 1944. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "trousers",
+  "id" : "ref-trousers-cover-outer-woman-ad1cfa2ceb",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "TROUSERS, WOMEN'S, OUTER COVER"
+    ],
+    "attestations" : [
+      {
+        "boxes" : [
+          {
+            "h" : 0.013029556274414045,
+            "w" : 0.17682926189549886,
+            "x" : 0.42987804903192539,
+            "y" : 0.8448275866048478
+          },
+          {
+            "h" : 0.013214285714285734,
+            "w" : 0.11890243206274886,
+            "x" : 0.46036585515765005,
+            "y" : 0.83178571404944857
+          }
+        ],
+        "designation" : "TROUSERS, WOMEN'S, OUTER COVER",
+        "documentSHA256" : "ddc983ef4b215b6f865280532ccf08d239e0ee8cf6480aa485c1419d9ddf108e",
+        "documentYear" : 1944,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 16,
+        "quote" : "TROUSERS, WOMEN'S,\nOUTER COVER\nStock No. 55-T-62660—55-T-62698",
+        "quoteSHA256" : "d60363071a1bd09d2263e4ad314d64ab71c1f8aa1f9ee4137fe3d01e4a5981cc",
+        "sourceID" : "qm32-1944",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf",
+        "workID" : "army-qm32-1944"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.020553920269012371,
+            "w" : 0.17787019306321145,
+            "x" : 0.43067756800652185,
+            "y" : 0.84130296246771019
+          },
+          {
+            "h" : 0.013226744532585211,
+            "w" : 0.12114990126443692,
+            "x" : 0.45585215398520285,
+            "y" : 0.83124999980928915
+          }
+        ],
+        "designation" : "TROUSERS, WOMEN'S, OUTER COVER",
+        "documentSHA256" : "ddc983ef4b215b6f865280532ccf08d239e0ee8cf6480aa485c1419d9ddf108e",
+        "documentYear" : 1944,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 16,
+        "quote" : "TROUSERS, WOMEN'S,\nOUTER COVER\nStock No. 55-T-62660-55-T-62698",
+        "quoteSHA256" : "484342c23b6ab1fda06bbcb4b1317b8e5114f0d1a383359e243ef5187add3539",
+        "sourceID" : "qm32-1944",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf",
+        "workID" : "army-qm32-1944"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "trousers cover outer woman",
+    "years" : [
+      1944
+    ]
+  },
+  "indexPeriod" : "1944",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "TROUSERS, WOMEN'S, OUTER COVER",
+  "period" : "Attesté en 1944",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm32-1944"
+    ],
+    "summarySources" : [
+      "qm32-1944"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm32-1944"
+          ],
+          "value" : "TROUSERS, WOMEN'S, OUTER COVER"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "TROUSERS, WOMEN'S, OUTER COVER",
+  "sources" : [
+    {
+      "id" : "qm32-1944",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 16",
+      "summary" : "Désignation attestée dans le document de 1944. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf"
+    }
+  ]
+}

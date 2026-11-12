@@ -1,0 +1,217 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "headwear",
+  "id" : "ref-hood-cloth-c403e73160",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "HOOD, CLOTH"
+    ],
+    "attestations" : [
+      {
+        "boxes" : [
+          {
+            "h" : 0.012931033543178039,
+            "w" : 0.11890243206274881,
+            "x" : 0.4298780502796013,
+            "y" : 0.55818965557036504
+          }
+        ],
+        "designation" : "HOOD, CLOTH",
+        "documentSHA256" : "ddc983ef4b215b6f865280532ccf08d239e0ee8cf6480aa485c1419d9ddf108e",
+        "documentYear" : 1944,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 19,
+        "quote" : "HOOD, CLOTH.\nStock No.",
+        "quoteSHA256" : "01b9c042aabaad4bb09cc90e2948f4ddce094d7d2da0011a786ef83795596350",
+        "sourceID" : "qm32-1944",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf",
+        "workID" : "army-qm32-1944"
+      },
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.016909160847366045,
+            "w" : 0.11111872355143229,
+            "x" : 0.20477898404224812,
+            "y" : 0.17395821060246064
+          }
+        ],
+        "designation" : "HOOD, CLOTH",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 24,
+        "quote" : "HOOD, CLOTH\nStock No. 73-H-66700-",
+        "quoteSHA256" : "71302d925b30b10244e6e51df4b4b6c52c4e930cbff3795fd85f928329124f43",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.016802245808630878,
+            "w" : 0.056806373596191395,
+            "x" : 0.19180030150149671,
+            "y" : 0.88036292206213618
+          }
+        ],
+        "designation" : "HOOD, CLOTH",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 27,
+        "quote" : "HOOD, CLOTH\nStock No. 73-H-66700 L1rge",
+        "quoteSHA256" : "a10ed03fbed4eb11b1d0a4faa28913c69933bb1501b00ba4b5b7f059d676bad4",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.016802245808630878,
+            "w" : 0.056806373596191395,
+            "x" : 0.19180030150149671,
+            "y" : 0.88036292206213618
+          }
+        ],
+        "designation" : "HOOD, CLOTH",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 30,
+        "quote" : "HOOD, CLOTH\nStock No. 73-H-66700 L1rge",
+        "quoteSHA256" : "a10ed03fbed4eb11b1d0a4faa28913c69933bb1501b00ba4b5b7f059d676bad4",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.014687499999999964,
+            "w" : 0.11498973519268763,
+            "x" : 0.42915810953637978,
+            "y" : 0.55656249996903684
+          }
+        ],
+        "designation" : "HOOD, CLOTH",
+        "documentSHA256" : "ddc983ef4b215b6f865280532ccf08d239e0ee8cf6480aa485c1419d9ddf108e",
+        "documentYear" : 1944,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 19,
+        "quote" : "HOOD, CLOTH\nStock No.",
+        "quoteSHA256" : "fe2b62ead2b1e2350363bdc6e3638c8c6a0630baa8469b2f255ab24542f2fd90",
+        "sourceID" : "qm32-1944",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf",
+        "workID" : "army-qm32-1944"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "hood cloth",
+    "years" : [
+      1943,
+      1944,
+      1946
+    ]
+  },
+  "indexPeriod" : "1943 · 1944 · 1946",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "HOOD, CLOTH",
+  "period" : "Attesté en 1943, 1944, 1946",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm31-1943",
+      "qm31-1946",
+      "qm32-1944"
+    ],
+    "summarySources" : [
+      "qm31-1943",
+      "qm31-1946",
+      "qm32-1944"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1943",
+            "qm31-1946",
+            "qm32-1944"
+          ],
+          "value" : "HOOD, CLOTH"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "HOOD, CLOTH",
+  "sources" : [
+    {
+      "id" : "qm31-1943",
+      "institution" : "War Department / Army Service Forces",
+      "locator" : "PDF p. 24",
+      "summary" : "Désignation attestée dans le document de 1943. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+    },
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 27; PDF p. 30",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    },
+    {
+      "id" : "qm32-1944",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 19",
+      "summary" : "Désignation attestée dans le document de 1944. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf"
+    }
+  ]
+}

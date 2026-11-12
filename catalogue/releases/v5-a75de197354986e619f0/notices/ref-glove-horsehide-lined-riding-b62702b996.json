@@ -1,0 +1,211 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "handwear",
+  "id" : "ref-glove-horsehide-lined-riding-b62702b996",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "GLOVE, HORSEHIDE, RIDING, LINED",
+      "GLOVES, HORSEHIDE, RIDING, LINED"
+    ],
+    "attestations" : [
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.013004925591605043,
+            "w" : 0.15598885188922423,
+            "x" : 0.35376045026708697,
+            "y" : 0.57535714299032881
+          },
+          {
+            "h" : 0.012931034224374027,
+            "w" : 0.10863509680559369,
+            "x" : 0.3760445667782617,
+            "y" : 0.56249999971675524
+          }
+        ],
+        "designation" : "GLOVES, HORSEHIDE, RIDING, LINED",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 19,
+        "quote" : "GLOVES, HORSEHIDE,\nRIDING, LINED\nStock No. 73-G-21398—73-G-21421",
+        "quoteSHA256" : "fc3e83a8c4572c1911bc4232a9ea37971b6c9790db2b4e7018bc190d5710b5ed",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.016740279434115823,
+            "w" : 0.16034509023030602,
+            "x" : 0.35124485061536909,
+            "y" : 0.57122142874766202
+          },
+          {
+            "h" : 0.0149550287476371,
+            "w" : 0.10723711649576828,
+            "x" : 0.37589271984788636,
+            "y" : 0.55938295106364699
+          }
+        ],
+        "designation" : "GLOVES, HORSEHIDE, RIDING, LINED",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 19,
+        "quote" : "GLOVES, HORSEHIDE,\nRIDING, LINED\nStock No. 73-G-21398-73-G-21421",
+        "quoteSHA256" : "7e10cc434d4b478f640aeb52cf36bdb8f919df95d7f0f05ae8e5587c3ccc6fef",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.015730336769339881,
+            "w" : 0.1366279093424479,
+            "x" : 0.2281976731524431,
+            "y" : 0.88764044960244981
+          }
+        ],
+        "designation" : "GLOVE, HORSEHIDE, RIDING, LINED",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 24,
+        "quote" : "GLOVE, HORSEHIDE, RIDING, LINED\nStock No. 73-G-21398-73-G-21410",
+        "quoteSHA256" : "961b67bb5f689c0fe0f87e91918d4e78f4c0094522753151185a4e0724863a3c",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.015730336769339881,
+            "w" : 0.1366279093424479,
+            "x" : 0.2281976731524431,
+            "y" : 0.88764044960244981
+          }
+        ],
+        "designation" : "GLOVE, HORSEHIDE, RIDING, LINED",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 33,
+        "quote" : "GLOVE, HORSEHIDE, RIDING, LINED\nStock No. 73-G-21398-73-G-21410",
+        "quoteSHA256" : "961b67bb5f689c0fe0f87e91918d4e78f4c0094522753151185a4e0724863a3c",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "glove horsehide lined riding",
+    "years" : [
+      1943,
+      1946
+    ]
+  },
+  "indexPeriod" : "1943 · 1946",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "GLOVES, HORSEHIDE, RIDING, LINED",
+  "period" : "Attesté en 1943, 1946",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm31-1943",
+      "qm31-1946"
+    ],
+    "summarySources" : [
+      "qm31-1943",
+      "qm31-1946"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1946"
+          ],
+          "value" : "GLOVE, HORSEHIDE, RIDING, LINED"
+        },
+        {
+          "label" : "Désignation 2",
+          "sources" : [
+            "qm31-1943"
+          ],
+          "value" : "GLOVES, HORSEHIDE, RIDING, LINED"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "GLOVES, HORSEHIDE, RIDING, LINED",
+  "sources" : [
+    {
+      "id" : "qm31-1943",
+      "institution" : "War Department / Army Service Forces",
+      "locator" : "PDF p. 19",
+      "summary" : "Désignation attestée dans le document de 1943. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+    },
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 24; PDF p. 33",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    }
+  ]
+}

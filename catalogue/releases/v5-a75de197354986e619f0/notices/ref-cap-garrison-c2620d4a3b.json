@@ -1,0 +1,259 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "headwear",
+  "id" : "ref-cap-garrison-c2620d4a3b",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "CAP, GARRISON, KHAKI",
+      "CAP, GARRISON, od"
+    ],
+    "attestations" : [
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.017463337737978146,
+            "w" : 0.19406091054280597,
+            "x" : 0.15767913986989976,
+            "y" : 0.78002418149954689
+          }
+        ],
+        "designation" : "CAP, GARRISON, KHAKI",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 22,
+        "quote" : "CAP, GARRISON, KHAKI\nStock No. 73-C-17996-73-C-18026",
+        "quoteSHA256" : "60a6847c9e9398094bd9eae008f8dc9fb82a8e35976a5893c3f988ea8507f47d",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.014642514648240956,
+            "w" : 0.15977443695068361,
+            "x" : 0.65977443556601156,
+            "y" : 0.70203488392962088
+          }
+        ],
+        "designation" : "CAP, GARRISON, od",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 22,
+        "quote" : "CAP, GARRISON, od\nStock No. 73-C-18168-73-C-18196",
+        "quoteSHA256" : "613a07b0cd5e8693fe482b843a96140373d337d2a2282435918b10d52ab806f1",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.015730336769339992,
+            "w" : 0.077034886678059855,
+            "x" : 0.36191860309992357,
+            "y" : 0.51910112376558337
+          }
+        ],
+        "designation" : "CAP, GARRISON, od",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 28,
+        "quote" : "CAP, GARRISON, od\nStock No.",
+        "quoteSHA256" : "2481a2fc35b6fdae9e2d44a7c0c55d3a4cca8af611afb2de1253cb32aafdafab",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.017225039373968021,
+            "w" : 0.065888360341389951,
+            "x" : 0.3006640717270781,
+            "y" : 0.26496443122689106
+          },
+          {
+            "h" : 0.013483145802291374,
+            "w" : 0.027616278330485022,
+            "x" : 0.30087209319304237,
+            "y" : 0.25617977558200034
+          }
+        ],
+        "designation" : "CAP, GARRISON, KHAKI",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 28,
+        "quote" : "CAP, GARRISON,\nKHAKI\nStock No.",
+        "quoteSHA256" : "85ee2739bc7230da4bbe3f432e86dd9c8dfea6879c00f0336be710ae562c2cc3",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.015730336769339992,
+            "w" : 0.077034886678059855,
+            "x" : 0.36191860309992357,
+            "y" : 0.51910112376558337
+          }
+        ],
+        "designation" : "CAP, GARRISON, od",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 29,
+        "quote" : "CAP, GARRISON, od\nStock No.",
+        "quoteSHA256" : "2481a2fc35b6fdae9e2d44a7c0c55d3a4cca8af611afb2de1253cb32aafdafab",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.017225039373968021,
+            "w" : 0.065888360341389951,
+            "x" : 0.3006640717270781,
+            "y" : 0.26496443122689106
+          },
+          {
+            "h" : 0.013483145802291374,
+            "w" : 0.027616278330485022,
+            "x" : 0.30087209319304237,
+            "y" : 0.25617977558200034
+          }
+        ],
+        "designation" : "CAP, GARRISON, KHAKI",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 29,
+        "quote" : "CAP, GARRISON,\nKHAKI\nStock No.",
+        "quoteSHA256" : "85ee2739bc7230da4bbe3f432e86dd9c8dfea6879c00f0336be710ae562c2cc3",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "cap garrison",
+    "years" : [
+      1943,
+      1946
+    ]
+  },
+  "indexPeriod" : "1943 · 1946",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "CAP, GARRISON, KHAKI",
+  "period" : "Attesté en 1943, 1946",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm31-1943",
+      "qm31-1946"
+    ],
+    "summarySources" : [
+      "qm31-1943",
+      "qm31-1946"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1943",
+            "qm31-1946"
+          ],
+          "value" : "CAP, GARRISON, KHAKI"
+        },
+        {
+          "label" : "Désignation 2",
+          "sources" : [
+            "qm31-1943",
+            "qm31-1946"
+          ],
+          "value" : "CAP, GARRISON, od"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "CAP, GARRISON, KHAKI",
+  "sources" : [
+    {
+      "id" : "qm31-1943",
+      "institution" : "War Department / Army Service Forces",
+      "locator" : "PDF p. 22",
+      "summary" : "Désignation attestée dans le document de 1943. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+    },
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 28; PDF p. 29",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    }
+  ]
+}

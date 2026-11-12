@@ -1,0 +1,290 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "fieldJacket",
+  "id" : "jacket-mountain",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie aux droits et à l’identité vérifiés disponible",
+    "url" : "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "JACKET, MOUNTAIN"
+    ],
+    "attestations" : [
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.010886699472154926,
+            "w" : 0.15320333315131848,
+            "x" : 0.21448468248422944,
+            "y" : 0.84482758629050414
+          }
+        ],
+        "designation" : "JACKET, MOUNTAIN",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 12,
+        "quote" : "JACKET, MOUNTAIN\nStock No. 55-J-544-25—55-J-545-90",
+        "quoteSHA256" : "260df16d1da38f63eeedb5cfd185af115d57aadc96d929e6a618d996511ac2fd",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.016117529491417204,
+            "w" : 0.15601504007975261,
+            "x" : 0.21240601371707044,
+            "y" : 0.83998712195429925
+          }
+        ],
+        "designation" : "JACKET, MOUNTAIN",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 12,
+        "quote" : "JACKET, MOUNTAIN\nStock No. 55-J-544-25-55-J-545-90",
+        "quoteSHA256" : "672f5cd709c7777406cf246397cee40bffb51e8e9d172337a46622690d0a0ad6",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.013623595237731934,
+            "w" : 0.079941857655843135,
+            "x" : 0.16569767574922098,
+            "y" : 0.68750000014780821
+          }
+        ],
+        "designation" : "JACKET, MOUNTAIN",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 16,
+        "quote" : "JACKET, MOUNTAIN\nStock No. 55-J-544-25-55-J-545-80",
+        "quoteSHA256" : "b5e00a011f7a3a433acfd88345beeebeb186c24095e0d9932ae0287e323f8353",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.013623595237731934,
+            "w" : 0.079941857655843135,
+            "x" : 0.16569767574922098,
+            "y" : 0.68750000014780821
+          }
+        ],
+        "designation" : "JACKET, MOUNTAIN",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 41,
+        "quote" : "JACKET, MOUNTAIN\nStock No. 55-J-544-25-55-J-545-80",
+        "quoteSHA256" : "b5e00a011f7a3a433acfd88345beeebeb186c24095e0d9932ae0287e323f8353",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "jacket mountain",
+    "years" : [
+      1943,
+      1946
+    ]
+  },
+  "indexPeriod" : "Attestée dans un document de 1944",
+  "intro" : "Notice historique partielle. Chaque information renvoie à sa source. Les éléments non établis restent signalés comme inconnus.",
+  "name" : "JACKET, MOUNTAIN",
+  "period" : "Attestée dans un document de 1944",
+  "publication" : {
+    "documentationLevel" : "documented",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "ia-eba540961501a9203c74",
+      "qmc-risch-full"
+    ],
+    "summarySources" : [
+      "ia-eba540961501a9203c74",
+      "qmc-risch-full"
+    ],
+    "unknowns" : [
+      "Notice partielle : période de service et caractéristiques non documentées inconnues.",
+      "Aucun critère de cette notice n’est admis pour Identifier.",
+      "Portée de la source : Institutional report, not a specification of the complete production model."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation documentaire · 3884a4",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "JACKET, MOUNTAIN (portée : model)"
+        },
+        {
+          "label" : "Jalon documenté · 496ad4",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "JACKET, MOUNTAIN · documented-in-publication · 1944 (portée : document)"
+        },
+        {
+          "label" : "Coupe et réglages · c8874b",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "Poche dorsale fermée par glissière (portée : model)"
+        },
+        {
+          "label" : "Poches · 76d051",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "Poche dorsale ; glissière située du côté droit (portée : model)"
+        },
+        {
+          "label" : "Coupe et réglages · 114718",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "Bretelles intérieures réglables par boucles (portée : model)"
+        },
+        {
+          "label" : "Capuche · 352fac",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "Capuche repliée dans une poche dont le col couvre l’ouverture (portée : model)"
+        },
+        {
+          "label" : "Coupe et réglages · e57322",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "Capuche réglée par boutons et cordon autour du visage (portée : model)"
+        },
+        {
+          "label" : "Coupe et réglages · 3a4327",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "Coupe ample aux bras et aux épaules (portée : model)"
+        },
+        {
+          "label" : "finish · 2a0e8b",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "Traitement déperlant documenté (portée : model)"
+        },
+        {
+          "label" : "aliases · f117b7",
+          "sources" : [
+            "qmc-risch-full"
+          ],
+          "value" : "mountain jacket (portée : identity-corroboration)"
+        }
+      ],
+      "title" : "Informations documentées"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Attestation qm31-1943 0e7646ab55",
+          "sources" : [
+            "qm31-1943"
+          ],
+          "value" : "JACKET, MOUNTAIN · attesté en 1943"
+        },
+        {
+          "label" : "Attestation qm31-1946 f773c57a8e",
+          "sources" : [
+            "qm31-1946"
+          ],
+          "value" : "JACKET, MOUNTAIN · attesté en 1946"
+        }
+      ],
+      "title" : "Attestations historiques complémentaires"
+    }
+  ],
+  "shortName" : "JACKET, MOUNTAIN",
+  "sources" : [
+    {
+      "id" : "ia-eba540961501a9203c74",
+      "institution" : "United States. War Department, author",
+      "locator" : "L683–L683 · repère OCR P (pagination non vérifiée) 1; L685–L686 · repère OCR P (pagination non vérifiée) 1; L688–L695 · repère OCR P (pagination non vérifiée) 1; L695–L697 · repère OCR P (pagination non vérifiée) 1; L699–L700 · repère OCR P (pagination non vérifiée) 1; L709–L710 · repère OCR P (pagination non vérifiée) 1; L721–L722 · repère OCR P (pagination non vérifiée) 1",
+      "summary" : "OCR collecté automatiquement le 2026-11-12. Date de publication : 1944. La datation de publication ne vaut pas période de service.",
+      "title" : "Principles of cold weather clothing and equipment",
+      "url" : "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt"
+    },
+    {
+      "id" : "qmc-risch-full",
+      "institution" : "Center of Military History, United States Army / Erna Risch",
+      "locator" : "L7351–L7356 · PDF P111",
+      "summary" : "Capture documentaire partielle du 11 novembre 2026. Preuves détaillées dans le catalogue documentaire.",
+      "title" : "The Quartermaster Corps: Organization, Supply, and Services, Volume I",
+      "url" : "https://history.army.mil/Portals/143/Images/Publications/Publication%20By%20Title%20Images/Q%20Pdf/CMH_Pub_10-12-1.pdf?ver=ipi14hgqGOBbxDoHfQHWiw%3D%3D"
+    },
+    {
+      "id" : "qm31-1943",
+      "institution" : "War Department / Army Service Forces",
+      "locator" : "PDF p. 12",
+      "summary" : "Désignation attestée dans le document de 1943. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+    },
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 16; PDF p. 41",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    }
+  ]
+}

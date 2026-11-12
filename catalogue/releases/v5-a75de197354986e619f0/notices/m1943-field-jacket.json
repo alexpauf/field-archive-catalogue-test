@@ -1,0 +1,557 @@
+{
+  "criteria" : [
+    {
+      "concordant" : [
+        "Veste de terrain"
+      ],
+      "contradictory" : [
+        "Pantalon",
+        "Chemise",
+        "Autre vêtement"
+      ],
+      "expected" : "Veste de terrain",
+      "field" : "family",
+      "sources" : [
+        "01"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "TM 10-275 · § 11 et fig. 2–4 · 26 octobre 1944",
+            "sourceID" : "01"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Boutons seuls"
+      ],
+      "contradictory" : [
+        "Glissière sous patte à pressions",
+        "Glissière visible",
+        "Pressions seules"
+      ],
+      "expected" : "Boutons sous patte",
+      "field" : "closure",
+      "sources" : [
+        "03",
+        "05"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "Objet 2002.1743 · 1943–1945",
+            "sourceID" : "03"
+          },
+          {
+            "locator" : "13 janvier 1945 · Key Visual ID et Notes",
+            "sourceID" : "05"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Quatre poches avant"
+      ],
+      "contradictory" : [
+        "Deux poches avant",
+        "Deux poches de poitrine",
+        "Autre nombre de poches avant",
+        "Aucune poche avant"
+      ],
+      "expected" : "Deux poches hautes et deux basses",
+      "field" : "pockets",
+      "sources" : [
+        "01",
+        "03"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "TM 10-275 · § 11 et fig. 2–4 · 26 octobre 1944",
+            "sourceID" : "01"
+          },
+          {
+            "locator" : "Objet 2002.1743 · 1943–1945",
+            "sourceID" : "03"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Extérieure uniquement",
+        "Absente après examen du col"
+      ],
+      "contradictory" : [
+        "Logée dans le col"
+      ],
+      "expected" : "Capuche séparée, sans capuche intégrée au col",
+      "field" : "hood",
+      "sources" : [
+        "01",
+        "04"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "TM 10-275 · § 11 et fig. 2–4 · 26 octobre 1944",
+            "sourceID" : "01"
+          },
+          {
+            "locator" : "pp. 84–85",
+            "sourceID" : "04"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "jacket field m 1943",
+        "jacket field m1943",
+        "m 1943 field jacket",
+        "m1943 field jacket",
+        "m 43 field jacket",
+        "m43 field jacket"
+      ],
+      "contradictory" : [
+        "jacket field m 1943 mq 1",
+        "jacket field m1943 mq 1",
+        "jacket field m 1943 women s",
+        "jacket field m1943 women s"
+      ],
+      "expected" : "Jacket, Field, M-1943",
+      "field" : "label",
+      "sources" : [
+        "01",
+        "03",
+        "06",
+        "07"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "TM 10-275 · § 11 et fig. 2–4 · 26 octobre 1944",
+            "sourceID" : "01"
+          },
+          {
+            "locator" : "Objet 2002.1743 · 1943–1945",
+            "sourceID" : "03"
+          },
+          {
+            "locator" : "Décembre 1949 · entrée 26287",
+            "sourceID" : "06"
+          },
+          {
+            "locator" : "Objet 2002.1735",
+            "sourceID" : "07"
+          }
+        ],
+        "status" : "verified"
+      }
+    },
+    {
+      "concordant" : [
+        "Vert olive"
+      ],
+      "contradictory" : [
+
+      ],
+      "expected" : "Olive Drab Shade 7",
+      "field" : "color",
+      "sources" : [
+        "03",
+        "04"
+      ],
+      "verification" : {
+        "evidence" : [
+          {
+            "locator" : "Objet 2002.1743 · 1943–1945",
+            "sourceID" : "03"
+          },
+          {
+            "locator" : "pp. 84–85",
+            "sourceID" : "04"
+          }
+        ],
+        "status" : "verified"
+      }
+    }
+  ],
+  "family" : "fieldJacket",
+  "id" : "m1943-field-jacket",
+  "illustration" : {
+    "credit" : "Paris Musées · Musée de la Libération de Paris – musée du général Leclerc – musée Jean Moulin · 1943–1945",
+    "filename" : "images/m1943-paris-musees.jpg",
+    "license" : "CC0",
+    "licenseURL" : "https://creativecommons.org/publicdomain/zero/1.0/",
+    "title" : "Veste de terrain M-1943, vue de l’exemplaire 2002.1743",
+    "url" : "https://www.parismuseescollections.paris.fr/fr/musee-jean-moulin/oeuvres/us-jacket-field-m-1943-stock-no-55-j-190-55-j-192-98"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "JACKET, FIELD, M-1943"
+    ],
+    "attestations" : [
+      {
+        "boxes" : [
+          {
+            "h" : 0.016108247422680355,
+            "w" : 0.08720930099487309,
+            "x" : 0.15843023310640714,
+            "y" : 0.21778350531595336
+          }
+        ],
+        "designation" : "JACKET, FIELD, M-1943",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 12,
+        "quote" : "JACKET, FIELD, M-1943\nStock No. 55-J-190-55-J-192-98",
+        "quoteSHA256" : "fd14801f2d24360da12b2e40e68c67743929664080d82c25356c85a993f49e7f",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.016108247422680355,
+            "w" : 0.08720930099487309,
+            "x" : 0.15843023310640714,
+            "y" : 0.21778350531595336
+          }
+        ],
+        "designation" : "JACKET, FIELD, M-1943",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 45,
+        "quote" : "JACKET, FIELD, M-1943\nStock No. 55-J-190-55-J-192-98",
+        "quoteSHA256" : "fd14801f2d24360da12b2e40e68c67743929664080d82c25356c85a993f49e7f",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "jacket field m1943",
+    "years" : [
+      1946
+    ]
+  },
+  "indexPeriod" : "Standardisée en 1943",
+  "intro" : "Couche extérieure de la tenue de terrain de 1943. Sa coupe ample permet les superpositions. Quatre poches et une fermeture boutonnée sous patte caractérisent le modèle décrit ici. [01, 02, 03]",
+  "name" : "M-1943 Field Jacket",
+  "period" : "Veste standardisée le 12 août 1943 [02]. Port illustré en Italie en 1945 [04]. Fin de port non établie.",
+  "publication" : {
+    "documentationLevel" : "identifiable",
+    "identifierEligible" : true,
+    "identitySources" : [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07"
+    ],
+    "summarySources" : [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07"
+    ],
+    "unknowns" : [
+
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation",
+          "sources" : [
+            "01",
+            "03"
+          ],
+          "value" : "Jacket, Field, M-1943. Appellations usuelles M-43 et M1943 Field Jacket."
+        },
+        {
+          "label" : "Jalons",
+          "sources" : [
+            "02",
+            "04"
+          ],
+          "value" : "Le Quartermaster date la standardisation de la veste du 12 août 1943. Le Survey situe celle de l’ensemble M-1943 en novembre et montre un port en Italie en 1945. Fin de port non établie."
+        }
+      ],
+      "title" : "Désignation et période"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Coupe et usage",
+          "sources" : [
+            "01",
+            "02",
+            "03"
+          ],
+          "value" : "Couche extérieure coupe-vent et déperlante. Coupe ample, cordon de taille et poignets réglables par boutons."
+        },
+        {
+          "label" : "Matières et couleur",
+          "sources" : [
+            "02",
+            "03",
+            "04"
+          ],
+          "value" : "Satin de coton Olive Drab Shade 7 documenté. Le Quartermaster signale un passage à l’Oxford en 1945. La matière exacte dépend de la pièce."
+        },
+        {
+          "label" : "Fermeture et poches",
+          "sources" : [
+            "01",
+            "03"
+          ],
+          "value" : "Boutons sous patte, deux poches hautes et deux basses. La pièce de Paris Musées compte sept boutons de devant."
+        },
+        {
+          "label" : "Col et couches",
+          "sources" : [
+            "01",
+            "03",
+            "04"
+          ],
+          "value" : "Col à patte de gorge boutonnée et capuche amovible séparée. Doublure fixe de coton sur l’exemplaire 2002.1743. Une veste isolante pouvait se porter sous la M-1943."
+        }
+      ],
+      "title" : "Construction"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Étiquette et stock",
+          "sources" : [
+            "03"
+          ],
+          "value" : "Paris Musées relève la taille 36S et indique la famille de stock 55-J-190 à 55-J-192-98. Contrat de la pièce du musée inconnu."
+        },
+        {
+          "label" : "Révisions",
+          "sources" : [
+            "05"
+          ],
+          "value" : "La documentation spécialisée relève les PQD 370D et 370E, avec un marquage d’instructions révisé pour la 370E. La correspondance détaillée entre révisions et production reste à établir."
+        },
+        {
+          "label" : "Modèles voisins",
+          "sources" : [
+            "05",
+            "06",
+            "07"
+          ],
+          "value" : "La MQ-1 est répertoriée séparément. Des fixations intérieures de doublure orientent aussi vers la MQ-1, la M-1950 ou une pièce modifiée. La M-1943 féminine a une construction propre."
+        }
+      ],
+      "title" : "Marquages et variantes"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Désignation documentaire · 31309b",
+          "sources" : [
+            "01",
+            "auto-99e22c4d7d2050b0"
+          ],
+          "value" : "JACKET, FIELD, M1943 (portée : model)"
+        },
+        {
+          "label" : "Coupe et réglages · 0536cd",
+          "sources" : [
+            "01",
+            "auto-99e22c4d7d2050b0"
+          ],
+          "value" : "Coupe ample pour superposition des couches (portée : model)"
+        },
+        {
+          "label" : "Coupe et réglages · bb4eeb",
+          "sources" : [
+            "01",
+            "auto-99e22c4d7d2050b0"
+          ],
+          "value" : "Réglages boutonnés au cou et aux poignets ; cordon de taille (portée : model)"
+        },
+        {
+          "label" : "Matière · ff57d6",
+          "sources" : [
+            "auto-1e759cab873bee3e"
+          ],
+          "value" : "Coton satiné (portée : ensemble-with-explicit-jacket)"
+        },
+        {
+          "label" : "Poches · 1ac3eb",
+          "sources" : [
+            "auto-99e22c4d7d2050b0",
+            "auto-1e759cab873bee3e"
+          ],
+          "value" : "Quatre poches avant (portée : model)"
+        },
+        {
+          "label" : "Capuche · f27ad2",
+          "sources" : [
+            "auto-99e22c4d7d2050b0",
+            "auto-1e759cab873bee3e"
+          ],
+          "value" : "Capuche séparée (portée : model)"
+        },
+        {
+          "label" : "Jalon documenté · f96d4a",
+          "sources" : [
+            "auto-1e759cab873bee3e"
+          ],
+          "value" : "ensemble · standardization · novembre 1943 (portée : model)"
+        },
+        {
+          "label" : "Jalon documenté · 0c9167",
+          "sources" : [
+            "auto-99e22c4d7d2050b0"
+          ],
+          "value" : "JACKET, FIELD, M1943 · documented-in-publication · 1944 (portée : document)"
+        },
+        {
+          "label" : "Coupe et réglages · af1578",
+          "sources" : [
+            "auto-99e22c4d7d2050b0"
+          ],
+          "value" : "Deux boutons de réglage aux poignets (portée : model)"
+        },
+        {
+          "label" : "collar · e4e6f3",
+          "sources" : [
+            "auto-99e22c4d7d2050b0"
+          ],
+          "value" : "Col ouvert, fermé ou relevé avec patte boutonnée sous le menton (portée : model)"
+        },
+        {
+          "label" : "finish · f527bf",
+          "sources" : [
+            "auto-99e22c4d7d2050b0"
+          ],
+          "value" : "Traitement déperlant documenté (portée : model)"
+        }
+      ],
+      "title" : "Compléments documentaires automatiques"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Attestation qm31-1946 97e0a04454",
+          "sources" : [
+            "qm31-1946"
+          ],
+          "value" : "JACKET, FIELD, M-1943 · attesté en 1946"
+        }
+      ],
+      "title" : "Attestations historiques complémentaires"
+    }
+  ],
+  "shortName" : "M-1943",
+  "sources" : [
+    {
+      "id" : "01",
+      "institution" : "War Department",
+      "locator" : "TM 10-275 · § 11 et fig. 2–4 · 26 octobre 1944",
+      "summary" : "Manuel de port et de construction. Il décrit les quatre poches, les réglages au col, aux poignets et à la taille, ainsi que les couches isolantes.",
+      "title" : "Principles of Cold Weather Clothing and Equipment",
+      "url" : "https://www.govinfo.gov/content/pkg/GOVPUB-W-9c87e70d9be8c6094d9d50191b4ed150/html/GOVPUB-W-9c87e70d9be8c6094d9d50191b4ed150.htm"
+    },
+    {
+      "id" : "02",
+      "institution" : "U.S. Army Center of Military History",
+      "locator" : "Vol. I · pp. 90–94, p. 92 et note 33",
+      "summary" : "Standardisation du 12 août 1943, construction en coton et rôle dans le système de couches. La photographie de la p. 92 montre les réglages du col et de la taille.",
+      "title" : "The Quartermaster Corps: Organization, Supply, and Services",
+      "url" : "https://www.ibiblio.org/pha/USA-in-WWII/Set-5-of-7/Disk-3/ServV_I.pdf"
+    },
+    {
+      "id" : "03",
+      "institution" : "Paris Musées",
+      "locator" : "Objet 2002.1743 · 1943–1945",
+      "summary" : "La pièce documente le coton satiné, les quatre poches, les boutons sous patte, la doublure et la taille 36S. Photographie CC0.",
+      "title" : "Jacket, Field, M-1943",
+      "url" : "https://www.parismuseescollections.paris.fr/fr/musee-jean-moulin/oeuvres/us-jacket-field-m-1943-stock-no-55-j-190-55-j-192-98"
+    },
+    {
+      "id" : "04",
+      "institution" : "U.S. Army Center of Military History",
+      "locator" : "pp. 84–85",
+      "summary" : "L’ensemble de terrain en Olive Drab Shade 7 comporte la veste et sa capuche amovible. Une photographie Signal Corps illustre son port en Italie en 1945.",
+      "title" : "Survey of U.S. Army Uniforms, Weapons and Accoutrements",
+      "url" : "https://patcosta.com/wp-content/uploads/2015/09/Survey-of-US-Soldier-Arms-and-Accouterments-2007.pdf"
+    },
+    {
+      "id" : "05",
+      "institution" : "U.S. WWII Uniforms",
+      "locator" : "13 janvier 1945 · Key Visual ID et Notes",
+      "summary" : "Étude spécialisée de la révision et de marquages observés sur des pièces. Elle signale une évolution du marquage d’instructions.",
+      "title" : "M-1943 Field Jacket · PQD 370E",
+      "url" : "https://www.usww2uniforms.com/370E.html"
+    },
+    {
+      "id" : "06",
+      "institution" : "U.S. Government Printing Office",
+      "locator" : "Décembre 1949 · entrée 26287",
+      "summary" : "MIL-J-843 répertorie la M-1943 MQ-1 sous une désignation distincte.",
+      "title" : "Monthly Catalog",
+      "url" : "https://www.govinfo.gov/content/pkg/GOVPUB-GP3-d7b4fef548e9c79c6ab1897b02234c64/pdf/GOVPUB-GP3-d7b4fef548e9c79c6ab1897b02234c64.pdf"
+    },
+    {
+      "id" : "07",
+      "institution" : "Paris Musées",
+      "locator" : "Objet 2002.1735",
+      "summary" : "Exemplaire et référence de stock de la coupe féminine, distincte du patron de cette notice.",
+      "title" : "Jacket, Field, M-1943, Women’s",
+      "url" : "https://parismuseescollections.paris.fr/en/node/774018"
+    },
+    {
+      "id" : "auto-99e22c4d7d2050b0",
+      "institution" : "United States. War Department, author",
+      "locator" : "L1656–L1656 · repère OCR P (pagination non vérifiée) 1; L305–L305 · repère OCR P (pagination non vérifiée) 1; L307–L310 · repère OCR P (pagination non vérifiée) 1; L308–L311 · repère OCR P (pagination non vérifiée) 1; L309–L310 · repère OCR P (pagination non vérifiée) 1; L309–L312 · repère OCR P (pagination non vérifiée) 1; L315–L317 · repère OCR P (pagination non vérifiée) 1; L323–L323 · repère OCR P (pagination non vérifiée) 1; L329–L330 · repère OCR P (pagination non vérifiée) 1; L339–L354 · repère OCR P (pagination non vérifiée) 1; L358–L358 · repère OCR P (pagination non vérifiée) 1; L385–L386 · repère OCR P (pagination non vérifiée) 1",
+      "summary" : "OCR collecté automatiquement le 2026-11-11. Date de publication : 1944. La datation de publication ne vaut pas période de service.",
+      "title" : "Principles of cold weather clothing and equipment",
+      "url" : "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt"
+    },
+    {
+      "id" : "auto-1e759cab873bee3e",
+      "institution" : "U.S. Army / David Cole",
+      "locator" : "L1983–L1984 · PDF P86; L1983–L1988 · PDF P86,86-87,87",
+      "summary" : "Capture documentaire partielle du 11 novembre 2026. Preuves détaillées dans le catalogue documentaire.",
+      "title" : "Survey of U.S. Army Uniforms, Weapons and Accoutrements — David Cole, 2007",
+      "url" : "https://upload.wikimedia.org/wikipedia/commons/a/a7/Survey_of_U.S._Army_Uniforms%2C_Weapons_and_Accoutrements_%282007%29%2C_by_David_Cole.pdf"
+    },
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 12; PDF p. 45",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    }
+  ]
+}

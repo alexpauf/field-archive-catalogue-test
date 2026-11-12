@@ -1,0 +1,199 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "coveralls",
+  "id" : "ref-suit-herringbone-one-piece-protective-twill-24759d35a6",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "SUIT, HERRINGBONE TWILL, PROTECTIVE, ONE-PIECE",
+      "SUIT, ONE-PIECE, HERRINGBONE TWILL, PROTECTIVE"
+    ],
+    "attestations" : [
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.022285803386143277,
+            "w" : 0.40165944548940047,
+            "x" : 0.4537704294116981,
+            "y" : 0.21281088050362884
+          }
+        ],
+        "designation" : "SUIT, ONE-PIECE, HERRINGBONE TWILL, PROTECTIVE",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 8,
+        "quote" : "SUIT, ONE-PIECE, HERRINGBONE TWILL, PROTECTIVE\nStock No. 55-S-45653-55-S-45729",
+        "quoteSHA256" : "445ef91282a943f5aa6fb24dc6d338d3dafacfd4a18228c4382698e1b47dc905",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.018575927478915566,
+            "w" : 0.39877688090006508,
+            "x" : 0.45477242970653547,
+            "y" : 0.21139427281414647
+          }
+        ],
+        "designation" : "SUIT, ONE-PIECE, HERRINGBONE TWILL, PROTECTIVE",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 8,
+        "quote" : "SUIT, ONE-PIECE, HERRINGBONE TWILL, PROTECTIVE\nStock No. 55-5-45653-55-S-45729",
+        "quoteSHA256" : "3dd27c0b88d50c0e20e3a32bc696d5d9313f39e74b903146b9318936121f5ece",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.015730336769339881,
+            "w" : 0.19767442067464192,
+            "x" : 0.59447674310681464,
+            "y" : 0.59325842713234689
+          }
+        ],
+        "designation" : "SUIT, HERRINGBONE TWILL, PROTECTIVE, ONE-PIECE",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 11,
+        "quote" : "SUIT, HERRINGBONE TWILL, PROTECTIVE, ONE-PIECE\nStock No. 55-5-45653-55-5-45735",
+        "quoteSHA256" : "3edc60e484e2855e546845d12b1539f71b4f2d10ed660ab717c6dec5cd40c45b",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.015730336769339881,
+            "w" : 0.19767442067464192,
+            "x" : 0.59447674310681464,
+            "y" : 0.59325842713234689
+          }
+        ],
+        "designation" : "SUIT, HERRINGBONE TWILL, PROTECTIVE, ONE-PIECE",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 46,
+        "quote" : "SUIT, HERRINGBONE TWILL, PROTECTIVE, ONE-PIECE\nStock No. 55-5-45653-55-5-45735",
+        "quoteSHA256" : "3edc60e484e2855e546845d12b1539f71b4f2d10ed660ab717c6dec5cd40c45b",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "suit herringbone one piece protective twill",
+    "years" : [
+      1943,
+      1946
+    ]
+  },
+  "indexPeriod" : "1943 · 1946",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "SUIT, ONE-PIECE, HERRINGBONE TWILL, PROTECTIVE",
+  "period" : "Attesté en 1943, 1946",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm31-1943",
+      "qm31-1946"
+    ],
+    "summarySources" : [
+      "qm31-1943",
+      "qm31-1946"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1946"
+          ],
+          "value" : "SUIT, HERRINGBONE TWILL, PROTECTIVE, ONE-PIECE"
+        },
+        {
+          "label" : "Désignation 2",
+          "sources" : [
+            "qm31-1943"
+          ],
+          "value" : "SUIT, ONE-PIECE, HERRINGBONE TWILL, PROTECTIVE"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "SUIT, ONE-PIECE, HERRINGBONE TWILL, PROTECTIVE",
+  "sources" : [
+    {
+      "id" : "qm31-1943",
+      "institution" : "War Department / Army Service Forces",
+      "locator" : "PDF p. 8",
+      "summary" : "Désignation attestée dans le document de 1943. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+    },
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 11; PDF p. 46",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    }
+  ]
+}

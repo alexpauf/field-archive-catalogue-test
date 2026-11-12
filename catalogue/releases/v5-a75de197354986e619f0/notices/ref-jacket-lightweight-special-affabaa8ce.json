@@ -1,0 +1,114 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "outerwear",
+  "id" : "ref-jacket-lightweight-special-affabaa8ce",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "JACKET, LIGHTWEIGHT, SPECIAL"
+    ],
+    "attestations" : [
+      {
+        "boxes" : [
+          {
+            "h" : 0.013530927835051609,
+            "w" : 0.12209302266438804,
+            "x" : 0.17877906997594556,
+            "y" : 0.44716494817187846
+          }
+        ],
+        "designation" : "JACKET, LIGHTWEIGHT, SPECIAL",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 12,
+        "quote" : "JACKET, LIGHTWEIGHT, SPECIAL\nStock No. 55-J-543-500-55-J-543-550",
+        "quoteSHA256" : "a26d110c1a16533954dd3406971caec0127da4151d3947da00bf6fb1fe0daeb2",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.013530927835051609,
+            "w" : 0.12209302266438804,
+            "x" : 0.17877906997594556,
+            "y" : 0.44716494817187846
+          }
+        ],
+        "designation" : "JACKET, LIGHTWEIGHT, SPECIAL",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 45,
+        "quote" : "JACKET, LIGHTWEIGHT, SPECIAL\nStock No. 55-J-543-500-55-J-543-550",
+        "quoteSHA256" : "a26d110c1a16533954dd3406971caec0127da4151d3947da00bf6fb1fe0daeb2",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "jacket lightweight special",
+    "years" : [
+      1946
+    ]
+  },
+  "indexPeriod" : "1946",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "JACKET, LIGHTWEIGHT, SPECIAL",
+  "period" : "Attesté en 1946",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm31-1946"
+    ],
+    "summarySources" : [
+      "qm31-1946"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1946"
+          ],
+          "value" : "JACKET, LIGHTWEIGHT, SPECIAL"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "JACKET, LIGHTWEIGHT, SPECIAL",
+  "sources" : [
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 12; PDF p. 45",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    }
+  ]
+}

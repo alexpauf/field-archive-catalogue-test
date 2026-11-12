@@ -1,0 +1,114 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "outerwear",
+  "id" : "ref-jacket-1-n-winter-068b244d8a",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "JACKET, WINTER, N-1"
+    ],
+    "attestations" : [
+      {
+        "boxes" : [
+          {
+            "h" : 0.016108247422680355,
+            "w" : 0.081395346323649087,
+            "x" : 0.15116279175096617,
+            "y" : 0.75257731983684484
+          }
+        ],
+        "designation" : "JACKET, WINTER, N-1",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 14,
+        "quote" : "JACKET, WINTER, N-1\nStock No. 55-J-548-436-55-J-548-450",
+        "quoteSHA256" : "ba48b79d5b47272798e7da47d6eb9af53f0fd0a799541fac427b98e29509ef82",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.016108247422680355,
+            "w" : 0.081395346323649087,
+            "x" : 0.15116279175096617,
+            "y" : 0.75257731983684484
+          }
+        ],
+        "designation" : "JACKET, WINTER, N-1",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 43,
+        "quote" : "JACKET, WINTER, N-1\nStock No. 55-J-548-436-55-J-548-450",
+        "quoteSHA256" : "ba48b79d5b47272798e7da47d6eb9af53f0fd0a799541fac427b98e29509ef82",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "jacket 1 n winter",
+    "years" : [
+      1946
+    ]
+  },
+  "indexPeriod" : "1946",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "JACKET, WINTER, N-1",
+  "period" : "Attesté en 1946",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm31-1946"
+    ],
+    "summarySources" : [
+      "qm31-1946"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1946"
+          ],
+          "value" : "JACKET, WINTER, N-1"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "JACKET, WINTER, N-1",
+  "sources" : [
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 14; PDF p. 43",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    }
+  ]
+}

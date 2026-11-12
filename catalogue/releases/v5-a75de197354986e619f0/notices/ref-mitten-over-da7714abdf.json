@@ -1,0 +1,114 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "handwear",
+  "id" : "ref-mitten-over-da7714abdf",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "MITTEN, OVER, WHITE"
+    ],
+    "attestations" : [
+      {
+        "boxes" : [
+          {
+            "h" : 0.013532375551990605,
+            "w" : 0.084302323659261047,
+            "x" : 0.77034883809769517,
+            "y" : 0.36404494396441034
+          }
+        ],
+        "designation" : "MITTEN, OVER, WHITE",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 27,
+        "quote" : "MITTEN, OVER, WHITE\nStock No. 73-M-3250",
+        "quoteSHA256" : "128a1b23539718c686cb1e2e0b72d562020f92db10031752cb6e2c92d0f89902",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.013532375551990605,
+            "w" : 0.084302323659261047,
+            "x" : 0.77034883809769517,
+            "y" : 0.36404494396441034
+          }
+        ],
+        "designation" : "MITTEN, OVER, WHITE",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 30,
+        "quote" : "MITTEN, OVER, WHITE\nStock No. 73-M-3250",
+        "quoteSHA256" : "128a1b23539718c686cb1e2e0b72d562020f92db10031752cb6e2c92d0f89902",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "mitten over",
+    "years" : [
+      1946
+    ]
+  },
+  "indexPeriod" : "1946",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "MITTEN, OVER, WHITE",
+  "period" : "Attesté en 1946",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm31-1946"
+    ],
+    "summarySources" : [
+      "qm31-1946"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1946"
+          ],
+          "value" : "MITTEN, OVER, WHITE"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "MITTEN, OVER, WHITE",
+  "sources" : [
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 27; PDF p. 30",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    }
+  ]
+}

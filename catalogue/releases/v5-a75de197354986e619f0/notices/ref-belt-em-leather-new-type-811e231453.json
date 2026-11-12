@@ -1,0 +1,114 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "accessories",
+  "id" : "ref-belt-em-leather-new-type-811e231453",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "BELT, LEATHER, EM, NEW TYPE"
+    ],
+    "attestations" : [
+      {
+        "boxes" : [
+          {
+            "h" : 0.017905677716756552,
+            "w" : 0.13104455312093094,
+            "x" : 0.31674303854670377,
+            "y" : 0.48184777454724237
+          }
+        ],
+        "designation" : "BELT, LEATHER, EM, NEW TYPE",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 22,
+        "quote" : "BELT, LEATHER, EM, NEW TYPE\nStock No. 73-B-1423-73-B-1465",
+        "quoteSHA256" : "8fb2ac680940c754b0bb83dcd891040a07d67f449ef4b0c064b790773a706b05",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.017905677716756552,
+            "w" : 0.13104455312093094,
+            "x" : 0.31674303854670377,
+            "y" : 0.48184777454724237
+          }
+        ],
+        "designation" : "BELT, LEATHER, EM, NEW TYPE",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 35,
+        "quote" : "BELT, LEATHER, EM, NEW TYPE\nStock No. 73-B-1423-73-B-1465",
+        "quoteSHA256" : "8fb2ac680940c754b0bb83dcd891040a07d67f449ef4b0c064b790773a706b05",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "belt em leather new type",
+    "years" : [
+      1946
+    ]
+  },
+  "indexPeriod" : "1946",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "BELT, LEATHER, EM, NEW TYPE",
+  "period" : "Attesté en 1946",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm31-1946"
+    ],
+    "summarySources" : [
+      "qm31-1946"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1946"
+          ],
+          "value" : "BELT, LEATHER, EM, NEW TYPE"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "BELT, LEATHER, EM, NEW TYPE",
+  "sources" : [
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 22; PDF p. 35",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    }
+  ]
+}

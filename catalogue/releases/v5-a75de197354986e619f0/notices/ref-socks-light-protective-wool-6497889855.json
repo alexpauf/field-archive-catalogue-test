@@ -1,0 +1,313 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "underwear",
+  "id" : "ref-socks-light-protective-wool-6497889855",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "SOCKS, WOOL, LIGHT, PROTECTIVE, WHITE",
+      "SOCKS, WOOL, LIGHT, PROTECTIVE, od"
+    ],
+    "attestations" : [
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.0130172409330096,
+            "w" : 0.31754874125426014,
+            "x" : 0.53481894016674192,
+            "y" : 0.20249999986875178
+          }
+        ],
+        "designation" : "SOCKS, WOOL, LIGHT, PROTECTIVE, WHITE",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 7,
+        "quote" : "SOCKS, WOOL, LIGHT, PROTECTIVE, WHITE\nStock No. 73-S-33758—73-S-33792",
+        "quoteSHA256" : "70432a506ee7d6da782d65e2d0ef5cf8d1335067b0db05949e7dcfcc2ca12676",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.012931033543178039,
+            "w" : 0.28969358207998785,
+            "x" : 0.17270195909928177,
+            "y" : 0.1206896557499626
+          }
+        ],
+        "designation" : "SOCKS, WOOL, LIGHT, PROTECTIVE, od",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 7,
+        "quote" : "SOCKS, WOOL, LIGHT, PROTECTIVE, od\nStock No. 73-5-33708—73-S-33742",
+        "quoteSHA256" : "46b932be28860f6fafb50711f21c37c9d83f7ce7542451a6576d0cce71e4c73e",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.016105362621339325,
+            "w" : 0.31578946431477861,
+            "x" : 0.53571429030501672,
+            "y" : 0.19767441833812693
+          }
+        ],
+        "designation" : "SOCKS, WOOL, LIGHT, PROTECTIVE, WHITE",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 7,
+        "quote" : "SOCKS, WOOL, LIGHT, PROTECTIVE, WHITE\nStock No. 73-S-33758-73-S-33792",
+        "quoteSHA256" : "06823035b41ce32197567633336aa2128fdd250141bd8ae0c6ff6b5d52694438",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.01459197482215302,
+            "w" : 0.28759399414062503,
+            "x" : 0.17293232591453933,
+            "y" : 0.11773255836084451
+          }
+        ],
+        "designation" : "SOCKS, WOOL, LIGHT, PROTECTIVE, od",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 7,
+        "quote" : "SOCKS, WOOL, LIGHT, PROTECTIVE, od\nStock No. 73-S-33708-73-5-33742",
+        "quoteSHA256" : "551d5f03a587b5dcbe84db3408a2cf9a9032fa14a5ac6a6a05ae0fa2cd899baf",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.016108247422680355,
+            "w" : 0.14680233001708984,
+            "x" : 0.058139532602143808,
+            "y" : 0.1121134019800577
+          }
+        ],
+        "designation" : "SOCKS, WOOL, LIGHT, PROTECTIVE, od",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 10,
+        "quote" : "SOCKS, WOOL, LIGHT, PROTECTIVE, od\nStock No. 73-5-33714-73-5-33730",
+        "quoteSHA256" : "7646587b9c8b8b40d16bcccd05c40717ccf5a34041bda6714f870cf987d1ac00",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.013614907707135693,
+            "w" : 0.15843022664388018,
+            "x" : 0.27470930603368005,
+            "y" : 0.11460674193031506
+          }
+        ],
+        "designation" : "SOCKS, WOOL, LIGHT, PROTECTIVE, WHITE",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 10,
+        "quote" : "SOCKS, WOOL, LIGHT, PROTECTIVE, WHITE\nStock No. 73-5-33764_ 73-5-33780",
+        "quoteSHA256" : "8ca7e011abb79c241c9a6afd88feff5cb4235f728fd00a9affa7c1e7447f4ff9",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.016108247422680355,
+            "w" : 0.14680233001708984,
+            "x" : 0.058139532602143808,
+            "y" : 0.1121134019800577
+          }
+        ],
+        "designation" : "SOCKS, WOOL, LIGHT, PROTECTIVE, od",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 47,
+        "quote" : "SOCKS, WOOL, LIGHT, PROTECTIVE, od\nStock No. 73-5-33714-73-5-33730",
+        "quoteSHA256" : "7646587b9c8b8b40d16bcccd05c40717ccf5a34041bda6714f870cf987d1ac00",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.013614907707135693,
+            "w" : 0.15843022664388018,
+            "x" : 0.27470930603368005,
+            "y" : 0.11460674193031506
+          }
+        ],
+        "designation" : "SOCKS, WOOL, LIGHT, PROTECTIVE, WHITE",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 47,
+        "quote" : "SOCKS, WOOL, LIGHT, PROTECTIVE, WHITE\nStock No. 73-5-33764_ 73-5-33780",
+        "quoteSHA256" : "8ca7e011abb79c241c9a6afd88feff5cb4235f728fd00a9affa7c1e7447f4ff9",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "socks light protective wool",
+    "years" : [
+      1943,
+      1946
+    ]
+  },
+  "indexPeriod" : "1943 · 1946",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "SOCKS, WOOL, LIGHT, PROTECTIVE, WHITE",
+  "period" : "Attesté en 1943, 1946",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm31-1943",
+      "qm31-1946"
+    ],
+    "summarySources" : [
+      "qm31-1943",
+      "qm31-1946"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1943",
+            "qm31-1946"
+          ],
+          "value" : "SOCKS, WOOL, LIGHT, PROTECTIVE, WHITE"
+        },
+        {
+          "label" : "Désignation 2",
+          "sources" : [
+            "qm31-1943",
+            "qm31-1946"
+          ],
+          "value" : "SOCKS, WOOL, LIGHT, PROTECTIVE, od"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "SOCKS, WOOL, LIGHT, PROTECTIVE, WHITE",
+  "sources" : [
+    {
+      "id" : "qm31-1943",
+      "institution" : "War Department / Army Service Forces",
+      "locator" : "PDF p. 7",
+      "summary" : "Désignation attestée dans le document de 1943. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+    },
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 10; PDF p. 47",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    }
+  ]
+}

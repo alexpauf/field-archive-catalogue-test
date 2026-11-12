@@ -1,0 +1,134 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "trousers",
+  "id" : "ref-trousers-combat-winter-9999bcf1fb",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "TROUSERS, COMBAT, WINTER"
+    ],
+    "attestations" : [
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.014534883321060788,
+            "w" : 0.15977443695068361,
+            "x" : 0.69360902202873853,
+            "y" : 0.1918604653250765
+          },
+          {
+            "h" : 0.008720930361087675,
+            "w" : 0.058270676930745502,
+            "x" : 0.74436090203901317,
+            "y" : 0.18459302320608395
+          }
+        ],
+        "designation" : "TROUSERS, COMBAT, WINTER",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 16,
+        "quote" : "TROUSERS, COMBAT,\nWINTER\nStock No.",
+        "quoteSHA256" : "e573c296fd9e537573118bf6b4100c6d0165faeafb342a28633400a32035a470",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "designation" : "TROUSERS, COMBAT, WINTER",
+        "documentSHA256" : "a0647f6e33737b83caab5bbe6e07d86403ddd0961833e19643c3e77e51d4a16d",
+        "documentYear" : 1944,
+        "institution" : "United States. War Department, author",
+        "kind" : "numbered-primary-heading",
+        "locator" : "OCR L852 (pagination non vérifiée)",
+        "page" : 1,
+        "quote" : "TROUSERS,  KERSEY-LINED*,  AND  TROUSERS,  COMBAT,  WINTER*, ",
+        "quoteSHA256" : "7a191f9babf8349e5ba0ffec14a58eda73b31431a6826ce7f294edc09c3a16a4",
+        "sourceID" : "ia-eba540961501a9203c74-a0647f6e33",
+        "sourceTitle" : "Principles of cold weather clothing and equipment",
+        "sourceURL" : "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt",
+        "workID" : "war-department-tm-10-275"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "trousers combat winter",
+    "years" : [
+      1943,
+      1944
+    ]
+  },
+  "indexPeriod" : "1943 · 1944",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "TROUSERS, COMBAT, WINTER",
+  "period" : "Attesté en 1943, 1944",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "ia-eba540961501a9203c74-a0647f6e33",
+      "qm31-1943"
+    ],
+    "summarySources" : [
+      "ia-eba540961501a9203c74-a0647f6e33",
+      "qm31-1943"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "ia-eba540961501a9203c74-a0647f6e33",
+            "qm31-1943"
+          ],
+          "value" : "TROUSERS, COMBAT, WINTER"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "TROUSERS, COMBAT, WINTER",
+  "sources" : [
+    {
+      "id" : "ia-eba540961501a9203c74-a0647f6e33",
+      "institution" : "United States. War Department, author",
+      "locator" : "OCR L852 (pagination non vérifiée)",
+      "summary" : "Désignation attestée dans le document de 1944. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Principles of cold weather clothing and equipment",
+      "url" : "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt"
+    },
+    {
+      "id" : "qm31-1943",
+      "institution" : "War Department / Army Service Forces",
+      "locator" : "PDF p. 16",
+      "summary" : "Désignation attestée dans le document de 1943. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+    }
+  ]
+}

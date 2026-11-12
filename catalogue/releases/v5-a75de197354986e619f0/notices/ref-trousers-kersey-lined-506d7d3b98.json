@@ -1,0 +1,180 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "trousers",
+  "id" : "ref-trousers-kersey-lined-506d7d3b98",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "TROUSERS, KERSEY LINED",
+      "TROUSERS, KERSEY-LINED"
+    ],
+    "attestations" : [
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.013214285714285734,
+            "w" : 0.14484679103999398,
+            "x" : 0.68802228512067165,
+            "y" : 0.40071428591189084
+          },
+          {
+            "h" : 0.012931033543178039,
+            "w" : 0.044568243396921114,
+            "x" : 0.73816156038139091,
+            "y" : 0.38793103473703172
+          }
+        ],
+        "designation" : "TROUSERS, KERSEY LINED",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 14,
+        "quote" : "TROUSERS, KERSEY\nLINED\nStock No. 55-T-39425 -",
+        "quoteSHA256" : "d81606bdfaaa088665bc60c7f34014baaa9935b8cc6918774ce3b6dfe1c3cac2",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.015931991017102742,
+            "w" : 0.14342871348063146,
+            "x" : 0.68769718357902665,
+            "y" : 0.39702267650324485
+          },
+          {
+            "h" : 0.013081395234588733,
+            "w" : 0.045112781524658141,
+            "x" : 0.73496240617376118,
+            "y" : 0.38662790709927541
+          }
+        ],
+        "designation" : "TROUSERS, KERSEY LINED",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 14,
+        "quote" : "TROUSERS, KERSEY\nLINED\nStock No. 55-T-39425-",
+        "quoteSHA256" : "1e309e601ad5aea54d2887120419fa0c5fe59d171694e16416ca491e7713cca7",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "designation" : "TROUSERS, KERSEY-LINED",
+        "documentSHA256" : "a0647f6e33737b83caab5bbe6e07d86403ddd0961833e19643c3e77e51d4a16d",
+        "documentYear" : 1944,
+        "institution" : "United States. War Department, author",
+        "kind" : "numbered-primary-heading",
+        "locator" : "OCR L852 (pagination non vérifiée)",
+        "page" : 1,
+        "quote" : "TROUSERS,  KERSEY-LINED*,  AND  TROUSERS,  COMBAT,  WINTER*, ",
+        "quoteSHA256" : "7a191f9babf8349e5ba0ffec14a58eda73b31431a6826ce7f294edc09c3a16a4",
+        "sourceID" : "ia-eba540961501a9203c74-a0647f6e33",
+        "sourceTitle" : "Principles of cold weather clothing and equipment",
+        "sourceURL" : "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt",
+        "workID" : "war-department-tm-10-275"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "trousers kersey lined",
+    "years" : [
+      1943,
+      1944
+    ]
+  },
+  "indexPeriod" : "1943 · 1944",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "TROUSERS, KERSEY LINED",
+  "period" : "Attesté en 1943, 1944",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "ia-eba540961501a9203c74-a0647f6e33",
+      "qm31-1943"
+    ],
+    "summarySources" : [
+      "ia-eba540961501a9203c74-a0647f6e33",
+      "qm31-1943"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1943"
+          ],
+          "value" : "TROUSERS, KERSEY LINED"
+        },
+        {
+          "label" : "Désignation 2",
+          "sources" : [
+            "ia-eba540961501a9203c74-a0647f6e33"
+          ],
+          "value" : "TROUSERS, KERSEY-LINED"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "TROUSERS, KERSEY LINED",
+  "sources" : [
+    {
+      "id" : "ia-eba540961501a9203c74-a0647f6e33",
+      "institution" : "United States. War Department, author",
+      "locator" : "OCR L852 (pagination non vérifiée)",
+      "summary" : "Désignation attestée dans le document de 1944. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Principles of cold weather clothing and equipment",
+      "url" : "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt"
+    },
+    {
+      "id" : "qm31-1943",
+      "institution" : "War Department / Army Service Forces",
+      "locator" : "PDF p. 14",
+      "summary" : "Désignation attestée dans le document de 1943. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+    }
+  ]
+}

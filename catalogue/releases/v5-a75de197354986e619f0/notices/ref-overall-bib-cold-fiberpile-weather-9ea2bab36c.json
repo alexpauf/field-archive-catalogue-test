@@ -1,0 +1,95 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "coveralls",
+  "id" : "ref-overall-bib-cold-fiberpile-weather-9ea2bab36c",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://ciehub.info/ref/TM/10-8400-201-23.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "Overall, Bib, Cold Weather, Fiberpile"
+    ],
+    "attestations" : [
+      {
+        "designation" : "Overall, Bib, Cold Weather, Fiberpile",
+        "documentSHA256" : "b2c2d87f5880391ca9c79404aef51739463bdd19219ec1f99d5774e37cbcf5b6",
+        "documentYear" : 1995,
+        "institution" : "Headquarters, Department of the Army",
+        "kind" : "inspection-heading",
+        "lin" : "P56983",
+        "page" : 32,
+        "quote" : "Overall, Bib, Cold Weather, Fiberpile\nLIN P56983",
+        "quoteSHA256" : "3ed7f8ecb95f95e44a9c9398259a20b7c44bd46ce872213b9a729ffa37b766c7",
+        "sourceID" : "tm8400-201-1995",
+        "sourceTitle" : "TM 10-8400-201-23 — General Repair Procedures for Clothing, 7 May 1990 / changes through 4 August 1995",
+        "sourceURL" : "https://ciehub.info/ref/TM/10-8400-201-23.pdf",
+        "workID" : "army-tm8400-201-1995"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "overall bib cold fiberpile weather",
+    "years" : [
+      1995
+    ]
+  },
+  "indexPeriod" : "1995",
+  "intro" : "Référence historique attestée. Les identifiants logistiques reproduits proviennent des documents cités ; ils ne constituent pas un critère Identifier.",
+  "name" : "Overall, Bib, Cold Weather, Fiberpile",
+  "period" : "Attesté en 1995",
+  "publication" : {
+    "documentationLevel" : "documented",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "tm8400-201-1995"
+    ],
+    "summarySources" : [
+      "tm8400-201-1995"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "tm8400-201-1995"
+          ],
+          "value" : "Overall, Bib, Cold Weather, Fiberpile"
+        }
+      ],
+      "title" : "Désignations attestées"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Identifiant logistique 1",
+          "sources" : [
+            "tm8400-201-1995"
+          ],
+          "value" : "LIN P56983"
+        }
+      ],
+      "title" : "Informations documentées"
+    }
+  ],
+  "shortName" : "Overall, Bib, Cold Weather, Fiberpile",
+  "sources" : [
+    {
+      "id" : "tm8400-201-1995",
+      "institution" : "Headquarters, Department of the Army",
+      "locator" : "PDF p. 32",
+      "summary" : "Désignation attestée dans le document de 1995. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "TM 10-8400-201-23 — General Repair Procedures for Clothing, 7 May 1990 / changes through 4 August 1995",
+      "url" : "https://ciehub.info/ref/TM/10-8400-201-23.pdf"
+    }
+  ]
+}

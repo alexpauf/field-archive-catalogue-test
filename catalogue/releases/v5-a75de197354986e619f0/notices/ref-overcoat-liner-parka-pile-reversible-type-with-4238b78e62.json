@@ -1,0 +1,134 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "outerwear",
+  "id" : "ref-overcoat-liner-parka-pile-reversible-type-with-4238b78e62",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "OVERCOAT, PARKA TYPE, REVERSIBLE WITH PILE LINER"
+    ],
+    "attestations" : [
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.012992610250200598,
+            "w" : 0.42339831227075148,
+            "x" : 0.43175488815431778,
+            "y" : 0.19821428593949186
+          }
+        ],
+        "designation" : "OVERCOAT, PARKA TYPE, REVERSIBLE WITH PILE LINER",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 11,
+        "quote" : "OVERCOAT, PARKA TYPE, REVERSIBLE WITH PILE LINER\nStock No. 55-0-3132-36—55-0-3132-46",
+        "quoteSHA256" : "8afbf0a285ed2198e411ffb895e0ca15d99b581fc28a5eafa471936b99c917bb",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.016127824629803889,
+            "w" : 0.4210526275634765,
+            "x" : 0.43233082898141961,
+            "y" : 0.19317450122653235
+          }
+        ],
+        "designation" : "OVERCOAT, PARKA TYPE, REVERSIBLE WITH PILE LINER",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 11,
+        "quote" : "OVERCOAT, PARKA TYPE, REVERSIBLE WITH PILE LINER\nStock No. 55-0-3132-36-55-0-3132-46",
+        "quoteSHA256" : "82a11c5e2fcd424f5b17d43aa4abf5620c440db81a30b5bc53d75294c9bcd41f",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "overcoat liner parka pile reversible type with",
+    "years" : [
+      1943
+    ]
+  },
+  "indexPeriod" : "1943",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "OVERCOAT, PARKA TYPE, REVERSIBLE WITH PILE LINER",
+  "period" : "Attesté en 1943",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm31-1943"
+    ],
+    "summarySources" : [
+      "qm31-1943"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1943"
+          ],
+          "value" : "OVERCOAT, PARKA TYPE, REVERSIBLE WITH PILE LINER"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "OVERCOAT, PARKA TYPE, REVERSIBLE WITH PILE LINER",
+  "sources" : [
+    {
+      "id" : "qm31-1943",
+      "institution" : "War Department / Army Service Forces",
+      "locator" : "PDF p. 11",
+      "summary" : "Désignation attestée dans le document de 1943. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+    }
+  ]
+}

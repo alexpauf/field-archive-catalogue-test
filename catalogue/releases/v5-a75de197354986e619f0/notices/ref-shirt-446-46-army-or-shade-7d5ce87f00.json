@@ -1,0 +1,82 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "utilityTop",
+  "id" : "ref-shirt-446-46-army-or-shade-7d5ce87f00",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://ciehub.info/ref/FM/21-15_1977.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "Shirt, army shade 446 or 46"
+    ],
+    "attestations" : [
+      {
+        "designation" : "Shirt, army shade 446 or 46",
+        "documentSHA256" : "5593fb03bdd7b6eca7bf3cb0c4043dcbb77e0619844c3ba8a7ee25aec47c47f5",
+        "documentYear" : 1977,
+        "institution" : "Headquarters, Department of the Army",
+        "kind" : "uniform-table-heading",
+        "page" : 103,
+        "quote" : "Shirt, army shade\n446 or 46",
+        "quoteSHA256" : "f635c8a8864f4471b06ea44dd6f5a8961c418e853ba746dc46bd6ddd49c222ed",
+        "sourceID" : "fm2115-1977",
+        "sourceTitle" : "FM 21-15 — Care and Use of Individual Clothing and Equipment, 15 February 1977",
+        "sourceURL" : "https://ciehub.info/ref/FM/21-15_1977.pdf",
+        "workID" : "army-fm21-15-1977"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "shirt 446 46 army or shade",
+    "years" : [
+      1977
+    ]
+  },
+  "indexPeriod" : "1977",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "Shirt, army shade 446 or 46",
+  "period" : "Attesté en 1977",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "fm2115-1977"
+    ],
+    "summarySources" : [
+      "fm2115-1977"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "fm2115-1977"
+          ],
+          "value" : "Shirt, army shade 446 or 46"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "Shirt, army shade 446 or 46",
+  "sources" : [
+    {
+      "id" : "fm2115-1977",
+      "institution" : "Headquarters, Department of the Army",
+      "locator" : "PDF p. 103",
+      "summary" : "Désignation attestée dans le document de 1977. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "FM 21-15 — Care and Use of Individual Clothing and Equipment, 15 February 1977",
+      "url" : "https://ciehub.info/ref/FM/21-15_1977.pdf"
+    }
+  ]
+}

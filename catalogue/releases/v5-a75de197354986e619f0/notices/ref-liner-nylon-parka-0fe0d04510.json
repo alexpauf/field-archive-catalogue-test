@@ -1,0 +1,95 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "liners",
+  "id" : "ref-liner-nylon-parka-0fe0d04510",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://ciehub.info/ref/TM/10-8400-201-23.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "Liner, Parka, Nylon"
+    ],
+    "attestations" : [
+      {
+        "designation" : "Liner, Parka, Nylon",
+        "documentSHA256" : "b2c2d87f5880391ca9c79404aef51739463bdd19219ec1f99d5774e37cbcf5b6",
+        "documentYear" : 1995,
+        "institution" : "Headquarters, Department of the Army",
+        "kind" : "inspection-heading",
+        "lin" : "L70720",
+        "page" : 30,
+        "quote" : "Liner, Parka, Nylon\nLIN L70720",
+        "quoteSHA256" : "2302dfd49a27c7010e2a866adeb03d1740e71fa1f66231c40b9e357bf8373319",
+        "sourceID" : "tm8400-201-1995",
+        "sourceTitle" : "TM 10-8400-201-23 — General Repair Procedures for Clothing, 7 May 1990 / changes through 4 August 1995",
+        "sourceURL" : "https://ciehub.info/ref/TM/10-8400-201-23.pdf",
+        "workID" : "army-tm8400-201-1995"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "liner nylon parka",
+    "years" : [
+      1995
+    ]
+  },
+  "indexPeriod" : "1995",
+  "intro" : "Référence historique attestée. Les identifiants logistiques reproduits proviennent des documents cités ; ils ne constituent pas un critère Identifier.",
+  "name" : "Liner, Parka, Nylon",
+  "period" : "Attesté en 1995",
+  "publication" : {
+    "documentationLevel" : "documented",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "tm8400-201-1995"
+    ],
+    "summarySources" : [
+      "tm8400-201-1995"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "tm8400-201-1995"
+          ],
+          "value" : "Liner, Parka, Nylon"
+        }
+      ],
+      "title" : "Désignations attestées"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Identifiant logistique 1",
+          "sources" : [
+            "tm8400-201-1995"
+          ],
+          "value" : "LIN L70720"
+        }
+      ],
+      "title" : "Informations documentées"
+    }
+  ],
+  "shortName" : "Liner, Parka, Nylon",
+  "sources" : [
+    {
+      "id" : "tm8400-201-1995",
+      "institution" : "Headquarters, Department of the Army",
+      "locator" : "PDF p. 30",
+      "summary" : "Désignation attestée dans le document de 1995. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "TM 10-8400-201-23 — General Repair Procedures for Clothing, 7 May 1990 / changes through 4 August 1995",
+      "url" : "https://ciehub.info/ref/TM/10-8400-201-23.pdf"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "coveralls",
+  "id" : "ref-suit-arctic-mechanic-9bd93c26de",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://archive.org/download/101708855.nlm.nih.gov/101708855_djvu.txt"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "SUIT, MECHANIC'S, ARCTIC"
+    ],
+    "attestations" : [
+      {
+        "designation" : "SUIT, MECHANIC'S, ARCTIC",
+        "documentSHA256" : "35c8056fbf1f717914275615107090bfc313a774b6232745bdc655311ee8b578",
+        "documentYear" : 1945,
+        "institution" : "United States. Army Air Forces. Air Technical Service Command. Climatic Requirements Office, author",
+        "kind" : "primary-test-report-heading",
+        "locator" : "OCR L11633 (pagination non vérifiée)",
+        "page" : 1,
+        "quote" : "SUIT, MECHANIC’S, ARCTIC ",
+        "quoteSHA256" : "0abb3492a5649d801a5540c2f871e168cf08b7bf2ae4563f2ca0b9a11d791808",
+        "sourceID" : "ia-1b5e8e8c0b52884c18d3-35c8056fbf",
+        "sourceTitle" : "ATSC cold weather tests : winter 1944-1945",
+        "sourceURL" : "https://archive.org/download/101708855.nlm.nih.gov/101708855_djvu.txt",
+        "workID" : "government-title-3ae43f963dc393928cf5"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "suit arctic mechanic",
+    "years" : [
+      1945
+    ]
+  },
+  "indexPeriod" : "1945",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "SUIT, MECHANIC'S, ARCTIC",
+  "period" : "Attesté en 1945",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "ia-1b5e8e8c0b52884c18d3-35c8056fbf"
+    ],
+    "summarySources" : [
+      "ia-1b5e8e8c0b52884c18d3-35c8056fbf"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier.",
+      "Attestation dans un rapport d’essai : adoption et diffusion non établies."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "ia-1b5e8e8c0b52884c18d3-35c8056fbf"
+          ],
+          "value" : "SUIT, MECHANIC'S, ARCTIC"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "SUIT, MECHANIC'S, ARCTIC",
+  "sources" : [
+    {
+      "id" : "ia-1b5e8e8c0b52884c18d3-35c8056fbf",
+      "institution" : "United States. Army Air Forces. Air Technical Service Command. Climatic Requirements Office, author",
+      "locator" : "OCR L11633 (pagination non vérifiée)",
+      "summary" : "Désignation attestée dans le document de 1945. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "ATSC cold weather tests : winter 1944-1945",
+      "url" : "https://archive.org/download/101708855.nlm.nih.gov/101708855_djvu.txt"
+    }
+  ]
+}

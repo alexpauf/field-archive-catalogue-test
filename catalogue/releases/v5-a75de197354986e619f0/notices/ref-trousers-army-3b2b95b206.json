@@ -1,0 +1,104 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "trousers",
+  "id" : "ref-trousers-army-3b2b95b206",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://ciehub.info/ref/FM/21-15_1977.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "Trousers, army green",
+      "Trousers, army khaki"
+    ],
+    "attestations" : [
+      {
+        "designation" : "Trousers, army green",
+        "documentSHA256" : "5593fb03bdd7b6eca7bf3cb0c4043dcbb77e0619844c3ba8a7ee25aec47c47f5",
+        "documentYear" : 1977,
+        "institution" : "Headquarters, Department of the Army",
+        "kind" : "uniform-table-heading",
+        "page" : 103,
+        "quote" : "Trousers, army green",
+        "quoteSHA256" : "9abdf0301ca382f7e746fda4d97e886d82ab090d93cddceca312d04bcd589074",
+        "sourceID" : "fm2115-1977",
+        "sourceTitle" : "FM 21-15 — Care and Use of Individual Clothing and Equipment, 15 February 1977",
+        "sourceURL" : "https://ciehub.info/ref/FM/21-15_1977.pdf",
+        "workID" : "army-fm21-15-1977"
+      },
+      {
+        "designation" : "Trousers, army khaki",
+        "documentSHA256" : "5593fb03bdd7b6eca7bf3cb0c4043dcbb77e0619844c3ba8a7ee25aec47c47f5",
+        "documentYear" : 1977,
+        "institution" : "Headquarters, Department of the Army",
+        "kind" : "uniform-table-heading",
+        "page" : 103,
+        "quote" : "Trousers, army khaki",
+        "quoteSHA256" : "6af8bdd2e85a07677631752a9e9e83ef6b788eea81afded1d8c281fc025a1a4d",
+        "sourceID" : "fm2115-1977",
+        "sourceTitle" : "FM 21-15 — Care and Use of Individual Clothing and Equipment, 15 February 1977",
+        "sourceURL" : "https://ciehub.info/ref/FM/21-15_1977.pdf",
+        "workID" : "army-fm21-15-1977"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "trousers army",
+    "years" : [
+      1977
+    ]
+  },
+  "indexPeriod" : "1977",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "Trousers, army green",
+  "period" : "Attesté en 1977",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "fm2115-1977"
+    ],
+    "summarySources" : [
+      "fm2115-1977"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "fm2115-1977"
+          ],
+          "value" : "Trousers, army green"
+        },
+        {
+          "label" : "Désignation 2",
+          "sources" : [
+            "fm2115-1977"
+          ],
+          "value" : "Trousers, army khaki"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "Trousers, army green",
+  "sources" : [
+    {
+      "id" : "fm2115-1977",
+      "institution" : "Headquarters, Department of the Army",
+      "locator" : "PDF p. 103",
+      "summary" : "Désignation attestée dans le document de 1977. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "FM 21-15 — Care and Use of Individual Clothing and Equipment, 15 February 1977",
+      "url" : "https://ciehub.info/ref/FM/21-15_1977.pdf"
+    }
+  ]
+}

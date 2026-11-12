@@ -1,0 +1,84 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "handwear",
+  "id" : "ref-glove-12-a-flying-mitten-type-winter-ed79820d6a",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://archive.org/download/101708855.nlm.nih.gov/101708855_djvu.txt"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "GLOVE, WINTER, FLYING (MITTEN) (Type A-12)"
+    ],
+    "attestations" : [
+      {
+        "designation" : "GLOVE, WINTER, FLYING (MITTEN) (Type A-12)",
+        "documentSHA256" : "35c8056fbf1f717914275615107090bfc313a774b6232745bdc655311ee8b578",
+        "documentYear" : 1945,
+        "institution" : "United States. Army Air Forces. Air Technical Service Command. Climatic Requirements Office, author",
+        "kind" : "primary-test-report-heading",
+        "locator" : "OCR L11776 (pagination non vérifiée)",
+        "page" : 1,
+        "quote" : "GLOVE, WINTER, FLYING (MITTEN) \n(Type A-12) Unsatisfactory",
+        "quoteSHA256" : "b87ff1469e6693734b13fc1a03f2eca4112789b300d6a0e31faa170ac98aee84",
+        "sourceID" : "ia-1b5e8e8c0b52884c18d3-35c8056fbf",
+        "sourceTitle" : "ATSC cold weather tests : winter 1944-1945",
+        "sourceURL" : "https://archive.org/download/101708855.nlm.nih.gov/101708855_djvu.txt",
+        "workID" : "government-title-3ae43f963dc393928cf5"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "glove 12 a flying mitten type winter",
+    "years" : [
+      1945
+    ]
+  },
+  "indexPeriod" : "1945",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "GLOVE, WINTER, FLYING (MITTEN) (Type A-12)",
+  "period" : "Attesté en 1945",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "ia-1b5e8e8c0b52884c18d3-35c8056fbf"
+    ],
+    "summarySources" : [
+      "ia-1b5e8e8c0b52884c18d3-35c8056fbf"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier.",
+      "Attestation dans un rapport d’essai : adoption et diffusion non établies."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "ia-1b5e8e8c0b52884c18d3-35c8056fbf"
+          ],
+          "value" : "GLOVE, WINTER, FLYING (MITTEN) (Type A-12)"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "GLOVE, WINTER, FLYING (MITTEN) (Type A-12)",
+  "sources" : [
+    {
+      "id" : "ia-1b5e8e8c0b52884c18d3-35c8056fbf",
+      "institution" : "United States. Army Air Forces. Air Technical Service Command. Climatic Requirements Office, author",
+      "locator" : "OCR L11776 (pagination non vérifiée)",
+      "summary" : "Désignation attestée dans le document de 1945. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "ATSC cold weather tests : winter 1944-1945",
+      "url" : "https://archive.org/download/101708855.nlm.nih.gov/101708855_djvu.txt"
+    }
+  ]
+}

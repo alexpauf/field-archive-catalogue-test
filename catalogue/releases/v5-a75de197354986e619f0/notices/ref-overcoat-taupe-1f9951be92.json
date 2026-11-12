@@ -1,0 +1,82 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "outerwear",
+  "id" : "ref-overcoat-taupe-1f9951be92",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://ciehub.info/ref/FM/21-15_1977.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "Overcoat, taupe"
+    ],
+    "attestations" : [
+      {
+        "designation" : "Overcoat, taupe",
+        "documentSHA256" : "5593fb03bdd7b6eca7bf3cb0c4043dcbb77e0619844c3ba8a7ee25aec47c47f5",
+        "documentYear" : 1977,
+        "institution" : "Headquarters, Department of the Army",
+        "kind" : "uniform-table-heading",
+        "page" : 103,
+        "quote" : "Overcoat, taupe",
+        "quoteSHA256" : "d75b5e69d0cf00b2d7af7aceb44fc8fb30eeb029dd37601a891827ea9a08a42e",
+        "sourceID" : "fm2115-1977",
+        "sourceTitle" : "FM 21-15 — Care and Use of Individual Clothing and Equipment, 15 February 1977",
+        "sourceURL" : "https://ciehub.info/ref/FM/21-15_1977.pdf",
+        "workID" : "army-fm21-15-1977"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "overcoat taupe",
+    "years" : [
+      1977
+    ]
+  },
+  "indexPeriod" : "1977",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "Overcoat, taupe",
+  "period" : "Attesté en 1977",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "fm2115-1977"
+    ],
+    "summarySources" : [
+      "fm2115-1977"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "fm2115-1977"
+          ],
+          "value" : "Overcoat, taupe"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "Overcoat, taupe",
+  "sources" : [
+    {
+      "id" : "fm2115-1977",
+      "institution" : "Headquarters, Department of the Army",
+      "locator" : "PDF p. 103",
+      "summary" : "Désignation attestée dans le document de 1977. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "FM 21-15 — Care and Use of Individual Clothing and Equipment, 15 February 1977",
+      "url" : "https://ciehub.info/ref/FM/21-15_1977.pdf"
+    }
+  ]
+}

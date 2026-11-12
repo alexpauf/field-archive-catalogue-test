@@ -1,0 +1,126 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "utilityTop",
+  "id" : "ref-shirt-herringbone-special-twill-woman-8e785f11b2",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "SHIRT, HERRINGBONE TWILL, WOMEN'S, SPECIAL"
+    ],
+    "attestations" : [
+      {
+        "boxes" : [
+          {
+            "h" : 0.012992610250200598,
+            "w" : 0.22560975910800052,
+            "x" : 0.21036585440941435,
+            "y" : 0.5732142859179401
+          },
+          {
+            "h" : 0.012931034224373916,
+            "w" : 0.15548780111499935,
+            "x" : 0.24695122398518318,
+            "y" : 0.56249999986043342
+          }
+        ],
+        "designation" : "SHIRT, HERRINGBONE TWILL, WOMEN'S, SPECIAL",
+        "documentSHA256" : "ddc983ef4b215b6f865280532ccf08d239e0ee8cf6480aa485c1419d9ddf108e",
+        "documentYear" : 1944,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 14,
+        "quote" : "SHIRT, HERRINGBONE TWILL,\nWOMEN'S, SPECIAL\nStock No. 55-5-7020—55-S-7027",
+        "quoteSHA256" : "b5fe2249cc9c3dc7c0fa7d3aba9093e988d2e49054853be4599595c61464f4ae",
+        "sourceID" : "qm32-1944",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf",
+        "workID" : "army-qm32-1944"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.014687499999999964,
+            "w" : 0.2279260771976542,
+            "x" : 0.20944558552563106,
+            "y" : 0.56968750022851378
+          },
+          {
+            "h" : 0.013219476938247654,
+            "w" : 0.15400411131949046,
+            "x" : 0.24640656846756484,
+            "y" : 0.55959302312615833
+          }
+        ],
+        "designation" : "SHIRT, HERRINGBONE TWILL, WOMEN'S, SPECIAL",
+        "documentSHA256" : "ddc983ef4b215b6f865280532ccf08d239e0ee8cf6480aa485c1419d9ddf108e",
+        "documentYear" : 1944,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 14,
+        "quote" : "SHIRT, HERRINGBONE TWILL,\nWOMEN'S, SPECIAL\nStock No. 55-5-7020-55-5-7027",
+        "quoteSHA256" : "3c15eb0d4ffa649ba92efb74a4a224382dc15a316418c83f6b7c6e5a98c771c5",
+        "sourceID" : "qm32-1944",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf",
+        "workID" : "army-qm32-1944"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "shirt herringbone special twill woman",
+    "years" : [
+      1944
+    ]
+  },
+  "indexPeriod" : "1944",
+  "intro" : "Référence historique attestée dans les sources citées. Les caractéristiques et variantes restent à documenter.",
+  "name" : "SHIRT, HERRINGBONE TWILL, WOMEN'S, SPECIAL",
+  "period" : "Attesté en 1944",
+  "publication" : {
+    "documentationLevel" : "reference",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm32-1944"
+    ],
+    "summarySources" : [
+      "qm32-1944"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm32-1944"
+          ],
+          "value" : "SHIRT, HERRINGBONE TWILL, WOMEN'S, SPECIAL"
+        }
+      ],
+      "title" : "Désignations attestées"
+    }
+  ],
+  "shortName" : "SHIRT, HERRINGBONE TWILL, WOMEN'S, SPECIAL",
+  "sources" : [
+    {
+      "id" : "qm32-1944",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 14",
+      "summary" : "Désignation attestée dans le document de 1944. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-2 — WACs’ and Nurses’ Clothing and Equipment, October 1943 / Change 1 April 1944",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/06/QM-3-2-WACs-and-Nurses-Clothing-and-Equipment-Circular-No-4-Revised-Oct-1943-and-including-Change-1-of-April-1944.pdf"
+    }
+  ]
+}

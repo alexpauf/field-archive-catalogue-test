@@ -1,0 +1,205 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "trousers",
+  "id" : "ref-trousers-weather-wet-125cdad1a4",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie vérifiée disponible",
+    "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+  },
+  "indexMetadata" : {
+    "aliases" : [
+      "TROUSERS, WET WEATHER",
+      "Trousers, Wet Weather"
+    ],
+    "attestations" : [
+      {
+        "bibliographicProof" : {
+          "approvedDocumentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+          "author" : "United States Army Quartermaster Corps",
+          "extent" : "[2], 38 p.",
+          "kind" : "reviewed-institutional-bootstrap",
+          "scope" : "Attribution bibliographique vérifiée lors de la préparation ; contrôle automatique limité à cette empreinte approuvée. Aucune licence photographique déduite.",
+          "title" : "Quartermaster supply catalog. Section I, Enlisted men’s clothing and equipment",
+          "url" : "https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_674480",
+          "year" : 1943
+        },
+        "boxes" : [
+          {
+            "h" : 0.014566704602066549,
+            "w" : 0.19548872629801431,
+            "x" : 0.12969924577956429,
+            "y" : 0.57558139555575982
+          }
+        ],
+        "designation" : "TROUSERS, WET WEATHER",
+        "documentSHA256" : "6b8e56b129d2ac36eec7446ecf01e3446390481030e5db6b97c7aacbc39a988f",
+        "documentYear" : 1943,
+        "institution" : "War Department / Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 16,
+        "quote" : "TROUSERS, WET WEATHER\nStock No.",
+        "quoteSHA256" : "70756516e39af7f1cab97cccf4479bc3b8cfd54e762db6da13ebb4080fbc92ef",
+        "sourceID" : "qm31-1943",
+        "sourceTitle" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf",
+        "workID" : "army-qm31-1943"
+      },
+      {
+        "designation" : "Trousers, Wet Weather",
+        "documentSHA256" : "b2c2d87f5880391ca9c79404aef51739463bdd19219ec1f99d5774e37cbcf5b6",
+        "documentYear" : 1995,
+        "institution" : "Headquarters, Department of the Army",
+        "kind" : "inspection-heading",
+        "lin" : "N37752",
+        "page" : 38,
+        "quote" : "Trousers, Wet Weather\nLIN N37752",
+        "quoteSHA256" : "eadf808d9eda7febebe31ff6ce63c6090a7e3dd625ee87060f2a2bf4f941e399",
+        "sourceID" : "tm8400-201-1995",
+        "sourceTitle" : "TM 10-8400-201-23 — General Repair Procedures for Clothing, 7 May 1990 / changes through 4 August 1995",
+        "sourceURL" : "https://ciehub.info/ref/TM/10-8400-201-23.pdf",
+        "workID" : "army-tm8400-201-1995"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.01372929455078753,
+            "w" : 0.10029069900512697,
+            "x" : 0.17877906903048199,
+            "y" : 0.87415730351326282
+          }
+        ],
+        "designation" : "TROUSERS, WET WEATHER",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 20,
+        "quote" : "TROUSERS, WET WEATHER\nStock No. 72-T-8010 Large",
+        "quoteSHA256" : "93e207e41a9b662bd982ccf8f59789ff6cb4e03ac731885cee6270c6c0448e68",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      },
+      {
+        "boxes" : [
+          {
+            "h" : 0.01372929455078753,
+            "w" : 0.10029069900512697,
+            "x" : 0.17877906903048199,
+            "y" : 0.87415730351326282
+          }
+        ],
+        "designation" : "TROUSERS, WET WEATHER",
+        "documentSHA256" : "7e6bd678b90c221c09002532a0567e637d37c8577c360920a684dcd560ed2be4",
+        "documentYear" : 1946,
+        "institution" : "Headquarters, Army Service Forces",
+        "kind" : "stock-heading",
+        "ocrConfidence" : 1,
+        "page" : 37,
+        "quote" : "TROUSERS, WET WEATHER\nStock No. 72-T-8010 Large",
+        "quoteSHA256" : "93e207e41a9b662bd982ccf8f59789ff6cb4e03ac731885cee6270c6c0448e68",
+        "sourceID" : "qm31-1946",
+        "sourceTitle" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+        "sourceURL" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf",
+        "workID" : "army-qm31-1946"
+      }
+    ],
+    "branch" : "US Army",
+    "variantGroup" : "trousers weather wet",
+    "years" : [
+      1943,
+      1946,
+      1995
+    ]
+  },
+  "indexPeriod" : "1943 · 1946 · 1995",
+  "intro" : "Référence historique attestée. Les identifiants logistiques reproduits proviennent des documents cités ; ils ne constituent pas un critère Identifier.",
+  "name" : "TROUSERS, WET WEATHER",
+  "period" : "Attesté en 1943, 1946, 1995",
+  "publication" : {
+    "documentationLevel" : "documented",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "qm31-1943",
+      "qm31-1946",
+      "tm8400-201-1995"
+    ],
+    "summarySources" : [
+      "qm31-1943",
+      "qm31-1946",
+      "tm8400-201-1995"
+    ],
+    "unknowns" : [
+      "Période de service et caractéristiques discriminantes non établies.",
+      "Cette référence n’est pas utilisée par Identifier."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation 1",
+          "sources" : [
+            "qm31-1943",
+            "qm31-1946"
+          ],
+          "value" : "TROUSERS, WET WEATHER"
+        },
+        {
+          "label" : "Désignation 2",
+          "sources" : [
+            "tm8400-201-1995"
+          ],
+          "value" : "Trousers, Wet Weather"
+        }
+      ],
+      "title" : "Désignations attestées"
+    },
+    {
+      "facts" : [
+        {
+          "label" : "Identifiant logistique 1",
+          "sources" : [
+            "tm8400-201-1995"
+          ],
+          "value" : "LIN N37752"
+        }
+      ],
+      "title" : "Informations documentées"
+    }
+  ],
+  "shortName" : "TROUSERS, WET WEATHER",
+  "sources" : [
+    {
+      "id" : "qm31-1943",
+      "institution" : "War Department / Army Service Forces",
+      "locator" : "PDF p. 16",
+      "summary" : "Désignation attestée dans le document de 1943. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog, Section I — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2025/03/QM-3-1-EM-Clothing-1943.pdf"
+    },
+    {
+      "id" : "qm31-1946",
+      "institution" : "Headquarters, Army Service Forces",
+      "locator" : "PDF p. 20; PDF p. 37",
+      "summary" : "Désignation attestée dans le document de 1946. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "Quartermaster Supply Catalog QM 3-1 — Enlisted Men’s Clothing and Equipment",
+      "url" : "https://patcosta.com/wp-content/uploads/2024/05/Quartermaster-Supply-Catalog-QM-3-1-1946.pdf"
+    },
+    {
+      "id" : "tm8400-201-1995",
+      "institution" : "Headquarters, Department of the Army",
+      "locator" : "PDF p. 38",
+      "summary" : "Désignation attestée dans le document de 1995. La date du document ne constitue pas une période de service. Les limites de la notice restent indiquées ci-dessous.",
+      "title" : "TM 10-8400-201-23 — General Repair Procedures for Clothing, 7 May 1990 / changes through 4 August 1995",
+      "url" : "https://ciehub.info/ref/TM/10-8400-201-23.pdf"
+    }
+  ]
+}

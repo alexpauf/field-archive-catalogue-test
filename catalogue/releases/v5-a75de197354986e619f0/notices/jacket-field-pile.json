@@ -1,0 +1,88 @@
+{
+  "criteria" : [
+
+  ],
+  "family" : "fieldJacket",
+  "id" : "jacket-field-pile",
+  "illustration" : {
+    "credit" : "Sans image",
+    "license" : "Sans objet",
+    "title" : "Aucune photographie aux droits et à l’identité vérifiés disponible",
+    "url" : "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt"
+  },
+  "indexPeriod" : "Attestée dans un document de 1944",
+  "intro" : "Notice historique partielle. Chaque information renvoie à sa source. Les éléments non établis restent signalés comme inconnus.",
+  "name" : "JACKET, FIELD, PILE",
+  "period" : "Attestée dans un document de 1944",
+  "publication" : {
+    "documentationLevel" : "documented",
+    "identifierEligible" : false,
+    "identitySources" : [
+      "ia-eba540961501a9203c74",
+      "qmc-risch-full"
+    ],
+    "summarySources" : [
+      "ia-eba540961501a9203c74",
+      "qmc-risch-full"
+    ],
+    "unknowns" : [
+      "Notice partielle : période de service et caractéristiques non documentées inconnues.",
+      "Aucun critère de cette notice n’est admis pour Identifier.",
+      "Portée de la source : Institutional report, not a specification of the complete production model."
+    ]
+  },
+  "sections" : [
+    {
+      "facts" : [
+        {
+          "label" : "Désignation documentaire · 888507",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "JACKET, FIELD, PILE (portée : model)"
+        },
+        {
+          "label" : "Jalon documenté · ba9418",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "JACKET, FIELD, PILE · documented-in-publication · 1944 (portée : document)"
+        },
+        {
+          "label" : "function · 590b18",
+          "sources" : [
+            "ia-eba540961501a9203c74"
+          ],
+          "value" : "Couche isolante portée sous une veste de terrain ou une parka (portée : model)"
+        },
+        {
+          "label" : "aliases · 14c95c",
+          "sources" : [
+            "qmc-risch-full"
+          ],
+          "value" : "pile jacket (portée : identity-corroboration)"
+        }
+      ],
+      "title" : "Informations documentées"
+    }
+  ],
+  "shortName" : "JACKET, FIELD, PILE",
+  "sources" : [
+    {
+      "id" : "ia-eba540961501a9203c74",
+      "institution" : "United States. War Department, author",
+      "locator" : "L390–L390 · repère OCR P (pagination non vérifiée) 1; L390–L391 · repère OCR P (pagination non vérifiée) 1",
+      "summary" : "OCR collecté automatiquement le 2026-11-12. Date de publication : 1944. La datation de publication ne vaut pas période de service.",
+      "title" : "Principles of cold weather clothing and equipment",
+      "url" : "https://archive.org/download/07540970R.nlm.nih.gov/07540970R_djvu.txt"
+    },
+    {
+      "id" : "qmc-risch-full",
+      "institution" : "Center of Military History, United States Army / Erna Risch",
+      "locator" : "L7337–L7342 · PDF P111",
+      "summary" : "Capture documentaire partielle du 11 novembre 2026. Preuves détaillées dans le catalogue documentaire.",
+      "title" : "The Quartermaster Corps: Organization, Supply, and Services, Volume I",
+      "url" : "https://history.army.mil/Portals/143/Images/Publications/Publication%20By%20Title%20Images/Q%20Pdf/CMH_Pub_10-12-1.pdf?ver=ipi14hgqGOBbxDoHfQHWiw%3D%3D"
+    }
+  ]
+}
