@@ -3,6 +3,8 @@
 import argparse,base64,datetime,hashlib,json,os,re,shutil,subprocess
 from pathlib import Path
 import sys
+# Keep the publication checkout clean before importing repository modules.
+sys.dont_write_bytecode=True
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'engine'))
 import designation_gate as documentary_gate
 
